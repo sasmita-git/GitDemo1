@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ASMT Test Suite">
+	<test name="Assessments">
+	<classes>	
+      <class name="com.automation.asmt.practice.assessment.AssessmentTest1"/>
+      <class name="com.automation.asmt.practice.assessment.ItemTypeRegressionTest"/>
+      <class name="com.automation.asmt.practice.assessment.AssessmentTest2"/>
+      <class name="com.automation.asmt.practice.assessment.PracticeAssessmentTest"/>
+      <class name="com.automation.asmt.practice.assessment.TEASTest"/>
+      <class name="com.automation.asmt.practice.assessment.AssessmentTest"/>
+	  <class name="com.automation.asmt.maintenance.MaintenanceScriptProctored"/> 
+     </classes>
+	</test>
+</suite>   

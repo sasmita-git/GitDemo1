@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project">
+	<listeners>
+		<!-- <listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> -->
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+
+	<!-- Regression  Test cases start -->
+
+	
+	<!-- Total 53 -->
+	<test name="Verification for  LearnTab">
+		<classes>
+		
+		
+			
+			<!-- Total 3 -->
+			<class name="com.automation.newati.myati.others.SortFilters">
+				<methods>
+					<include name="NewATI109_LearnTabSortFilters"></include>
+					<include name="NewATI98_VerifyApplyTabSortOption"></include>
+					<include name="NewATI118_VerifyImproveTab"></include>	
+					<include name="NewATI109_LearnTabSortFilters"></include>
+					
+				</methods>
+			</class>
+			<!-- Total 2 -->
+			<class name="com.automation.newati.quiz.QuizTest">
+				<methods>
+					<include name="NewATI149_VerifyQuizSelectInstance"></include>
+					<include name="NewATI31_VerifyQuiz"></include>
+				</methods>
+			</class>
+			<!-- Total 5 -->
+		<class name="com.automation.newati.regression.learntab.EBookTest">
+				<methods>
+				<include name="NewATI557_VerifyVirtualClassroomCapstoneProduct"></include>
+				<include name="NewATI502_VerifyUpdatedEditionForRNReviewModuleTest"></include>
+				<include name="NewATI503_verifyUpdatedRNReviewModulesPackageTest"></include>
+				<include name="NewATI520_VerifyEbookAddedUsingAddProductTest"></include>
+				<include name="NewATI521_verifyEbookAddedUsingCDN"></include>
+				<include name="NewATI502_VerifyUpdatedEditionForRNReviewModuleTest"></include>
+				
+				</methods>
+			</class>
+			<!-- Total 2 -->
+			<class name="com.automation.newati.regression.learntab.LearnTabOthers">
+				<methods>
+					<include name="NewATI151_VerifyLearnTabHideDisabledCheckbox"></include>
+					<include name="NewATI519_VerifyFlashCardSemesterPayment"></include>
+					
+					
+				</methods>
+			</class>
+			<!-- Total 1 -->
+			<class name="com.automation.newati.learntab.VerifySTTAccessibility">
+				<methods>
+					<include name="NewATI509_VerifyStudentAccessibility"></include>
+				</methods>
+			</class>
+			<!-- Total 2 -->
+			<class name="com.automation.newati.learntab.FlashCardTest">
+				<methods>
+					<include name="NewATI513_VerifyFlashcardReport"></include>
+					<include name="NewATI514_VerifyFlashcardDetails"></include>
+					
+				</methods>
+			</class>
+			<!-- Total 1 -->
+			<class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+				<methods>
+					<include name="NewATI528_VerifyEBookDuplicateModuleName"></include>
+					
+					</methods>
+			</class>
+			<!-- Total 1 -->
+			<class name="com.automation.newati.regression.learntab.VerifySmartPrepRegressionTest">
+				<methods>
+					<include name="NewATI556_ValidateSmartprepFlowTest"></include>
+					
+					</methods>
+			</class>
+			<!-- Total 4 -->
+			<class name="com.automation.newati.myati.test.TestTabOthersTest">
+				<methods>
+					<include name="NewATI496_VerifyTimeBetweenAttempts"></include>
+					<include name="NewATI497_VerifyTimeBetweenAttempts"></include>
+					<include name="NewATI43_VerifyOnlineStoreSource"></include>
+					<include name="NewATI57_VerifyInstitutionSelfPaySource"></include>
+					
+				</methods>
+			</class>
+			<!-- Total 1 -->
+			<class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+				<methods>
+					<include name="NewATI59_VerifyBatchtIDinProductID"></include>
+					
+				</methods>
+			</class>
+			<!-- Total 10 -->
+			<class name="com.automation.newati.tutorial.TutorialTest">
+				<methods>
+					<include name="NewATI139_VerifyNurseLogicBeginTest"></include>
+					<include name="NewATI128_VerifyNurseLogicLesson"></include>
+					<include name="NewATI96_VerifySkillsModulePostTestcase"></include>
+					<include name="NewATI133_VerifyNurseLogicLesson"></include>
+					<include name="NewATI55_VerifyTutorialInfoCard"></include>
+					<include name="NewATI134_VerifyTutorialRationale"></include>
+					<include name="NewATI143_VerifyTutorialSelectInstance"></include>
+					<include name="NewATI511_VerifySkillsModuleModuleName"></include>
+					<include name="NewATI152_VerifyHideDisabledCheckbox"></include>
+					
+					
+					</methods>
+			</class>
+			<!-- Total 10 -->
+			<class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+				<methods>
+				
+				<include name="NewATI488_verifySeparateFrameforPorctorAvaliableAssessments"></include>
+				<include name="NewATI489_verifyRefreshButtonUnderTestTab"></include>
+				<include name="NewATI490_verifyTheFunctionalityofRefreshButtonUnderTestTab"></include>
+				<include name="NewATI491_verifyTheProctorAvailableMessageUnderTestTab"></include>
+				<include name="NewATI492_verifyTheProctorIAgreePage"></include>
+				<include name="NewATI646_verifyPopUpInformation"></include>
+				<include name="NewATI652_verifySemesterPaymentisDueupdateMessaging"></include>
+				<include name="NewATI493_verifyTImeBetweenAttemptsForPracticeAssessment"></include>
+				<include name="NewATI495_verifyVisibiityofPracticeAssessmentCardFront"></include>
+				<include name="NewATI606_verifyTEASPracticewithDifferentSectionsEnabled"></include>	
+				
+			</methods>
+			</class>
+			<!-- Total 4 -->
+			<class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+				<methods>
+				<include name="NewATI512_verifyAddProductButton"></include>
+				<include name="NewATI558_verifyFooterLinksWhenThePageisFreezed"></include>
+				<include name="NewATI665_verifySemesterPaymentRequiredPayment"></include>
+				<include name="NewATI508_verifyAddProductButtonAppearance"></include>
+				
+			</methods>
+			</class>
+			<!-- Total 5 -->
+			<class name="com.automation.newati.learntab.VerifyTutorialTest">
+				<methods>
+				<include name="NewATI137_ValidateUserIsAbletoTakeupPharmacologyMadeEasyTest"></include>
+				<include name="NewATI600_VerifyProductsAddedUsingCDN"></include>
+				<include name="NewATI153_VerifySTTTest"></include>
+				<include name="NewATI129_VerifyTutorialAssessmentTest"></include>
+				<include name="NewATI40_VerifySkillsModulesLessonAndTest"></include>
+				</methods>
+			</class>
+			<!-- Total 1 -->	
+			<class name="com.automation.newati.tutorial.TutorialTestNew">
+				<methods>
+					<include name="NewATI130_VerifyTutorialSkillsModulePreTest"></include>
+					
+					</methods>
+			</class>
+			<!-- Total 1 -->
+			<class name="com.automation.newati.myati.test.ProctoredAssessmentTest">
+				<methods>
+					<include name="NewATI603_ItemTypeRegressionProctoredAssessment"></include>
+			</methods>
+			</class>
+			 <!-- Total 1 -->
+			<class name="com.automation.newati.learntab.VerifyActiveLearningTemplate">
+				<methods>
+					<include name="NewATI9_VerifyActiveLearningTemplate"></include>
+					
+					</methods>
+			</class> 
+			
+		</classes>
+	</test>
+	
+
+	
+	<!-- Regression Test Cases Ends -->
+</suite>   
+
+	
+
+

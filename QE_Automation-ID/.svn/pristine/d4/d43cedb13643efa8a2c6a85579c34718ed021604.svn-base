@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Institutional Delivery Project">
+	<listeners>
+		<listener
+			class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" />
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.id.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+	<test name="Institution Delivery">
+		<classes>
+			<class
+				name="com.automation.id.products.manageproducts.LoginPageValidationTest">
+				<methods>
+					<include name="inst1637_VerifyFacultyMenu"></include>
+					<include name="inst1638_VerifyMenuNavigation"></include>
+				</methods>
+			</class>
+			<class name="com.automation.id.peopletab.PeopleTabSmokeTest">
+				<methods>
+					<include name="INST1884_VerifyStudentRosterForPersonnelUser"></include>
+				</methods>
+			</class>
+			<class name="com.automation.id.home2.HomeTest2">
+				<methods>
+					<include name="INST1984_VerifyGCGridData"></include>
+				</methods>
+			</class>
+		</classes>
+
+	</test>
+
+</suite>

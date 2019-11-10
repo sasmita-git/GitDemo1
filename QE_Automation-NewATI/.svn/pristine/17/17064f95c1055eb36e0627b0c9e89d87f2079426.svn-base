@@ -1,0 +1,36 @@
+newati.login.user.name=qauser122017
+newati.login.password=Test123
+newati.login.url=https://qa-student.atitesting.com
+
+
+#Need to change according to qa env -- Start
+newati.login.ebook.2.0.user.name=stageautoe
+newati.login.ebook.2.0.password=Test123
+
+newati.login.payment.product.username=Automation_online
+newati.login.payment.product.password=Test123
+
+id.rn.adult.medical.surgical.2013.proctor.id.value=10187546
+id.rn.adult.medical.surgical.2013.proctor.pwd.value=35Z6964R52
+newati.login.user.name.value=stgauto10
+
+new-atitesting.demo.products.faculty.user=User_3053287
+new-atitesting.demo.products.faculty.pwd=ati
+
+newati.fac.disable.demo.products.user=nipun.stagedirector
+newati.fac.disable.demo.products.pwd=Test_001
+newati.Disabled.Semester.payment.products.user=stage4145
+newati.focused.review.user.name=atistg426201801
+
+newati.speedometer.zero.percent.user=stage_user4
+newati.speedometer.zero.percent.pwd=Test123
+
+newati.Speedometer.color.module.yellow.user=ChmbSTGStu33
+
+###Don't use below user
+newati.Speedometer.color.usage.100%.user=User_2221546
+newati.Speedometer.color.usage.100%.pwd=ati
+###
+
+#Need to change according to qa env -- End
+

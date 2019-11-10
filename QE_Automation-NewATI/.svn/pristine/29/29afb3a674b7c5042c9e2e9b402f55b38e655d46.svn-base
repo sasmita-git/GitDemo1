@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project" preserve-order="true" parallel="classes" thread-count="3">
+
+	<listeners>
+		<listener
+			class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" />
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+
+	<test name="Verification for smoke suit">
+		<classes>
+			
+		<!-- Total  8-->
+		 <class name="com.automation.newati.smoke.PulseUserSmokeTest8"></class> 
+		 <class name="com.automation.newati.smoke.PulseUserSmokeTest2"></class>
+		
+		
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest1"></class>
+		
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest3"></class>
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest4"></class>
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest5"></class> 
+		
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest7"></class>
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest6"></class> 
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest9"></class> 
+		<class name="com.automation.newati.smoke.PulseUserSmokeTest10"></class> 
+		
+		 	
+		</classes>
+	</test>
+</suite>   

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ASMT Test Suite" preserve-order="true" >
+	<listeners>
+		<listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer"/>
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.asmt.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+
+	<test name="Assessments">
+		<classes>
+			<class name="com.automation.asmt.smoke.SmokeTest" />
+			<class name="com.automation.asmt.smoke.SmokeTest1" />
+			<class name="com.automation.asmt.smoke.SmokeTest2" />			
+		</classes>
+	</test>
+</suite>   

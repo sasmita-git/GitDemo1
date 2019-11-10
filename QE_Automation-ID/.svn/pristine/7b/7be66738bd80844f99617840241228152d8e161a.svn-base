@@ -1,0 +1,16 @@
+id.tutorial.1891.assessment.name=RN Learning System Communication Practice Quiz
+id.tutorial.1892.assessment.name=PN Learning System Communication Practice Quiz
+id.institution.name.input=NickClass
+id.institution.tutorial.name.input=Real Life RN Maternal Newborn 2.0
+id.tutorial.begin.scenario.text.inputc=Begin Scenario
+id.tutorial.optimal.decisions.text.input=Optimal Decisions
+
+id.tutorial.1891.new.name=Learning System RN 3.0
+id.tutorial.1892.new.name=Learning System PN 3.0
+id.tutorial.1872.name=Real Life RN Mental Health 2.0
+#id.tutorial.2703.name=NCLEX®-RN Live Review Tutorial
+#id.tutorial.2703.name=NCLEX-RN Live Review Tutorial
+id.tutorial.2703.name=Board Vitals NCLEX Prep RN
+id.product.tab.institution.name=ZZDemo1
+id.product.tutorial.real.life.assessment.name.header.value=Real Life 2.0
+id.product.tutorial.teas.smart.prep.assessment.name.value=TEAS SmartPrep

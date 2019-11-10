@@ -1,0 +1,84 @@
+id.login.user.name.loc=#md-input-1
+id.login.password.loc=#md-input-3
+id.goBtnLoc=.primary-button.focus-element-flag.mat-raised-button
+id.homepage.static.menu=.mat-icon-button
+id.homepage.static.menu.list=.cdk-overlay-container .mat-button
+id.logo.loc=.logo
+id.login.error.msg=#divErrorMessage
+id.homepage.layout.link=.mat-toolbar-row >span:nth-of-type(1)
+id.homepage.main.menu.list=.ati-nav-link
+id.homepage.main.menu.list.top=.ati-accent-link 
+id.homepage.home.page.alert.close=.alert-blue.flex-container .flex-item a
+id.homepage.home.page.institution.name=.ati-heading
+id.homepage.home.page.login.loc=.buttonreds
+id.loginpage.header.loc=.sign-in-area header h1
+id.homepage.home.page.ati.contacts.header.name.loc=.cdk-overlay-container .mat-multi-line h4
+id.homepage.home.page.static.menu.contacts.headers.loc=#cdk-overlay-2 .mat-list-item-content h4
+id.homepage.home.page.static.menu.contacts.headers.loc1=.cdk-overlay-container .mat-multi-line .subheading
+id.homepage.home.page.static.menu.contacts.headers.loc2=.cdk-overlay-container .mat-multi-line a
+id.homepage.home.page.subtabs.loc=.mat-tab-list .mat-tab-label
+id.homepage.home.page.proctor.message=#ctl00_contentPlaceHolderBody_ucProductsManageProctorAssessments_Label1
+id.loading.image.loc=.block-ui-message
+id.homepage.assessment.header.loc=#SiteHeader h1
+#id.homepage.analytics.header.loc=#ctl00_contentPlaceHolderBody_imReporting
+id.homepage.analytics.header.loc=#ctl00_contentPlaceHolderBody_ucTabbedSubMenuViewResults_QuickReportSubNav
+id.homepage.people.tab.loc=.mat-tab-labels
+id.homepage.alert.text=.alert-heading-blue
+id.homepage.alert.popup.bell.symbol.loc=.material-icons.alert_icon.new_notification
+id.homepage.product.sub.tab.loc=.mat-tab-labels div
+id.homepage.product.institution.image.loc=.material-icons.sidebar-icon img
+id.homepage.product.institution.image.loc1=#md-input-11
+id.homepage.people.report.groups.tab.loc=.mat-tab-label
+
+id.homepage.analytics.individual.report.loc=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_txtIndividualReport
+id.homepage.analytics.individual.build.loc=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_imgBtnIndividualReport
+#id.home.page.left.navigator.icon.link=.mat-toolbar-row span img
+
+teas.discover.select.student.loc=#ctl00_contentPlaceHolderBody_ReportWizardNavigationControl1_ucGenerateTEASReport_CHECKBOX_SELECT_ALL
+
+
+
+analytics.landing.card.description.text=.analytics-card-text.mat-card-content
+report.wizard.tab=#ctl00_contentPlaceHolderBody_ucTabbedSubMenuViewResults_ReportWizardSubNav
+quickreport.individual.text=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_txtIndividualReport
+quickreport.individual.buildbtn=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_imgBtnIndividualReport
+#quickreport.individual.printreport.btn=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucIndividualGenerateReport_btnPrint_Individual_89996
+quickreport.individual.printreport.btn=tr[id='ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucIndividualGenerateReport_rowIndividualPrintPDF']>td>input
+id.common.page.spinner.loc1=.mobile-loader-rect
+reportwizard.teasdiscover.continue.btn=#ctl00_contentPlaceHolderBody_ReportWizardNavigationControl1_ucTEASReportSelectStudents_imgbtnContinue
+discover.report.wizard.ele=#ctl00_contentPlaceHolderBody_ReportWizardNavigationControl1_ucTEASReportSelectStudents_TEASReportSearchCriteria_btnSearch
+analytics.reportwizard.teasdiscover.loc=#ctl00_contentPlaceHolderBody_ReportWizardNavigationControl1_ucReportWizard_imgBtnTEAS
+
+
+id.product.menu.loc=div[class='mat-tab-label-container'] div[class='mat-tab-label mat-ripple ng-star-inserted']
+id.anlytics.page.header.loc=.col-left.analytics-heading.heading-margin-fix
+id.ati.academy.page.popup.hello.loc=#tip-learner-welcome h3
+id.people.reassign.popup.title.loc=#mat-dialog-0 .dialog-title
+id.people.reset.reassign.popup.title.loc=div[class='mat-dialog-content'] div[class='dialog-title']
+id.people.reassign.popup.title.loc1=dialog-roster-modal ng-star-inserted.dialog-title
+id.people.reassign.popup.title1.loc=.dialog-title
+id.people.reassign.popup.cohort.text.box.loc=#mat-dialog-0 div[class='mat-input-flex mat-form-field-flex'] div input
+id.people.reassign.reset.popup.cohort.text.box.loc=div[class='dialog-roster-modal ng-star-inserted'] input
+id.people.reassign.popup.cohort.select.dd.loc=span[class='mat-option-text']
+id.people.reassign.popup.confirm.button.loc=#mat-dialog-0 button[class='mat-button mat-primary ng-star-inserted']
+id.people.reassign.reset.popup.confirm.button.loc=div[class='cdk-overlay-pane'] button[class='mat-button mat-primary ng-star-inserted']
+id.people.are.you.sure.title.loc=.dialog-roster-modal.ng-star-inserted div h1
+id.people.are.you.sure.confirm.button.loc=div[class='dialog-roster-modal ng-star-inserted'] .mat-button.mat-primary
+id.people.in.progress.popup.title.loc=.mat-dialog-content h1
+id.people.in.progress.popup.continue.button.loc=button[class='mat-button mat-accent']
+id.people.are.you.sure.popup.first.content.loc=.mat-dialog-content p
+id.people.are.you.sure.popup.remember.content.loc=.dialog-body.top-margin-16
+id.people.are.you.sure.popup.selected.cohort.name.loc=.mat-dialog-content h3
+id.people.transfer.history.table.row.loc=.grid-body-plain
+
+#Reports
+id.analytics.reports.home.page.report.portlet.loc=.analytics-container .analytics-landing-card.z-depth.mat-card
+id.analytics.reports.home.page.report.portlet.name.loc=mat-card-title[class='analytics-card-title mat-card-title']
+id.analytics.reports.classic.reporting.home.page.loc=.lead span span
+id.people.student.check.box.loc=.mat-checkbox.mat-accent
+id.people.student.check.box.container.loc=div.flex-container:nth-child(2) > div:nth-child(4) > div:nth-child(2) > a:nth-child(1) > i:nth-child(1)
+
+report.quick.tab=#ctl00_contentPlaceHolderBody_ucTabbedSubMenuViewResults_QuickReportSubNav
+
+
+

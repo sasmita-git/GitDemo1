@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project">
+	<listeners>
+		 <listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> 
+		<!-- <listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener> -->
+	</listeners>
+
+	<!-- Regression  Test cases start -->
+
+	
+	<!-- Total  83-->
+	<test name="Verification for Paymesnts" >
+		<classes>
+			<class name="com.automation.newati.payament.PaymentTest1"></class>
+			<class name="com.automation.newati.payament.PaymentTest2"></class>
+			<class name="com.automation.newati.payament.PaymentTest3"></class>
+			<class name="com.automation.newati.payament.PaymentTest4"></class>
+			<class name="com.automation.newati.payament.PaymentTest5"></class>
+			<class name="com.automation.newati.payament.PaymentTest6"></class>
+			<class name="com.automation.newati.payament.PaymentTest7"></class>
+			<class name="com.automation.newati.payament.PaymentTest8"></class>
+			<class name="com.automation.newati.payament.PaymentTest9"></class>
+			<class name="com.automation.newati.payament.PaymentTest10"></class>
+			<class name="com.automation.newati.payament.PaymentTest12"></class>
+			<class name="com.automation.newati.payament.PaymentTest13"></class>
+			<class name="com.automation.newati.payament.PaymentTest14"></class>
+			<class name="com.automation.newati.payament.PaymentTest15"></class>
+			<class name="com.automation.newati.payament.PaymentTest16"></class>
+			<class name="com.automation.newati.payament.PaymentTest17"></class>
+			<class name="com.automation.newati.payament.PaymentTest18"></class>
+			<class name="com.automation.newati.payament.PaymentTest19"></class>
+			<class name="com.automation.newati.payament.PaymentTest20"></class>
+			<class name="com.automation.newati.payament.PaymentTest21"></class>
+			<class name="com.automation.newati.payament.PaymentsResultShareRegression"></class>
+			<class name="com.automation.newati.payament.PaymentRegression1"></class> 
+		</classes>
+	</test>
+	
+
+	
+	<!-- Regression Test Cases Ends -->
+</suite>   
+
+	
+
+

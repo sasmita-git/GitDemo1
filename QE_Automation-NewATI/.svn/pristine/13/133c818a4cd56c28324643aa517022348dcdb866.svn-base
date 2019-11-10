@@ -1,0 +1,150 @@
+new-atitesting.test.tab.filters.all=#tabs-2 aside .select.select-secondary select
+new-atitesting.all.tab=.ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all li
+#new-atitesting.test.all.assessment=#tabs-2 ul[id='applications'] li
+new-atitesting.proctored.test.all.assessment=#monitoredProducts li
+new-atitesting.test.default.container=div[class='test-card-front-wrapper default-container']
+new-atitesting.test.assessment.button=div a[class='button primary-button button-focus focus-element-flag']
+#new-atitesting.question.number.loc=.sub-header ul li h1 span
+#sasmita
+new-atitesting.question.number.loc=.sub-header h1 span
+new-atitesting.new.question.number.loc=#header h1 span
+new-atitesting.question.number.loc1=.focus-element-flag.hint-button-off
+new-atitesting.test.assessment.radio.button.loc=.question-option.focus-element-flag.ng-scope
+new-atitesting.test.assessment.hot.spot.image=#hotSpotImg
+new-atitesting.test.assessment.continue.button.loc=#moveNext
+new-atitesting.test.assessment.flag.button.loc=.flag-for-review-ribbon-off.focus-element-flag
+new-atitesting.test.assessment.checkbox.loc=#disabledApplyProductCheckbox > span
+#new-atitesting.add.product.id.new.loc=.focus-element-flag.focus-on
+new-atitesting.add.product.password.new.loc=input[data-atiid='addProductPassword']
+new-atitesting.add.product.id.pwd=.add-product-step-1 input
+new-atitesting.add.product.info.loc=.card.front.tutorial a
+new-atitesting.add.product.information=.product-info-cell>div
+new-atitesting.add.product.button.loc=#tabs-1 a[data-atiid='addProductAction']
+new-atitesting.add.product.button.loc1=#body a[data-atiid='addProductAction']
+new-atitesting.refresh.proctors.loc=.refresh-proctors
+new-atitesting.add.product.continue.button.loc=.focus-element-flag.step-modal-nav-right.move-to-next-content-active
+#new-atitesting.add.product.loc=.button.primary-button.cardflip.focus-element-flag.focus-on
+new-atitesting.test.tab.all.modules.loc=section[id='tabs-2']>div.proctored-container>ul[id='monitoredProducts']>li
+new-atitesting.testtab.specific.modules.name.loc=.proctored-container>ul[id='monitoredProducts']>li>section:nth-of-type(1)>section>div
+new-atitesting.testtab.specific.modules.info.icon.loc=#monitoredProducts>li>section:nth-of-type(1)>header>a:nth-child(2)
+new-atitesting.testtab.product.information.popup.loc=#productInfoDialog>section>ul[class='product-info-list']>li>div>div[class='product-info-cell']>div
+new-atitesting.test.assessment.maxmin.questions.count=.sub-header ul li h1 span
+new-atitesting.test.assessment.flag.questions=.button div[class="result-count-temp"]
+new-atitesting.practice.assessment.radioBtnLoc=.radio:nth-child(1) .question-option:nth-child(1) input
+new-atitesting.test.dropdown.practice.assessment.flag.button=.flag-for-review-ribbon-off.focus-element-flag
+new-atitesting.continueBtnLoc=a[data-atiid='nextQuestionAction']
+#Proctored Assessment
+faculty.portal.username.loc=#signOnForm-userId
+faculty.portal.password.loc=#signOnForm-passwordText
+faculty.portal.password1.loc=#signOnForm-password
+faculty.portal.go.button.loc=.signOnForm-go-hover
+current-atitesting.mainpage.popup.yesLoc=input[id*='btnContinueLogin']
+current-atitesting.homepage.dashboard.areaLoc=.dashboardUserArea
+home.tabs.loc=#ctl00_PrimaryMenuCSSVersion_primaryNavigationList li a
+faculty.portal.select.activity.drop.down=#ctl00_contentPlaceHolderBody_ddlSelectActivity
+proctor.assessment.id.loc=#ctl00_contentPlaceHolderBody_ucProductsManageProctorAssessments_ucProctorAssessmentsLogin_ProctorAssessementsInputBar_txtId
+proctor.assessment.pwd.loc=#ctl00_contentPlaceHolderBody_ucProductsManageProctorAssessments_ucProctorAssessmentsLogin_ProctorAssessementsInputBar_txtPassword
+faculty.portal.product.select.activity.proctor.assessment.submit.button.loc=#btnSubmitAssessment
+faculty.portal.product.select.activity.proctor.assessment.electronic.signature.textbox.loc=#txtFullName
+faculty.portal.product.select.activity.proctor.assessment.proctor.authentication.page.welcome.message.loc=.instructionHeader
+faculty.portal.product.select.activity.proctor.assessment.date.textbox.loc=#txtSignatureDate
+faculty.portal.product.select.activity.proctor.assessment.proceed.button.loc=#ctl00_CPHolder_btnProceed
+faculty.portal.proctor.approve.radio.button.loc=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStudent_ctl02_ctl00
+new-atitesting.proctor.refresh.button=#btnRefreshBottom
+#new-atitesting.proctor.start.test.button=#ctl00_CPHolder_btnStart
+#new-atitesting.test.tab.proctor.assessment.header=.no-proctors p
+new-atitesting.test.tab.proctor.assessment.header=#proctoredAssessment
+new-atitesting.no.proctor.error.messages.loc=.no-proctors>p
+new-atitesting.test.tab.proctor.refresh.button=.refresh-proctors
+#new-atitesting.proctor.start.test.button=#ctl00_CPHolder_btnStart
+#new-atitesting.proctor.start.test.button=#ctl00_CPHolder_btnStart
+
+#Hide 
+new-atitesting.myatitab.testtab.hide.checkbox.hidden.text.loc=#tabs-2 .question-option.disabled-checkbox label span
+new-atitesting.myatitab.testtab.hide.checkbox.hidden.text.value=hidden
+new-atitesting.myatitab.testtab.hide.checkbox.hidden.loc=#tabs-2 .question-option.disabled-checkbox
+new-atitesting.myatitab.testtab.hide.checkbox.hidden.input.loc=#tabs-2 .question-option.disabled-checkbox input
+new-atitesting.myatitab.testtab.hide.assessment.loc=.card.proctored-assessment.front.disabled-background-tab2
+new-atitesting.myatitab.learntab.hide.assessemnt.loc=.disabled-background-tab2
+new-atitesting.myatitab.learntab.hide.check.box.loc=#tabs-1 .question-option.disabled-checkbox
+
+new-atitesting.homepage.myati.practiceassessment.product.info.loc=.icon.focus-element-flag
+new-atitesting.homepage.myati.assessment.productid.loc=.product-info-cell div
+new-atitesting.homepage.myati.assessment.product.info.index=2
+new-atitesting.homepage.myatitab.testtab.nodata.loc=#tabs-2 .no-products h3
+new-atitesting.homepage.myati.assessment.productid.loc=.product-info-cell div
+new-atitesting.myati.assessment.footer.loc=.footer-wrapper>nav>ul .focus-element-flag
+new-atitesting.myati.assessment.footer.loc1=#prodsolutions
+
+
+#####################Priyanka changes##########################################################
+
+new-atitesting.test.all.assessment=#tabs-2 ul[id='testApplications'] li
+
+#vishal
+new-atitesting.myati.test.tab.verify.details.are.displayed.loc=#testApplications li
+new-atitesting.myati.test.tab.assessment.type.loc=section[class='card practice-assessment front'] header span
+new-atitesting.myati.test.tab.assessment.name.loc=section[class='card practice-assessment front'] div section div
+new-atitesting.tutorial.retakebutton.loc=.button.secondary-button.button-focus.focus-element-flag
+new-atitesting.myati.test.tab.assessment.button.loc=section[class='card practice-assessment front'] div nav div a
+new-atitesting.myati.test.tab.current.question.number.loc=#header .ng-binding
+new-atitesting.myati.test.tab.current.question.no.loc=.ng-binding
+new-atitesting.generic.tutorial.checkbox.new.multiple.answer.div.tag.loc=.checkbox.ng-scope .question-option.focus-element-flag 
+new-atitesting.generic.tutorial.checkbox.new.multiple.answer.loc=.checkbox.ng-scope .question-option.focus-element-flag label
+new-atitesting.generic.tutorial.radio.button.new.multiple.answer.loc=.radio .question-option.focus-element-flag.ng-scope
+new-atitesting.generic.tutorial.radio.button.new.multiple.answer.loc.NEW=.radiobutton.question-option.focus-element-flag .ng-untouched.ng-pristine.ng-valid
+
+newati.myati.learn.tab.loc=#LearnTabNav
+newati.myati.test.tab.loc=#TestTabNav
+newati.myati.imporve.tab.loc=#ImproveTabNav
+newati.myati.apply.tab.loc=#ApplyTabNav
+newati.myati.NCLEX.tab.loc=#NCLEXPrepTabNav
+
+newati.myati.learn.tab.product.list.loc = div[id^='learnProduct']
+newati.myati.test.tab.product.list.loc = div[id^='testProduct'],[id^='proctoredTest']
+newati.myati.apply.tab.product.list.loc= div[id^='simulation']
+newati.myati.improve.tab.product.list.loc =.description > span
+newati.myati.improve.tab.product.list.loc.new=.remediation-list
+newati.myati.NCLEX.tab.product.list.loc = [id^='NCLEXProduct']
+
+
+newati.myati.learn.tab.noproducts.loc=#tabs-1 div[data-bind='visible: IsNoTutorialsMessageVisible']
+newati.myati.test.tab.noproducts.loc=#tabs-2 div[data-bind='visible: IsNoProductsMessageVisible']
+newati.myati.improve.tab.noproducts.loc=#tabs-3 div[data-bind='visible: IsNoImproveItemsMessageVisible']
+newati.myati.apply.tab.noproducts.loc=#tabs-4 div[data-bind='visible: IsNoSimulatorsMessageVisible']
+
+new-atitesting.myati.test.tab.incorrect.rationale.loc=.question-status-incorrect-top-status
+new-atitesting.test.assessment.previous.button.loc=#movePrevious
+new-atitesting.generic.tutorial.checkbox.new.input.tag.loc=.checkbox.ng-scope .question-option.focus-element-flag input
+new-atitesting.generic.modal.pop.up.2.buttons.loc=.modal-section div button:not([class*='ng-hide'])
+new-atitesting.generic.teas.radio.button.new.multiple.answer.loc=.radio .question-option.focus-element-flag.ng-scope label
+new-atitesting.myati.assessment.timer.loc=.time div span[class='ng-binding']
+new-atitesting.myati.test.tab.assessment.pause.button.loc=.button.pause-time-button.default-button.focus-element-flag
+new-atitesting.myati.test.tab.assessment.pause.button.header.message.loc=.dialog-sub-head
+new-atitesting.myati.test.tab.assessment.resume.assessment.button.loc=.button.primary-button.focus-element-flag
+new-atitesting.myati.test.tab.assessment.pause.time.from.popup.loc=.pause-timer-dialog.ng-binding
+
+new-atitesting.Quiz.dropdownLoc=#tabs-1 > aside:nth-child(4) > div:nth-child(1) > div:nth-child(2) > select:nth-child(2)
+new-atitesting.Quiz.all.modules.loc=section[id='tabs-2'] ul[class='image-grid flipcontainer'] li
+
+new-atitesting.generic.tutorial.radio.button.new.multiple.answer.radio.loc=.question-option.focus-element-flag input
+
+newati.myati.test.tab.proctored.message.loc=div[class='proctored-messaging']
+newati.myati.test.tab.ls.dynamic.standard.quizzes.section.loc=ul[class='product-list-style'] li
+newati.myati.test.tab.ls.dynamic.quizzes.header.loc=header[class='header-with-speedometer'] div span
+newati.myati.test.tab.ls.dynamic.quizzes.button.loc=section a[class*='button focus-element-flag']
+newati.myati.test.tab.ls.dynamic.quizzes.accessed.status.loc=footer[class='skills-footer'] div span
+newati.myati.test.tab.ls.standard.quizzes.all.modules.name.list.loc=div[class='quiz-actions'] span[data-bind='text: DisplayName']
+newati.myati.test.tab.ls.quiz.name.in.assessment.page.loc=section[class='lesson-header-details lti-details'] span
+newati.myati.test.tab.ls.quiz.name.close.button.loc=div[class='lti-close-button-container'] a
+new.atitestig.ls.recent.activity.quiz.bank.header.loc=div[data-bind='html:ProductName']
+new.atitestig.ls.recent.activity.dynamic.quiz.bank.header.loc=span[data-bind*='html:ModuleName']
+
+new.atitestig.my.results.header.loc=header[id='myResultsHeader'] h1
+new.atitestig.my.results.section.loc=section[class='multi-tables']
+new.atitestig.my.results.section.header.loc=header span
+new.atitestig.my.results.section.table.header.loc=table[class='custom-table'] tbody
+
+new.atitestig.test.tab.all.assessment.card.front.loc=section[id='tabs-2'] ul li
+new.atitestig.test.tab.all.assessment.card.front.assessment.type.loc=section header span
+new.atitestig.test.tab.select.options.loc=section[id='tabs-2'] div[class='select select-secondary'] select

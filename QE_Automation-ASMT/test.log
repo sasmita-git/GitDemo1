@@ -1,0 +1,38 @@
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : asmt-user-create.properties,asmt-common-input.properties,asmt-common-locators.properties,global-override.properties,asmt-myatitab-input.properties,asmt-myatitab-locators.properties,asmt-maintenance-input.properties,asmt-maintenance-locators.properties,asmt-npm-input.properties,asmt-npm-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-user-create.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-common-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-common-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global-override.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-myatitab-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-myatitab-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-maintenance-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-maintenance-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-npm-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : asmt-npm-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main com.automation.asmt.peak.PeakTest - Method name in Base Test in setup for creating driver:ASMT_CompletePrakHour
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value first ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - Desired Capabilities : Capabilities {acceptSslCerts: true, browserName: chrome, chrome.switches: [--incognito], cssSelectorsEnabled: true, ensureCleanSession: true, goog:chromeOptions: {args: [disable-infobars, chrome.switches, --disable-extensions, --test-type, --disable-extensions, --incognito], extensions: [], prefs: {download.default_directory: C:/download/ASMT, download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, handlesAlerts: true, javascriptEnabled: true, platform: WINDOWS, takesScreenshot: true, version: }
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value ==> null
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value from property file==> stage
+INFO main com.automation.asmt.peak.PeakTest - Method name in Base Test in setup for loading properties:ASMT_CompletePrakHour
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : stg_input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : stg_input.properties
+INFO main com.automation.asmt.peak.PeakTest - ASMT_CompletePrakHour Start
+INFO main com.automation.asmt.peak.PeakTest - Student User Created --> null
+INFO main com.automation.asmt.peak.PeakTest - Student Portal Login Start
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Method : loginToApplication :::::::: START userName --> null
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Method : loginToApplication :::::::: START password --> Test123
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Page load complete
+INFO main com.automation.asmt.page.MaintenanceScriptPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Method: verifyElement Starts 
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Method: verifyElement End flag --> true
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Method: verifyElement Starts 
+INFO main com.automation.asmt.page.MaintenanceScriptPage - Method: verifyElement End flag --> true
+INFO main com.automation.asmt.page.MaintenanceScriptPage - entering username--> null
+INFO main com.automation.asmt.peak.PeakTest - Method name in Base Test in tearDown:ASMT_CompletePrakHour
+INFO main com.automation.asmt.peak.PeakTest - Test Case Status :
+INFO main com.automation.asmt.peak.PeakTest - TC Failed

@@ -1,0 +1,373 @@
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : global-override.properties,id-common-input.properties,id-common-locators.properties,id-help-input.properties,id-help-locators.properties,id-home-input.properties,id-home-locators.properties,id-input.properties,id-locators.properties,id-practiceassessment.input.properties,id-practiceassessment.locators.properties,id-products-input.properties,id-products-locators.properties,id-tutorial.input.properties,id-tutorial.locators.properties,id-reports-locators.properties,student-locators.properties,student-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global-override.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-common-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-common-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-help-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-help-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-home-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-home-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-practiceassessment.input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-practiceassessment.locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-products-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-products-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-tutorial.input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-tutorial.locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-reports-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : student-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : student-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Method name in Base Test in setup for creating driver:INST1887_VerifyStudentRosterForDirectorUser
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value first ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - Desired Capabilities : Capabilities {acceptSslCerts: true, browserName: chrome, chrome.switches: [--incognito], cssSelectorsEnabled: true, ensureCleanSession: true, goog:chromeOptions: {args: [disable-infobars, chrome.switches, --disable-extensions, --test-type, --disable-extensions, --incognito], extensions: [], prefs: {download.default_directory: C:/download, download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, handlesAlerts: true, javascriptEnabled: true, platform: WINDOWS, takesScreenshot: true, version: }
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value ==> null
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value from property file==> prod
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Method name in Base Test in setup for loading properties:INST1887_VerifyStudentRosterForDirectorUser
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : prod_input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : prod_input.properties
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - INST1887_VerifyStudentRosterForDirectorUser_Latest Start
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - INST1887_VerifyStudentRosterForDirectorUser_Latest Start
+INFO main com.automation.id.pages.LoginPage - loginToApplication Start 
+INFO main com.automation.id.pages.LoginPage - userName value --> noshacabdirector1
+INFO main com.automation.id.pages.LoginPage - password value --> cab
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - page is still loading after click on the element
+INFO main com.automation.id.pages.LoginPage - Wait Counter in Seconds >>>> 25
+INFO main com.automation.id.pages.LoginPage - page is still loading after click on the element
+INFO main com.automation.id.pages.LoginPage - Wait Counter in Seconds >>>> 25
+INFO main com.automation.id.pages.LoginPage - page is still loading after click on the element
+INFO main com.automation.id.pages.LoginPage - Wait Counter in Seconds >>>> 25
+INFO main com.automation.id.pages.LoginPage - Error while handling loading image
+INFO main com.automation.id.pages.LoginPage - Page load complete
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method : Verifying Maintance pop-up :::: START 
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Unable to close sorry popup
+INFO main com.automation.id.pages.LoginPage - Method : Verifying Maintance pop-up :::: END
+INFO main com.automation.id.pages.LoginPage - loginToApplication End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Clicking on left navigation icon
+INFO main com.automation.id.pages.HomePage - Method: verifyAndClick Starts
+INFO main com.automation.id.pages.HomePage - verifyElement Start
+INFO main com.automation.id.pages.HomePage - verifyElement End
+INFO main com.automation.id.pages.HomePage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.HomePage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.HomePage - Method: verifyAndClick End flag --> true
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Verifying People Tab from Left navigation
+INFO main com.automation.id.pages.HomePage - Method: verifyLeftNavigationText Starts
+INFO main com.automation.id.pages.HomePage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 1
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 1
+INFO main com.automation.id.pages.HomePage - page is still loading after click on the element
+INFO main com.automation.id.pages.HomePage - Wait Counter in Seconds >>>> 1
+INFO main com.automation.id.pages.HomePage - Error while handling loading image
+INFO main com.automation.id.pages.HomePage - Page load complete
+INFO main com.automation.id.pages.HomePage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.HomePage - Method: verifyLeftNavigationText End flag --> true
+INFO main com.automation.id.pages.HomePage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.HomePage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.ManageRosterPage - Method : selectingInstitutionNameInStudentRosterPage Start
+INFO main com.automation.id.pages.ManageRosterPage - cohortInputName value --> zzCAB 2.0 Test Institution PN
+INFO main com.automation.id.pages.ManageRosterPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.ManageRosterPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.ManageRosterPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - Error while handling loading image
+INFO main com.automation.id.pages.ManageRosterPage - Page load complete
+INFO main com.automation.id.pages.ManageRosterPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.ManageRosterPage - verifyElement Start
+INFO main com.automation.id.pages.ManageRosterPage - verifyElement End
+INFO main com.automation.id.pages.ManageRosterPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.ManageRosterPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.ManageRosterPage - Method: End flag --> true
+INFO main com.automation.id.pages.ManageRosterPage - Method : selectingCohortNameInStudentRosterPage Start
+INFO main com.automation.id.pages.ManageRosterPage - verifyElement Start
+INFO main com.automation.id.pages.ManageRosterPage - verifyElement End
+INFO main com.automation.id.pages.ManageRosterPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - page is still loading after click on the element
+INFO main com.automation.id.pages.ManageRosterPage - Wait Counter in Seconds >>>> 0
+INFO main com.automation.id.pages.ManageRosterPage - Error while handling loading image
+INFO main com.automation.id.pages.ManageRosterPage - Page load complete
+INFO main com.automation.id.pages.ManageRosterPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.ManageRosterPage - verifyElement Start
+INFO main com.automation.id.pages.ManageRosterPage - verifyElement End
+INFO main com.automation.id.pages.ManageRosterPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.ManageRosterPage - Unable to wait Untill Loading Image Is not Disappeared
+INFO main com.automation.id.pages.ManageRosterPage - Unable to wait Untill Loading Image Is not Disappeared
+INFO main com.automation.id.pages.ManageRosterPage - Unable to selectingCohortNameInStudentRosterPage
+INFO main com.automation.id.pages.ManageRosterPage - Unable to selectingCohortNameInStudentRosterPage
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : global-override.properties,id-common-input.properties,id-common-locators.properties,id-help-input.properties,id-help-locators.properties,id-home-input.properties,id-home-locators.properties,id-input.properties,id-locators.properties,id-practiceassessment.input.properties,id-practiceassessment.locators.properties,id-products-input.properties,id-products-locators.properties,id-tutorial.input.properties,id-tutorial.locators.properties,id-reports-locators.properties,student-locators.properties,student-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global-override.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-common-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-common-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-help-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-help-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-home-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-home-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-practiceassessment.input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-practiceassessment.locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-products-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-products-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-tutorial.input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-tutorial.locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-reports-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : student-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : student-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Method name in Base Test in setup for creating driver:INST1887_VerifyStudentRosterForDirectorUser
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value first ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - Desired Capabilities : Capabilities {acceptSslCerts: true, browserName: chrome, chrome.switches: [--incognito], cssSelectorsEnabled: true, ensureCleanSession: true, goog:chromeOptions: {args: [disable-infobars, chrome.switches, --disable-extensions, --test-type, --disable-extensions, --incognito], extensions: [], prefs: {download.default_directory: C:/download, download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, handlesAlerts: true, javascriptEnabled: true, platform: WINDOWS, takesScreenshot: true, version: }
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value ==> null
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value from property file==> prod
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Method name in Base Test in tearDown:INST1887_VerifyStudentRosterForDirectorUser
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Test Case Status :
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - TC Failed
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Method name in Base Test in setup for loading properties:INST1887_VerifyStudentRosterForDirectorUser
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : prod_input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : prod_input.properties
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - INST1887_VerifyStudentRosterForDirectorUser_Latest Start
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - INST1887_VerifyStudentRosterForDirectorUser_Latest Start
+INFO main com.automation.id.pages.LoginPage - loginToApplication Start 
+INFO main com.automation.id.pages.LoginPage - userName value --> noshacabdirector1
+INFO main com.automation.id.pages.LoginPage - password value --> cab
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method : Verifying Maintance pop-up :::: START 
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Unable to close sorry popup
+INFO main com.automation.id.pages.LoginPage - Method : Verifying Maintance pop-up :::: END
+INFO main com.automation.id.pages.LoginPage - loginToApplication End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Clicking on left navigation icon
+INFO main com.automation.id.pages.HomePage - Method: verifyAndClick Starts
+INFO main com.automation.id.pages.HomePage - verifyElement Start
+INFO main com.automation.id.pages.HomePage - verifyElement End
+INFO main com.automation.id.pages.HomePage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.HomePage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.HomePage - Method: verifyAndClick End flag --> true
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Verifying People Tab from Left navigation
+INFO main com.automation.id.pages.HomePage - Method: verifyLeftNavigationText Starts
+INFO main com.automation.id.pages.HomePage - Method: verifyLeftNavigationText End flag --> false
+ERROR main com.ascendlearning.automation.ui.assertions.VerificationHandler - False returned
+java.lang.AssertionError: Unable to verify  People Link   expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:496)
+	at org.testng.Assert.assertTrue(Assert.java:42)
+	at com.ascendlearning.automation.ui.assertions.VerificationHandler.verifyTrue(VerificationHandler.java:32)
+	at com.automation.id.smoke.Smoke_PeoplePageTest.INST1887_VerifyStudentRosterForDirectorUser(Smoke_PeoplePageTest.java:62)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Method name in Base Test in tearDown:INST1887_VerifyStudentRosterForDirectorUser
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - Test Case Status :
+INFO main com.automation.id.smoke.Smoke_PeoplePageTest - TC Failed
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : global-override.properties,id-common-input.properties,id-common-locators.properties,id-help-input.properties,id-help-locators.properties,id-home-input.properties,id-home-locators.properties,id-input.properties,id-locators.properties,id-practiceassessment.input.properties,id-practiceassessment.locators.properties,id-products-input.properties,id-products-locators.properties,id-tutorial.input.properties,id-tutorial.locators.properties,id-reports-locators.properties,student-locators.properties,student-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global-override.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-common-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-common-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-help-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-help-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-home-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-home-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-practiceassessment.input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-practiceassessment.locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-products-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-products-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-tutorial.input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-tutorial.locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : id-reports-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : student-locators.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : student-input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : global.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : log4j.properties
+INFO main com.automation.id.smoke.HomeTest - Method name in Base Test in setup for creating driver:INST1706_VerifyProctorLogin
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value first ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - browserType value ==> chrome
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - Desired Capabilities : Capabilities {acceptSslCerts: true, browserName: chrome, chrome.switches: [--incognito], cssSelectorsEnabled: true, ensureCleanSession: true, goog:chromeOptions: {args: [disable-infobars, chrome.switches, --disable-extensions, --test-type, --disable-extensions, --incognito], extensions: [], prefs: {download.default_directory: C:/download, download.prompt_for_download: false, profile.default_content_settings.popups: 0}}, handlesAlerts: true, javascriptEnabled: true, platform: WINDOWS, takesScreenshot: true, version: }
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value ==> null
+INFO main com.ascendlearning.automation.ui.driver.DriverFactory - environment value from property file==> prod
+INFO main com.automation.id.smoke.HomeTest - Method name in Base Test in setup for loading properties:INST1706_VerifyProctorLogin
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - List of files to load : prod_input.properties
+INFO main com.ascendlearning.automation.ui.config.PropertiesRepository - Loading property file : prod_input.properties
+INFO main com.automation.id.smoke.HomeTest - INST1706_VerifyProctorLogin Start
+INFO main com.automation.id.smoke.HomeTest - Proctor login
+INFO main com.automation.id.pages.LoginPage - loginToApplication Start 
+INFO main com.automation.id.pages.LoginPage - userName value --> prod.teasproc08
+INFO main com.automation.id.pages.LoginPage - password value --> Test1234
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - verifyElement Start
+INFO main com.automation.id.pages.LoginPage - verifyElement End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.LoginPage - Method : Verifying Maintance pop-up :::: START 
+INFO main com.automation.id.pages.LoginPage - Unable to close main welcome popup window
+INFO main com.automation.id.pages.LoginPage - Method : Verifying Maintance pop-up :::: END
+INFO main com.automation.id.pages.LoginPage - loginToApplication End
+INFO main com.automation.id.pages.LoginPage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.LoginPage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.smoke.HomeTest - Clicking on left navigation icon
+INFO main com.automation.id.pages.HomePage - Method: verifyAndClick Starts
+INFO main com.automation.id.pages.HomePage - verifyElement Start
+INFO main com.automation.id.pages.HomePage - verifyElement End
+INFO main com.automation.id.pages.HomePage - Method: waitUntillLoadingImageIsDisappeared Starts
+INFO main com.automation.id.pages.HomePage - waitUntillLoadingImageIsDisappeared End
+INFO main com.automation.id.pages.HomePage - Method: verifyAndClick End flag --> true
+INFO main com.automation.id.smoke.HomeTest - Verifying Home Tab from Left navigation
+INFO main com.automation.id.pages.HomePage - Method: verifyLeftNavigationText Starts
+INFO main com.automation.id.pages.HomePage - Unable to verifyLeftNavigationText
+INFO main com.automation.id.pages.HomePage - Unable to verifyLeftNavigationText
+INFO main com.automation.id.smoke.HomeTest - Method name in Base Test in tearDown:INST1706_VerifyProctorLogin
+INFO main com.automation.id.smoke.HomeTest - Test Case Status :
+INFO main com.automation.id.smoke.HomeTest - TC Failed

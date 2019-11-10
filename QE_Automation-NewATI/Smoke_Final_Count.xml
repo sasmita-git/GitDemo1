@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project">
+	
+	<!-- Total 4 -->
+	
+	<test name="Verification for  HA ">
+		<classes>
+			<class name="com.automation.newati.applytab.HealthAssessment">
+				<methods>
+				<include name="NewATI1268_VerifyCardbackAndCardfrontFunctionalityForHA"></include>
+				<include name="NewATI1207_VerifyTheHAFlowFromApplyTabForVPEs"></include>
+				<include name="NewATI1197_VerifyWHenUserClicksOnEHRChartLinkFromMyResults"></include>
+				<include name="NewATI1174_VerifyChartButtonWithinTheHeaderSection"></include>
+				<include name="NewATI1206_VerifyHAFlowFromApplyTabForNonVPEs"></include>
+				<include name="NewATI1269_VerifyResultsOfHAProductMyResultstabNonVPModule"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>   
+
+	
+
+

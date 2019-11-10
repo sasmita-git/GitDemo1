@@ -1,0 +1,30 @@
+new-ati.report.header.loc=.sub-header ul h1
+new-ati.report.footer.scoring.taking.longer.than.expected.please.check.back.key=.validation
+new-ati.report.results.header=.my-results h3
+new-ati.report.results.tables.loc=.multi-tables
+new-atitesting.loading.ipppage.loc=.sub-header>section>img
+new-atitesting.ipppage.header.loc=sub-header>ul>li>h1
+
+#Vishal
+new-ati.report.rn.fundamentals.loc=.custom-table tr td .focus-element-flag
+new-ati.report.Individual.score.loc=.reporting-header-score span
+new-ati.report.time.spent.loc=.reporting-header-timespent span
+new-ati.report.score.explanation.link.loc=.score-explanation.focus-element-flag
+new-ati.report.focused.review.section.loc=.ipp-focused-review-area
+new-ati.report.student.details.loc=.indiv-report-details-group-1 span
+new-ati.report.content.area.column.loc=.row-data-item.item-grow-reg-prac
+new-ati.report.show.all.topics.toggle.btn.loc=.switch-btn-group-area label
+new-ati.report.table.headers.loc=.table-data header h3
+new-ati.report.topics.to.review.count=.content-area-item-count
+new-ati.report.total.questions.number=.row-data-item span
+new-ati.report.Individual.score.of.content.area.loc=.indiv-score-carat>span
+new-ati.report.teas.content.area.column.loc=.row-data-item.item-grow-reg-proc
+new-ati.report.teas.major.content.area.topics.to.review.block.loc=div[class='table-row-details-area']
+new-ati.report.teas.topics.to.review.toggle.btn.loc=section[class='table-data'] label[for*='On']
+
+new-ati.report.download.loc=.default-button.focus-element-flag
+
+newati.myresults.download.report.button=button.default-button:nth-child(3)
+newati.ipp.page.download.report=.default-button.focus-element-flag.focus-on
+newati.ipppage.close.button=.close-button.focus-element-flag
+newati.ipp.page.header.loc=header[class='sub-header'] ul li h1

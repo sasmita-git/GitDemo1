@@ -1,0 +1,35 @@
+#The bowser you want to launch the tests on. Should be one of {android|chrome|firefox|htmlunit|internet explorer|iPhone|iPad|opera|safari}.
+global.browser.name=chrome
+#global.browser.name=firefox
+#global.browser.name=internet explorer
+
+
+#Timeout Properties. 
+waittimeout=5000
+verifyinterval = 250
+global.driver.wait=120
+
+#Default download location for files that you may want to download as a part of your tests
+global.download.location=C:/download/ASMT
+
+#The bowser you want to launch the tests on. Should be one of {android|chrome|firefox|htmlunit|internet explorer|iPhone|iPad|opera|safari}.
+#global.browser.capability.browserName=firefox
+global.browser.capability.browserName=chrome
+#global.browser.capability.browserName=internet explorer
+#A key specifying which platform the browser should be running on. This value should be one of {WINDOWS|XP|VISTA|MAC|LINUX|UNIX|ANDROID}
+global.browser.capability.platform=WINDOWS
+
+#Driver Executables
+global.browser.chrome.driver.executable=C:/WebDrivers/chromedriver.exe
+global.browser.ie.driver.executable=C:/WebDrivers/IEDriverServer.exe
+#global.browser.ie.driver.executable=C:/WebDrivers/internetexplorerdriver.exe
+
+#Report Folder Name
+global.report.file.name=ASMT_AUTOMATION_REPORT.html
+global.environment.name=stage
+
+#TestLink changes
+global.testlink.api.projectname=Assessment Delivery
+global.testlink.api.planname=SmokeTest
+global.testlink.execute=false
+

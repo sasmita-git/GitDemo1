@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project" >
+
+	<!-- <listeners>
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+	</listeners> -->
+
+
+	<!-- - 3 -->
+	<test name="Login Functionality">
+		<classes>
+		<class name="com.automation.newati.tutorial.TutorialTest">
+				<methods>
+					<include name="NewATI139_VerifyNurseLogicBeginTest"></include>
+					<include name="NewATI128_VerifyNurseLogicLesson"></include>
+					<include name="NewATI96_VerifySkillsModulePostTestcase"></include>
+					<include name="NewATI133_VerifyNurseLogicLesson"></include>
+					<include name="NewATI55_VerifyTutorialInfoCard"></include>
+					<include name="NewATI134_VerifyTutorialRationale"></include>
+					<include name="NewATI143_VerifyTutorialSelectInstance"></include>
+					<include name="NewATI511_VerifySkillsModuleModuleName"></include>
+					<include name="NewATI152_VerifyHideDisabledCheckbox"></include>
+					
+					
+					</methods>
+			</class>
+	</classes>
+	</test>
+	
+</suite>   
+
+	
+
+

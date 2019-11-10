@@ -1,0 +1,74 @@
+new-atitesting.nclexprep.cardback.header=#productBoardVitalsList h1
+new-atitesting.nclexprep.add.product.button.loc=#tabs-6 a[data-atiid="addProductAction"]
+new-atitesting.nclexprep.add.product.button.input.loc=input[data-atiid="addProductBatchID"]
+new-atitesting.nclexprep.add.product.button.pwd.loc=input[data-atiid="addProductPassword"]
+new-atitesting.nclexprep.add.product.info.icon.loc=#tabs-6 .icon.focus-element-flag
+new-atitesting.nclexprep.hide.products.loc=#tabs-6 .question-option.disabled-checkbox label
+new-atitesting.nclexprep.product.header=#tabs-6 span[class="title"]
+new-atitesting.nclexprep.cardback.product.links=.Nclex-row-back-cell a
+new-atitesting.nclexprep.cardback.terms.conditions=#tos_accepted
+new-atitesting.nclexprep.cardback.close.button=.close-button.focus-element-flag
+new-atitesting.nclexprep.cardback.expired.date=.due.teas-expired.teas-expire
+new-atitesting.nclexprep.cardfront.renew.button=.button.primary-button.button-focus.focus-element-flag.focus-on
+new-atitesting.nclexprep.begin.button=a[class="button cardflip focus-element-flag primary-button"]
+new-atitesting.nclexprep.renew.subscription.page.loc=.order-payment-step-2 tbody[data-bind="foreach: OrderSummaryLineItems"] td
+new-atitesting.nclexprep.renew.subscription.card.no=#credit-card-number
+new-atitesting.nclexprep.renew.subscription.expired.date=#expiration
+new-atitesting.nclexprep.renew.subscription.cvv=#cvv
+new-atitesting.nclexprep.cardback.continue.button=div[class = "default-button-disabled"] a
+#new-atitesting.nclextab.cardback.accessed.time.loc=.product-list-style li .time-accessed
+new-atitesting.nclexprep.AdaptiveTest.cardback.loc=div[class='skills-cell']>div>div:nth-child(1)>div:nth-child(1)
+new-atitesting.nclexprep.AdaptiveTest.lauch.loc=.box-heading
+new-atitesting.nclexprep.AdaptiveTest.close.loc=.close-button.focus-element-flag>span:nth-child(1)
+newati.info.close.button=div[aria-labelledby='ui-id-6']>div[class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle']>button >span[class='ui-button-text']
+
+new-atitesting.nclexprep.click.yes=.button.primary-button.focus-element-flag.focus-on
+new-atitesting.nclex.card.back.loc=div[class='back js-back-active'] .product-list-style
+new-atitesting.nclex.card.back.with.li.loc=div[class='back js-back-active'] .product-list-style li
+new-atitesting.nclex.card.back.close.button.loc=div[class='back js-back-active'] button[class='closeButton focus-element-flag focus-on']
+new-atitesting.nclex.card.front.module.button.loc=li section div[class='product-tutorial-list-cell']
+new-atitesting.nclex.card.front.speedometer.loc=#tabs-6 .usage-overlay-50
+new-atitesting.nclex.all.products.loc=#tabs-6 ul li
+
+new.atitesting.nclex.cardback.heading.loc=#productTutorialModuleList h1
+
+new-atitesting.nclex.bv.products.loc=.card.front.board-vital
+newati.nclextab.hide.disabled.checkbox.loc=#disabledNCLEXProductCheckbox
+new.atitestig.nclex.checkbox.loc=#disabledNCLEXProductCheckbox span
+new-atitesting.nclex.inactive.bv.products.loc=#tabs-6 .disabled-background-tab2
+
+new.atitestig.nclex.cardfront.product.name.loc=.flipper section[class='card front tutorial']
+new.atitestig.nclex.cardback.individual.text.div.loc=div[data-bind='text: Module.Description']
+new.atitestig.nclex.cardback.individual.text.span.loc=span[data-bind='text: Module.Title']
+new.atitestig.nclex.cardback.experience.left.section.topvalue.loc=#buyNclexExperience .nclexBuyNow-cell-1 div
+new.atitestig.nclex.cardback.experience.left.section.bottomvalue.loc=#buyNclexExperience .nclexBuyNow-cell-1 p
+new.atitestig.nclex.cardback.experience.right.section.topvalue.loc=#buyNclexExperience .nclexBuyNow-cell-2 div
+new.atitestig.nclex.hide.disabled.product.loc=label[id='disabledNCLEXProductCheckbox']
+new.atitestig.nclex.hide.disabled.product.text.loc=label[id='disabledNCLEXProductCheckbox'] span
+new.atitestig.nclex.card.front.disabled.by.instructor.message.loc=section[id='tabs-6'] nav span[class='disabled-message']
+new.atitestig.nclex.hide.disabled.product.in.card.back.text.loc=label[id='disabledModuleCheckbox'] span
+new.atitestig.nclex.hide.disabled.product.in.card.back.loc=label[id='disabledModuleCheckbox']
+new.atitestig.nclex.recent.activity.section.loc=div[class='more-recentAct-results'] div a[class='ra-row rb-col-main focus-element-flag']
+new.atitestig.nclex.recent.activity.inprogress.completed.section.loc=div[class='status-in-progress-no-dial']
+new.atitestig.nclex.recent.activity.completed.section.loc=div[class='status-completed-score']
+new.atitestig.nclex.recent.activity.tutorial.header.loc=div[data-bind*='Tutorial'] div[data-bind='html:ProductName']
+new.atitestig.nclex.recent.activity.module.name.header.loc=div[data-bind*='Tutorial'] div[data-bind='html:ModuleName']
+new.atitestig.nclex.recent.activity.nclex.prep.loc=div[class='rb-row-main ra-add-scoring-levels'] div[class='ra-product-type']
+new.atitestig.nclex.recent.activity.module.test.header.loc=div[data-bind*='Tutorial'] div[class='ra-product-headers'] div[data-bind*='MODULE TEST']
+new.atitestig.nclex.recent.activity.module.test.module.name.loc=div[data-bind*='Tutorial'] div[class='ra-product-headers'] span[data-bind='html: ModuleTest']
+
+new.atitesting.modules.button=#multiNCLEXButtonText3
+new.atitesting.newati.NCLEX.Experience.tutorial=#productTutorialModuleList > div:nth-child(2) > section:nth-child(1) > ul:nth-child(3) > li:nth-child(1) > footer:nth-child(3) > div:nth-child(1)
+new.atitesting.NCLEX.cardback.close.button=.closeButton.focus-element-flag
+
+new.atitesting.assessment.name.loc=section[class='lesson-header-details'] span
+new.atitesting.assessment.name.loc.quiz.new=.lesson-header-details>ul>li>span
+new.atitesting.assessment.close.button.loc=button[class='mat-button']
+new-atitesting.nclex.card.back.quiz.bank.name.loc=div[class='module-multi-display-name product-tutorial-display-name'] span
+new-atitesting.nclex.card.back.quiz.bank.button.loc=a[class='button focus-element-flag primary-button']
+new-atitesting.nclex.card.back.quiz.bank.time.spent.loc=div[class='time-suggested-spent'] span
+new-atitesting.nclex.card.back.quiz.bank.accessed.loc=div[class='time-accessed'] span
+
+new-atitesting.nclex.select.instance.access.button.loc=a[class='button button-focus focus-element-flag select-instance-modules secondary-button']
+new-atitesting.nclex.select.instance.access.never.button.loc=a[class='button button-focus focus-element-flag select-instance-modules primary-button']
+new-atitesting.nclex.select.instance.access.button.module.access.status.loc=header[class='duplicate-product-header'] div[class='time-accessed'] span

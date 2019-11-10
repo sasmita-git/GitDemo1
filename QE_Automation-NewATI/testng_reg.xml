@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project">
+	<listeners>
+		<!-- <listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> -->
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+
+	<!-- Regression  Test cases start -->
+	<!-- Total 7 -->
+	<test name="Verification for  HomeTab">
+		<classes>
+		<!-- Total 2 -->
+			<class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+				<methods>
+					
+					<include name="NewATI12_verifyHelpFAQSection"></include>
+					<include name="NewATI87_verifyHowToHowToUseATISection"></include>
+					<include name="NewATI90_verifyHelpTabFAQ"></include>
+					<include name="NewATI506_verifyHowToDocumentFAQ"></include>
+					<include name="NewATI13_verifyHowToHowToUseATIverifications"></include>
+					<include name="NewATI48_verifyFAQSection"></include>
+					<include name="NewATI505_verifyGettingStartedSection"></include>
+					<include name="NewATI529_verifyGettingStartedSection"></include>
+				</methods>
+			</class>
+			
+		</classes>
+		</test>
+		<!-- Total 27 -->
+		<test name="Verification for  Login ">
+		<classes>
+		<!-- Total 7 -->
+		<class name="com.automation.newati.login.ForgetPasswordTest">
+				<methods>
+					<include name="NEWATI535_LockUser"></include>
+					<include name="NewATI532_checkForgetUserNameAndPassword4"></include>
+					<!-- <include name="NewATI562_InvalidMessageForInactiveUsers"></include>
+					<include name="NewATI565_ReactivationStudAccViaSecurityQues"></include> -->
+					<include name="NewATI621_checkForgetUserNameAndPassword"></include>
+					<include name="NewATI622_checkForgetUserNameAndPassword2"></include>
+					<include name="NewATI623_checkForgetUserNameAndPassword3"></include>
+					<include name="NewATI536_VerifyUnLockAccUsingEmailId"></include>
+					
+				</methods>
+			</class>
+			<!-- Total 1 -->
+			<class name="com.automation.newati.login.LoginPageValidationTest">
+				<methods>
+					<include name="NewATI78_ContactUsLinkloc"></include>
+					
+					
+				</methods>
+			</class>
+			<!-- Total 2 -->
+			<class name="com.automation.newati.login.ForgetPasswordTest1">
+				<methods>
+					<include name="NEWATI560_EmailLinkFunctionalityforInactiveUser"></include>
+					<include name="NEWATI561_EmailLinkFunctionalityforLockedUser"></include>
+					
+				</methods>
+			</class>
+			<!-- Total 2-->
+			<class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+				<methods>
+					<include name="NewATI115_VerifyCreateAccountFunctionality"></include>
+					<include name="NewATI1_CreateAccountPage"></include>
+					<include name="NewATI539_CreateAccount"></include>
+					
+					
+					
+				</methods>
+			</class>
+			<!-- Total 3 -->
+			<class name="com.automation.newati.login.LoginTest">
+				<methods>
+					<include name="NewATI64_VerifyTechReqLink"></include>
+					<include name="NewATI71_VerifyATIProdSolLink"></include>
+					<include name="NewATI628_VerifyStudentSignOn"></include>
+					<include name="NewATI538_ValidateLoginWithExistingUser"></include>
+					
+				</methods>
+			</class>
+			</classes>
+		</test>
+</suite>   
+
+	
+
+

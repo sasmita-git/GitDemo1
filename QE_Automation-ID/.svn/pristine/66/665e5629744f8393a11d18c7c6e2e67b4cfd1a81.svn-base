@@ -1,0 +1,19 @@
+id.analytics.reporting.admissions.and.ati.pulse.report.card.portlet.loc=div[class='analytics-container'] mat-card[class='analytics-landing-card z-depth mat-card'] mat-card-title
+id.analytics.classic.reporting.quick.reports.tutorial.group.report.text.box.loc=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_txtGroupReportTutorialId
+id.analytics.classic.reporting.quick.reports.tutorial.group.report.enter.button.loc=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_imgBtnGroupReportTutorialId
+id.analytics.classic.reporting.quick.reports.tutorial.comm.and.civility.mentor.portlet.table.loc=.communicator-container mat-card
+id.analytics.classic.reporting.quick.reports.tutorial.comm.and.civility.mentor.portlet.table.title.loc=mat-card-title
+id.analytics.classic.reporting.quick.reports.tutorial.comm.and.civility.mentor.portlet.table.apply.button.loc=mat-card-content button span
+id.analytics.classic.reporting.quick.reports.tutorial.comm.and.civility.mentor.portlet.table.continue.button.loc=mat-card-actions button span
+id.analytics.classic.reporting.quick.reports.tutorial.comm.and.civility.mentor.portlet.assessemnt.name.loc=div[fxlayout='row'] div[class='ng-star-inserted'] b
+id.analytics.classic.reporting.quick.reports.tutorial.comm.and.civility.mentor.portlet.assessment.tutorial.id.loc=div[fxlayout='row'] div[class='ng-star-inserted'] br
+id.analytics.classic.reporting.quick.reports.tutorial.comm.and.civility.mentor.portlet.modules.list.loc=mat-card[class='mat-card'] td-data-table div[class='td-data-table-scrollable'] table tr
+id.analytics.classic.reporting.quick.reports.tutorial.group.and.individual.report.text.box.loc=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_txtCombinedReportTutorialID
+id.analytics.classic.reporting.quick.reports.tutorial.group.and.individual.report.enter.button.loc=#ctl00_contentPlaceHolderBody_ucQuickReportNavigation_ucQuickReports_imgBtnCombinedReportTutorialID
+
+
+## Report
+id.analytics.report.reporting.header.loc=div[class='col-left analytics-heading heading-margin-fix']
+id.analytics.report.analytisc.link.loc=div[class='lead'] a
+id.analytics.classicReporting.link.loc=div a[href='/faculty/results']
+id.analytics.quickreport.tab.loc=ctl00_contentPlaceHolderBody_ucTabbedSubMenuViewResults_ReportWizardSubNav

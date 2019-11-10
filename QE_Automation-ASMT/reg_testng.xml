@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ASMT Test Suite">
+
+	<listeners>
+		<listener
+			class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" />
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.asmt.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+	<test name="Assessments">
+		<classes>
+
+			<class name="com.automation.asmt.practice.assessment.TEASTest3" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest10" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest11" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest9" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest7" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest6" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest5" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest4" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest3" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest13" />
+			<class name="com.automation.asmt.practice.assessment.AssessmentTest12" />
+			<class
+				name="com.automation.asmt.practice.assessment.AssessmentNewUserTest" />
+			<class
+				name="com.automation.asmt.practice.assessment.RationaleInCorrectAndCorrectTest" />
+			<class name="com.automation.asmt.practice.assessment.TEASTest2" />
+			<class name="com.automation.asmt.practice.assessment.TEASTest3" />
+			<class name="com.automation.asmt.learntab.QuizRegressionTest3" />
+			<class name="com.automation.asmt.learntab.QuizRegressionTest" />
+			<class
+				name="com.automation.asmt.regression.assessment.PracticeAssessmentRegressionTest" />
+			<class
+				name="com.automation.asmt.practice.assessment.ItemTypeRegressionTest3" />
+			<class
+				name="com.automation.asmt.practice.assessment.ItemTypeRegressionTest2" />
+			<class
+				name="com.automation.asmt.practice.assessment.ItemTypeRegressionTest" />
+			<class
+				name="com.automation.asmt.practice.assessment.ItemTypeRegressionTest3" />
+		</classes>
+	</test>
+</suite>   

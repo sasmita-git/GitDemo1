@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project">
+	<groups>
+		<run>
+			<include name="Smoke" />
+		</run>
+	</groups>
+	<listeners>
+		<!-- <listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> -->
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+
+	<!-- Total 4 -->
+	<test name="Verification for RecentActivity and Lilnks">
+		<classes>
+			<class name="com.automation.newati.hometab.VerifyHomeTabTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 3 -->
+	<test name="Verification for Advertisement">
+		<classes>
+			<class name="com.automation.newati.hometab.VerifyHomeTabTest1"></class>
+		</classes>
+	</test>
+
+	<!-- Total 2 -->
+	<test name="Verification for Help tab FAQS section">
+		<classes>
+			<class name="com.automation.newati.helptab.VerifyHelpPageTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="Verification for Links">
+		<classes>
+			<class name="com.automation.newati.login.LoginPageValidationTest"></class>
+		</classes>
+	</test>
+
+	<!-- Commenting for maintainance script -->
+
+	<!-- Total 2 -->
+	<test name="Login">
+		<classes>
+			<class name="com.automation.newati.login.LoginTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="CreateAccountTestClassScripts">
+		<classes>
+			<class name="com.automation.newati.logincreateaccount.CreateAccountTest"></class>
+		</classes>
+	</test>
+	<!-- Total 1 -->
+	<!-- Commenting for maintainance script -->
+	<test name="Passwordrelatedtestscripts">
+		<classes>
+			<class name="com.automation.newati.login.ForgetPasswordTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="Payments">
+		<classes>
+			<class name="com.automation.newati.payments.VerifyTEASSelfPayAssessment"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="Payments1">
+		<classes>
+			<class name="com.automation.newati.payments.TutorialPaymentTest"></class>
+		</classes>
+	</test>
+	<!-- Total 1 -->
+	<test name="Payments2">
+		<classes>
+			<class
+				name="com.automation.newati.payments.VerifyNonTEASSelfPayAssessment"></class>
+		</classes>
+	</test>
+	<!-- Total 2 -->
+	<test name="Payments3">
+		<classes>
+			<class name="com.automation.newati.payments.VerifySelfPayAssessmentTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="PracticeAssessment">
+		<classes>
+			<class name="com.automation.newati.myati.test.PracticeAssessmentTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="Quiz">
+		<classes>
+			<class name="com.automation.newati.quiz.QuizTest"></class>
+		</classes>
+	</test>
+	<!-- Total 4 -->
+	<test name="VerifyTutorialtestclasstestcases">
+		<classes>
+			<class name="com.automation.newati.learntab.VerifyTutorialTest"></class>
+		</classes>
+	</test>
+
+
+	<!-- Total 1 -->
+	<test name="Flashcard">
+		<classes>
+			<class name="com.automation.newati.learntab.FlashCardTest"></class>
+		</classes>
+	</test>
+
+
+	<!-- Total 1 -->
+	<test name="VerifyEbooks">
+		<classes>
+			<class name="com.automation.newati.learntab.VerifyEBookScenariousTest"></class>
+		</classes>
+	</test>
+	<!-- Total 1 -->
+	<test name="VerifySmartPrepModuletestclassTestScripts">
+		<classes>
+			<class name="com.automation.newati.learntab.VerifySmartPrepModuleTest"></class>
+		</classes>
+	</test>
+	<!-- Total 1 -->
+	<!-- Commenting for maintainance script -->
+	<test name="VerifyContentAreaFunctionalityClassTestScripts">
+		<classes>
+			<class
+				name="com.automation.newati.myati.others.VerifyContentAreafunctionality"></class>
+		</classes>
+	</test>
+
+	<!-- Total 2 -->
+	<test name="VerifyFocusedReviewPDFContenttestClassTestScripts">
+		<classes>
+			<class
+				name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest"></class>
+		</classes>
+	</test>
+	<!-- Total 1 -->
+	<test name="VerifySimulationTestClassTestScripts">
+		<classes>
+			<class name="com.automation.newati.applytab.VerifySimulationTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="VerifyResultTestCLassTestscripts">
+		<classes>
+			<class name="com.automation.newati.results.verifyResultTest"></class>
+		</classes>
+	</test>
+	<!-- Total 1 -->
+	<test name="MyResultstabTestClassScripts">
+		<classes>
+			<class name="com.automation.newati.results.MyResultsTabTest"></class>
+		</classes>
+	</test>
+
+	<!-- Total 1 -->
+	<test name="BoardVitals">
+		<classes>
+			<class
+				name="com.automation.newati.board.vitals.VerifyNoDataBoardVitalsFunctionalityTest"></class>
+		</classes>
+	</test>
+	<!-- Total 1 -->
+	<test name="BoardVitals1">
+		<classes>
+			<class
+				name="com.automation.newati.board.vitals.VerifyBoardVitalsFunctionalityTest">			</class>
+		</classes>
+	</test>
+</suite>   
+
+	
+
+

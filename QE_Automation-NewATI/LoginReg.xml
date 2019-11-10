@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project" parallel="classes" thread-count="3">
+
+	 <listeners>
+		<!-- <listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> 
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>-->
+	</listeners> 
+<test name="Verification for  Login functionality">
+		<classes>
+		<class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+				<methods>
+					<include name="NewATI1_CreateAccountPage"></include>
+					<include name="NewATI539_CreateAccount"></include>	
+				</methods>
+			</class>
+			<class name="com.automation.newati.regression.logintab.VerifyLoginPageRegressionTest">
+			<methods>
+				<include name="NewATI752_VerifyMandatorySymbolForZipCode"></include> 
+			</methods>
+			</class>
+			<class name="com.automation.newati.login.UserAuthenticationTest">
+				<methods>
+				<include name="NewATI61_VerifyUserNameRetrival"></include>
+				<include name="NewATI63_VerifyUserNameRetrivalErrorMsg"></include>
+				<include name="NewATI88_VerifyForgetPasswordFunctionality"></include>
+				<include name="NewATI72_VerifyResetPasswordErrorMsg"></include>	
+				<include name="NewATI85_VerifyForgetPasswordFunctionality2"></include>	
+				</methods>
+			</class>
+				<class name="com.automation.newati.login.LoginTest">
+				<methods>
+				<include name="NewATI538_ValidateLoginWithExistingUser"></include>
+				<include name="NewATI784_VerifyLoginEmulator"></include>
+				<include name="NewATI71_VerifyATIProdSolLink"></include>
+				<include name="NewATI64_VerifyTechReqLink"></include>
+				</methods>
+			</class>
+			<class name="com.automation.newati.login.LoginPageValidationTest">
+			<methods>
+				<include name="NewATI567_VerifyErorrMessageonTryingToReactivateInstructor"></include>
+			</methods>
+			</class>
+			<class name="com.automation.newati.login.LoginTest2">
+				<methods>
+					<include name="NewATI767_verifyFacultyLoginMsg"></include> 
+				</methods>
+			</class>  
+			<class name="com.automation.newati.login.LoginPageValidationTest">
+				<methods>
+					<include name="NewATI78_ContactUsLinkloc"></include>	
+				</methods>
+			</class>
+				<class name="com.automation.newati.hometab.VerifyHomeTabTest">
+				<methods>
+					<include name="NewATI2_verifyOnlineStoreLinkForTheUsers"></include>
+					<include name="NewATI107_verifyPrivacyPolicyLink"></include>
+				</methods>
+			</class>
+			<class name="com.automation.newati.student.engagement.New.HomeTabTest">
+			<methods>
+				
+				<include name="NewATI106_UserTermsAndConditionsLink"></include>
+				
+			</methods>
+			</class>
+			   <class name="com.automation.newati.regression.hometab.VerifyHomePageRegressionTest">
+			<methods>
+				<include name="NewATI105_VerifyWebSiteTermsFooter"></include>
+			</methods>
+			
+			</class>
+		</classes>
+	</test>	
+	<test name="Verification for  HomePage functionality">
+		<classes>
+			<class name="com.automation.newati.hometab.VerifyHomeTabTest">
+				<methods>
+				<include name="NewATI7_verifyHomeTabUIElements"></include>
+				</methods>
+			</class>
+		
+		<class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+					<methods>
+					<include name="NewATI54_verifyHomePageAlert"></include>
+					<include name="NewATI89_verifyOnlineStoreLink"></include>
+					<include name="NewATI135_verifyAddProductFunctionality"></include>
+					</methods>
+		</class>
+		<class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+				<methods>
+				<include name="NewATI82_HomePageCalendar"></include>
+				<include name="NewATI95_HomePageRecentActivityDisplay"></include>
+					
+				</methods>
+			</class>
+		</classes>
+	</test>	
+	
+</suite>   

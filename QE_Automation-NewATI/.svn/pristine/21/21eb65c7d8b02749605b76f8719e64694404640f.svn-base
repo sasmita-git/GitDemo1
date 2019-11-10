@@ -1,0 +1,143 @@
+newati.payment.mypurchase.tab.loc=#tabs #ui-id-3
+newati.payment.mypurchase.submit.loc=#tabs-2 .semester-payment-input div a
+newati.payment.mypurchase.input.loc=#tabs-2 .semester-payment-input div input
+newati.payment.mypurchase.payment.code.input=0120921
+newati.payment.mypurchase.class.input=1 022-1.
+newati.payment.mypurchase.class.payment.info=#OrderPaymentDialog .order-info-divs>div>span
+newati.payment.mypurchase.institution.input=#OrderPaymentDialog .order-info-divs>aside #orderPaymentInst
+newati.payment.mypurchase.continue.button.loc=.focus-element-flag.step-modal-nav-right.move-to-next-content-active.focus-on span
+newati.payment.mypurchase.orderbook.button.loc=.button.submit-order-button.submit-braintree.step-modal-nav-right.focus-element-flag
+newati.payment.mypurchase.coupon.code.loc=#couponCode
+newati.payment.mypurchase.coupon.code.input=CARPJT6846630194
+newati.payment.mypurchase.apply.loc=.button.primary-button.focus-element-flag
+newati.payment.purchase.details.page=.order-payment-section div:nth-of-type(1) tr
+newati.payment.mypurchase.payment.code.input1=0123780
+newati.payment.mypurchase.class.input1=1220
+newati.payment.mypurchase.submit.button.loc=.button.submit-order-button.submit-braintree.step-modal-nav-right.focus-element-flag
+newati.payment.mypurchase.success.msg=#PurchaseSummary>div>p
+newati.payment.mypurchase.success.msg.input=Congratulations! Your payment is successful. Below are the details of your payment.
+newati.payment.myresults.share.results.loc=.multi-tables:nth-of-type(1) .custom-table tbody .custom-row-hightlight a
+newati.payment.mypurchase.class.code.loc=.student-pay-details span[data-bind='text: ClassCode']
+newati.payment.mypurchase.institution.name.loc=.student-pay-details span[data-bind='text: InstitutionName']
+newati.payment.mypurchase.datetime.loc=.student-pay-details span[data-bind='text: PurchaseResultPaymentDateTime']
+newati.payment.mypurchase.student.loc=.student-pay-details span[data-bind='text: PurchaseResultFullName']
+newati.payment.mypurchase.print.receipt.loc=.button.submit-order-button.submit-order-button-active.step-modal-nav-right.focus-element-flag
+newati.payment.mypurchase.order.summary.page.description=#PurchaseSummary div:nth-of-type(2) table th
+#newati.payment.mypurchase.order.close.button=div[aria-describedby='productInfoDialog'] div button
+#newati.payment.mypurchase.order.close.button=div[aria-describedby='productInfoDialog'] div button
+newati.payment.mypurchase.order.close.button=div[aria-describedby='OrderPaymentDialog'] div button
+newati.payment.mypurchase.order.close.button3=div[style$='display: block;'] button
+newati.payment.mypurchase.order.close.button2=.ui-button-text
+newati.payment.mypurchase.history.table.loc=#tabs-2 .custom-table>tbody>tr>td>a
+newati.payment.mypurchase.order.details=.custom-table.order-table>tbody>tr td:nth-of-type(1)
+newati.payment.mypurchase.order.info=Order Number:,Order Date:,Account Number:,Student ID:,Promotion Code:,Payment Method:,TransactionID:,Invoice Number:,Purchase Order,Delivery Method:
+newati.payment.ontime.semester.continue.button=.focus-element-flag.step-modal-nav-right.move-to-next-content-active.focus-on span
+#.focus-element-flag.step-modal-nav-right.move-to-next-content-active
+newati.payment.ontime.semester.submit.button=.button.submit-order-button.submit-braintree.step-modal-nav-right.focus-element-flag
+new-atitesting.createaccount.addProductTextFieldLocnew=.add-product-step-1 section input[type='text']
+new-atitesting.createaccount.addProductTextFieldLocnew=.add-product-step-1 section input[type='text']
+new-atitesting.createaccount.productPasswordFieldLoc=.add-product-step-1 section input[type='password']
+new-atitesting.selfpay.classInfoHeaderLoc=#ui-id-2
+new-atitesting.add.product.institution.name.value=section[class='order-payment-section order-payment-step-2'] #orderPaymentInst
+new-atitesting.add.product.description.value=section[class='order-payment-section order-payment-step-2'] div[class='clear-both'] table[class='custom-table order-detail-table'] span[data-bind='text: PurchaseDescription']
+newati.payment.address.page.fname=input[data-atiid="BillingFirstName"]
+newati.payment.address.page.address=input[data-atiid="BillingAddress1"]
+newati.payment.address.page.city=input[data-atiid="BillingCity"]
+new-atitesting.ContinueLoc=.focus-element-flag.step-modal-nav-right.move-to-next-content-active
+new-atitesting.purchaseDetailsHeaderInput=Purchase Details
+new-atitesting.billing.address.checkbox.loc=.shipping-address .question-option label
+new-atitesting.billing.address.new.checkbox.loc=.shipping-address .question-option label
+new-atitesting.paymentsSubmitbuttonLoc=.semester-payment-submit a
+new-atitesting.classInfoHeaderLoc=#ui-id-5
+new-atitesting.classInfoHeaderLoc1=#ui-id-6
+new-atitesting.classInfoHeaderLoc11=#ui-id-4
+new-atitesting.classInfoHeaderInput=Verify Class Information
+new-atitesting.addressInfoHeaderInput=Address Information
+new-atitesting.orderSummaryheaderInput=Order Summary
+newati.payment.email=input[data-atiid="ShippingEmail"]
+newati.payment.phone.no=input[data-atiid="ShippingPhoneNumber"]
+newati.payment.credit.card.no=#credit-card-number
+newati.payment.credit.card.details=4111 1111 1111 1111
+newati.payment.credit.card.expiration=#expiration
+newati.payment.credit.card.expiration.details=820
+newati.payment.credit.card.cvv=#cvv
+newati.payment.credit.card.cvv.info=123
+new-atitesting.order.history.order.details.page.header.value=Order Details
+new-atitesting.order.history.order.details.order.no.loc=.custom-table.order-table td[data-bind='text: SelectedOrderID']
+new-atitesting.order.history.order.details.order.date.loc=.custom-table.order-table td[data-bind='shortDateString: SelectedOrderDate']
+new-atitesting.order.history.order.header.loc=.purchase-history-order-head
+new-atitesting.order.history.order.no.loc=#tabs-2 table[class='custom-table'] tbody:nth-child(2) tr:nth-child(1) td:nth-child(1)
+new-atitesting.order.history.order.details.account.no.loc=.custom-table.order-table td[data-bind='text: Accountnumber']
+new-atitesting.order.history.order.details.student.id.loc=.custom-table.order-table td[data-bind='text: StudentID']
+new-atitesting.order.history.order.details.promotion.code.loc=.custom-table.order-table td[data-bind='text: PromotionCode']
+new-atitesting.order.history.order.details.payment.method.loc=.custom-table.order-table td[data-bind='text: PaymentMethod']
+new-atitesting.order.history.order.details.card.trans.id.loc=.custom-table.order-table td[data-bind='text: CardTransactionID']
+new-atitesting.order.history.order.details.selected.invoice.id.loc=.custom-table.order-table td[data-bind='text: SelectedInvoiceID']
+new-atitesting.order.history.order.details.puruchase.order.no.loc=.custom-table.order-table td[data-bind='text: PurchaseOrderNumber']
+new-atitesting.order.history.order.details.delivery.method.loc=.custom-table.order-table td[data-bind='text: DeliveryMethod']
+new-atitesting.order.history.order.details.email.loc=#emailResend #userEmail
+new-atitesting.order.history.order.details.billing.name.loc=#billingInfo li[data-bind='text: BillingName']
+new-atitesting.order.history.order.details.billing.address.loc=#billingInfo li[data-bind='text: BillingAddress']
+new-atitesting.order.history.order.details.billling.address.2.loc=#billingInfo li[data-bind='text: BillingAddressLine2']
+new-atitesting.order.history.order.details.billing.country.loc=#billingInfo li[data-bind='text: BillingCountry']
+new-atitesting.order.history.order.details.billing.phone.no.loc=#billingInfo li[data-bind='text: BillingPhoneNumber']
+new-atitesting.order.history.order.date.loc=#tabs-2 table[class='custom-table'] tbody:nth-child(2) tr:nth-child(1) td:nth-child(2)
+new-atitesting.online.storeLinkLoc=a[data-atiid="atiOnlineStoreURLAction"]
+new-atitesting.online.store.product.tutorial.name=Active Stack - Pharmacology Flash Cards
+new-atitesting.online.store.teas.product.teas.add.to.cart.loc=.BuyButton input
+newati.payment.email.info=abc@gmail.com
+newati.payment.phone.no.info=8769567340
+newati.payment.search.input=#ctl00_ctl00_txtSearchBox
+newati.payment.search.input.value=Pharmacology Made Easy 3.0
+newati.payment.search.button=#searchbox > input[type=image]:nth-child(2)
+new-atitesting.selfpay.tutorial.master.id.value=TUT258663
+new-atitesting.selfpay.tutorial.amex.pwd.value=9282015
+new-atitesting.online.store.all.teas.product.tutorial.loc=.SpecialItem
+new-atitesting.online.store.teas.product.teas.name.loc=.DetailLink a
+new-atitesting.online.store.your.shopping.cart.header.loc=.ShoppingCart h1
+new-atitesting.online.store.your.shopping.cart.check.out.button.loc=#ctl00_ctl00_MainContent_uxCart_Checkout1
+new-atitesting.online.store.secure.checkout.header.loc=.ContentContainer div h1
+new-atitesting.online.store.secure.checkout.proceed.to.payment.details.button.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_StartNavigationTemplateContainerID_StartNextButton
+new-atitesting.fraud.card.error.msg.loc=.validation
+new-atitesting.online.storeTextLoc=#content_header > div > h1
+newati.login.teas.share.results.link=.custom-table .custom-row-hightlight a
+new-atitesting.online.store.payment.frame.name=ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxPayment_BrainTreeIframe
+new-atitesting.online.store.secure.checkout.program.type.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxOrder_ddlProgramType
+new-atitesting.online.store.leftpanel.assessment.name=#ctl00_ctl00_MainContent_navShapping_CATEGORIES_ctrlNavigation a
+new-atitesting.online.store.secure.checkout.program.type.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxOrder_ddlProgramType
+new-atitesting.online.store.assessment.name=a[class="DetailLink"]
+new-atitesting.online.store.checkout.button.loc=.BuyButton
+new-atitesting.online.store.assessment.checkout=#ctl00_ctl00_MainContent_uxCart_Checkout
+new-atitesting.online.store.assessment.continueShopping=#ctl00_ctl00_MainContent_uxCart_ContinueShopping
+new-atitesting.online.store.assessments.state.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxAddress_txtBillingState
+new-atitesting.online.store.proceed.payment.details.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_StartNavigationTemplateContainerID_StartNextButton
+new-atitesting.email.loc=.email-and-phone .create-account-left input
+new-atitesting.phone.no.loc=.email-and-phone .create-account-right input
+new-atitesting.semester.payment.1220.loc=div[data-bind='visible: IsOrderDetailsVisible'] .custom-table.order-detail-table tbody span[data-bind='currency: Price']
+new-atitesting.late.payment.fee.loc=div[data-bind='visible: IsOrderDetailsVisible'] .custom-table.order-detail-table tbody span[data-bind='currency: LatePaymentFee']
+new-atitesting.tax.amount.loc=div[data-bind='visible: IsOrderDetailsVisible'] .custom-table.order-detail-table tbody span[data-bind='currency: TaxAmount']
+new-atitesting.discount.loc=div[data-bind='visible: IsOrderDetailsVisible'] .custom-table.order-detail-table tbody span[data-bind='currency: DiscountAmount']
+new.atitesting.ccdetailspage.TEAStax.value=table[class="custom-table order-detail-table"]>tbody>tr:nth-child(3)>td:nth-child(2)>span
+new.atitesting.ccdetailspage.tax.value=table[class="custom-table order-detail-table"]>tbody>tr:nth-child(4)>td:nth-child(2)>span:nth-child(1)
+#new.atitesting.ccdetailspage.tax.value=.order-payment-step-4 > section:nth-child(3) > div:nth-child(4) > table:nth-child(1) > tbody:nth-child(2) > tr:nth-child(3) > td:nth-child(2) > span:nth-child(1)
+new.atitesting.paymentpage.submitorder.button=.submit-order-button
+new.atitesting.paymentpage.indicator=.indicator
+new-atitesting.payment.purchase.details.continue.button.loc=#adForm .step-modal-nav a[class*='step-modal-nav-right move-to-next-content-active']
+new-atitesting.payment.purchase.details.description.header.loc=.clear-both .order-detail-table>thead>tr>th
+
+new-atitesting.payment.purchase.details.continue.button.loc=#adForm .step-modal-nav a[class*='step-modal-nav-right move-to-next-content-active']
+new-atitesting.online.store.pnproducts.practice.assessment.link=table:contains('PN Products') +div a:contains('Online Practice Assessments')
+new-atitesting.online.store.title=#content_title h1
+new-atitesting.online.store.checkout.coupon.textfield=#promo_code input[type='text']
+new-atitesting.online.store.checkout.applycode.button=#promo_code input[type='image']
+new-atitesting.online.store.checkout.applycode.message.text=#promo_code +div .Error
+new-atitesting.online.store.checkout.total=.ShoppingCart tr:contains('Total:') #total_content
+new-atitesting.online.store.checkout.braintree.frame=ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxPayment_BrainTreeIframe
+new-atitesting.online.store.checkout.agreement.checkbox=#chkAgreement
+new-atitesting.online.store.checkout.agreement.submit.button=#btnSubmit
+newati.assessment.close.button=div[aria-describedby="calendarEventsDialog" ] div button
+newati.payment.submit.button=input[value='Submit Order']
+newati.payment.ontime.semester.continue.button.new=.focus-element-flag.step-modal-nav-right.move-to-next-content-active
+
+new-atitesting.classInfoHeaderLoc2=#ui-id-6
+new-atitesting.selfpay.classInfoHeaderLoc.newloc=#ui-id-2

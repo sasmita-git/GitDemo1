@@ -1,0 +1,41 @@
+new-atitesting.tutorialDropdown.value=Tutorials
+new-atitesting.ebookDropdown.value=eBook
+new-atitesting.learntab.tutorial.dosage.calculation.name=Dosage Calculation 2.0: Ratio and Proportion
+new-atitesting.learntab.tutorial.pharmacology.name=Pharmacology Made Easy 3.0
+new-atitesting.learntab.tutorial.fundamentals.online.assessment=PN Fundamentals Online Practice 2014 B
+new-atitesting.practice.assessment.43.name=PN Mental Health Online Practice 2014 B
+new-atitesting.practice.assessment.57.name=RN Leadership 2013
+
+#####
+new-atitesting.tutorialDropdown.value2=Quiz Banks
+
+new-atitesting.content.area.mental.health.value=Mental Health
+new-atitesting.content.area.nutrition.wellness.value=Nutrition & Wellness
+new-atitesting.content.area.all.value=All
+new-atitesting.learntab.tutorial.fundamentals.online.assessment.new=RN Adult Medical Surgical Online Practice 2010 A
+
+######Devika Chages########
+new-atitesting.learntab.quiz.name=Learning System PN 2.0
+new-atitesting.tutorial.cardback.module.header.name.value=Sigma Theta Tau Modules 2017 (18)
+### STT names
+
+sttname1.value=Creating Budgets and Business Plans 2017
+sttname2.value=Introduction to Administrative
+sttname2.value1=Management 
+sttname2.value2=and Organizational Theories 2017
+sttname3.value=Ethical Principles for Nurse Managers 2017
+sttname4.value=Facilitating Staff Development 2017
+sttname5.value=Human Resources: Issues and Strategies 2017
+sttname6.value=Legal Documentation and Defenses 2017
+sttname7.value=Life Balance for Nurse Managers 2017
+sttname8.value=Managing the Team 2017
+sttname9.value=Nurse Manager Program Post-Assessment
+sttname10.value=Nurse Manager Program Pre-Assessment
+sttname11.value=Nursing Liability 2017
+sttname12.value=Patient Safety in the Health Care Workplace 2017
+sttname13.value=Patient Satisfaction 2017
+sttname14.value=Project Management 2017
+sttname15.value=Safety for the Health Care Worker 2017
+sttname16.value=The Art of Leading 2017
+sttname17.value=Using Evidence to Guide Decision Making and Management Practices 2017
+sttname18.value=Using Evidence to Guide Strategic Planning 2017

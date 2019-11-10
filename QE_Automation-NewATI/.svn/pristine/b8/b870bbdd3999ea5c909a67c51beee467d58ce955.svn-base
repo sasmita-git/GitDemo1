@@ -1,0 +1,389 @@
+#Stage - Coupon Code
+#new-atitesting.semester.payment.coupon.code.value=CARPBB3849884929
+
+#QA - Coupon Code
+new-atitesting.semester.payment.coupon.code.value=CARPSP4566543391
+
+###################### Locators #########################
+new-atitesting.createUserloc=a [id="StudentUser"]
+new-atitesting.useracc.headerLoc=.my-account>h1
+new-atitesting.paymentstabloc=#ui-id-3
+new-atitesting.paymentTextFiledLoc=#tabs-2 .semester-payment-input
+new-atitesting.paymentCodeTextfieldLoc=input[data-bind*="PaymentCode"]
+new-atitesting.classCodeTextfieldLoc=input[data-bind*="ClassCode"]
+new-atitesting.paymentsSubmitbuttonLoc=.semester-payment-submit a
+new-atitesting.classInfoDialogueLoc=#OrderPaymentDialog
+new-atitesting.ContinueLoc=.focus-element-flag.step-modal-nav-right.move-to-next-content-active
+new-atitesting.classInfoHeaderLoc=#ui-id-5
+
+new-atitesting.creditcardNoLoc=#credit-card-number
+new-atitesting.creditcardExpLoc=#expiration
+new-atitesting.creditcardCVVLoc=#cvv
+
+new-atitesting.submitOrderBtnLoc=input[type='submit']
+
+new-atitesting.payment.couponcodeLoc=#couponCode
+new-atitesting.payment.applyBtn=.purchase-details-submit a
+
+new-atitesting.payment.braintree=paymentFrame
+new-atitesting.billing.firstNameLoc=input[data-atiid="BillingFirstName"]
+new-atitesting.billing.lastNameLoc=input[data-atiid="BillingLastName"]
+new-atitesting.billing.address1Loc=input[data-atiid="BillingAddress1"]
+new-atitesting.billing.cityLoc=input[data-atiid="BillingCity"]
+new-atitesting.billing.zipLoc=input[data-atiid="BillingZipCode"]
+new-atitesting.billing.countrydropdownLoc=.billing-address select[data-atiid='country']
+new-atitesting.billing.statedropdownLoc=.billing-address select[data-atiid='state']
+
+
+new-atitesting.shipping.firstNameLoc=input[data-atiid="ShippingFirstName"]
+new-atitesting.shipping.lastNameLoc=input[data-atiid="ShippingLastName"]
+new-atitesting.shipping.address1Loc=input[data-atiid="ShippingAddress1"]
+new-atitesting.shipping.cityLoc=input[data-atiid="ShippingCity"]
+new-atitesting.shipping.zipLoc=input[data-atiid="ShippingZipCode"]
+new-atitesting.shipping.countrydropdownLoc=.shipping-address select[data-atiid='country']
+new-atitesting.shipping.statedropdownLoc=.shipping-address select[data-atiid='state']
+new-atitesting.billing.address.checkbox.loc=#shippingAddressShow
+new-atitesting.shipping.address.checkbox.status=.tabbed-focus.checkbox-checked
+new-atitesting.shipping.emailLoc=input[data-atiid='ShippingEmail']
+new-atitesting.shipping.phoneLoc=input[data-atiid='ShippingPhoneNumber']
+
+new-atitesting.couponcode.acceptedOrredemedtxtLoc=.code-confirm-text p
+new-atitesting.couponcode.submit.orderbutton=input[class*='submit-order-button']
+
+#new-atitesting.selfpay.classInfoHeaderLoc=#ui-id-4
+new-atitesting.myacclink.loc=.secondary-nav li:nth-of-type(1) a
+new-atitesting.selfpay.classInfoHeaderLoc1=#ui-id-6
+new-atitesting.selfpay.order.summary.loc=#ui-id-4
+new-atitesting.selfpay.chkboxLoc=.question-option>label
+
+new-atitesting.purchase.history.noDataLoc=.no-data-available-area>p
+new-atitesting.purchase.history.orderlinkLoc=.custom-table>tbody>tr:nth-child(1)>td>a
+new-atitesting.purchase.history.orderDialogLoc=#orderDetailsDialog
+new-atitesting.purchase.history.orderDetailsTxtLoc=#ui-id-1
+new-atitesting.purchase.history.orderDetailsCloseBtnLoc=button[title="Close"]
+
+new-atitesting.ordersummary.closeBtnLoc=span[class='ui-button-text']
+new-atitesting.late.payment.ordersummary.closeBtnLoc=.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close.focus-element-flag.ui-state-hover
+new-atitesting.credit.card.details.page.edit.billing.address.link.loc=.credit-card-billing-address-header .focus-element-flag.focus-on
+######################## Inputs ###################
+new-atitesting.userAccountInpt=My Account
+
+########## STAGE ###########
+new-atitesting.OntimepaymentCodeTextfieldInput1=0122989
+new-atitesting.OntimeclassCodeTextfieldInput1=1220
+
+new-atitesting.OntimepaymentCodeTextfieldInput2=0122997
+new-atitesting.OntimeclassCodeTextfieldInput2=1216
+
+new-atitesting.OntimepaymentCodeTextfieldInput3=0122996
+new-atitesting.OntimeclassCodeTextfieldInput3=0816
+
+new-atitesting.LatepaymentCodeTextfieldInput=0122991
+new-atitesting.LateclassCodeTextfieldInput=1220
+
+#new-atitesting.bookStore.paymentCodeTextfieldInput=0122982
+#new-atitesting.bookStore.classCodeTextfieldInput=0515
+
+new-atitesting.bookStore.paymentCodeTextfieldInput=0123407
+new-atitesting.bookStore.classCodeTextfieldInput=0518
+
+############ PROD ############
+#new-atitesting.paymentCodeTextfieldInput=0123780
+#new-atitesting.classCodeTextfieldInput=1220
+
+########## QA ###########
+#### Book Store ####
+#new-atitesting.bookStore.paymentCodeTextfieldInput=0121419
+#new-atitesting.bookStore.classCodeTextfieldInput=0715
+
+#### Late payment ######
+#new-atitesting.LatepaymentCodeTextfieldInput=0121438
+#new-atitesting.LateclassCodeTextfieldInput=1218HMF
+new-atitesting.late.semester.payment.code=0124108
+new-atitesting.late.semester.class.code=1181
+
+new-atitesting.ontimepayment.code=0123406
+new-atitesting.ontimeclass.code=0517
+
+new-atitesting.classInfoHeaderInput=Verify Class Information
+new-atitesting.purchaseDetailsHeaderInput=Purchase Details
+new-atitesting.addressInfoHeaderInput=Address Information
+new-atitesting.creditCardDetailsInput=Credit Card Details
+new-atitesting.creditcardNoInput=4111111111111111
+new-atitesting.creditcardNoInput.two.no.value=41
+new-atitesting.creditcardNoInput.img.loc=payment-method-icon visa
+new-atitesting.creditcardExpInput=1219
+new-atitesting.creditcardCVVUInput=342
+new-atitesting.creditcardCVVUInput1=3421
+new-atitesting.orderSummaryheaderInput=Order Summary
+new-atitesting.online.store.assessments.state.info=NY
+new-atitesting.payments.phoneInpt=9135498654
+new-atitesting.billing.stateInpt=Hawaii
+new-atitesting.billing.countryInpt=United States
+new-atitesting.billing.zipCodeInpt=96815
+new-atitesting.billing.cityInpt=Honolulu
+new-atitesting.billing.address1Input=2335 Kalakaua Ave
+new-atitesting.billing.lastNameInpt=Md
+new-atitesting.billing.firstNameInpt=Riyaz
+
+new-atitesting.bookstore.couponcodeInput=CARPBB3847856773
+
+#QA 
+#new-atitesting.bookstore.couponcodeInput=CARPBB3847856773
+
+#Stage
+new-atitesting.bookstore.couponcodeInput=CARPBB2348948857
+new-atitesting.bookstore.couponcodeTextInput=Code is accepted
+
+new-atitesting.AmxcreditcardNoInput=378282246310005
+new-atitesting.AmxcreditcardNoInput.two.no.value=37
+new-atitesting.Amxcreditcard.img.loc=.payment-method-icon.american-express
+new-atitesting.AmxcreditcardExpInput=1219
+new-atitesting.AmxcreditcardCVVUInput=3422
+
+new-atitesting.discovercreditcardNoInput=6011111111111117
+new-atitesting.discovercreditcardNoInput.two.no.value=60
+new-atitesting.discovercreditcardNoInput.img.loc=.payment-method-icon.discover
+new-atitesting.discovercreditcardExpInput=1219
+new-atitesting.discovercreditcardCVVUInput=342
+
+new-atitesting.MastercreditcardNoInput=5555555555554444
+new-atitesting.MastercreditcardNoInput.two.no.value=55
+new-atitesting.MastercreditcardNoInput.img.loc=.payment-method-icon.master-card
+new-atitesting.MastercreditcardExpInput=1219
+new-atitesting.MastercreditcardCVVUInput=342
+
+new-atitesting.MastercreditcardInvalidInput=5253545556554444
+new-atitesting.fraud.creditcardNoInput=2231111111111117
+
+new-atitesting.AmexcreditcardNoInput=378282246310005
+
+################ QA self pay Test data #########
+
+#new-atitesting.createaccount.selfpayID=TUT204626
+new-atitesting.createaccount.selfpayPassword=test
+
+#new-atitesting.createaccount.selfpayID=TUT204626
+#new-atitesting.createaccount.selfpayPassword=test
+
+
+#new-atitesting.createaccount.selfpayID=TUT212383
+#new-atitesting.createaccount.selfpayPassword=12
+
+new-atitesting.shipping.emailTnput=saravanan.jothimani@ascendlearning.com
+new-atitesting.shipping.phoneInput=98765432100
+
+new-atitesting.purchase.history.noDataInput=You have not placed any orders
+new-atitesting.purchase.history.orderDetailsTxtInput=Order Details
+################ QA self pay Test data #########
+
+
+############ Stage self pay ################
+new-atitesting.createaccount.selfpayID=TUT223161
+
+####### NewATI-295 Stage Self Pay Details Start #####################
+
+new-atitesting.new.user.purchase.history.id.value=stagepurhissec
+new-atitesting.new.user.purchase.history.password.value=Test123
+
+new-atitesting.new.user.braintree.card.image.user.id.value=braintreecardimage
+new-atitesting.new.user.braintree.card.image.user.pwd.value=Test123
+new-atitesting.new.user.braintree.card.image.selfpay.id.value=TUT243484
+new-atitesting.new.user.braintree.card.image.selfpay.pwd.value=9282015
+
+
+new-atitesting.usernameInput.payment.regression.userid.value=paymentteastesting2
+new-atitesting.passwordInput.payment.regression.password.value=Test123
+new-atitesting.passwordInput=Test123
+new-atitesting.selfpay.tutorial.id.value=
+new-atitesting.selfpay.tutorial.pwd.value=
+
+new-atitesting.payment.institution.name=zzDevon Medical School
+new-atitesting.non.teas.selfpay.password.value=47Z6694R65
+new-atitesting.myAcccLinkLoc=.secondary-nav li:nth-of-type(1) a
+new-atitesting.myAccountLoc=.my-account>h1
+new-atitesting.teas.selfpay.id.value.new=10159360
+new-atitesting.teas.selfpay.id.value=9993056
+new-atitesting.teas.selfpay.password.value=47Z6694R65
+new-atitesting.teas.selfpay.assessment.id.value=891838
+
+new-atitesting.non.teas.selfpay.with.tax.id.value=213486
+
+new-atitesting.teas.selfpay.with.tax.id.value=7552963
+
+new-atitesting.selfpay.tutorial.amex.id.value=SKM242539
+new-atitesting.selfpay.tutorial.amex.pwd.value=14T5H
+new-atitesting.selfpay.tutorial.amex.card.img.id.verify.value=TUT243484
+new-atitesting.selfpay.tutorial.amex.card.img.pwd.verify.value=TUT243484
+
+new-atitesting.selfpay.tutorial.visa.id.value=TUT173611
+new-atitesting.selfpay.tutorial.visa.pwd=12D5X
+new-atitesting.selfpay.tutorial.visa.pwd.value=12D5X
+
+new-atitesting.selfpay.tutorial.master.id.value=TUT224127
+new-atitesting.selfpay.tutorial.master.pwd.value=demo
+new-atitesting.selfpay.tutorial.master.id.value.new=TUT270317
+new-atitesting.selfpay.tutorial.master.pwd.value.new=06W5F
+new-atitesting.selfpay.tutorial.amex.with.tax.id.value=TUT229205
+new-atitesting.selfpay.tutorial.amex.with.tax.pwd.value=07292015
+
+new-atitesting.selfpay.tutorial.visa.with.tax.id.value=TUT223509
+new-atitesting.selfpay.tutorial.visa.with.tax.pwd.value=12
+
+new-atitesting.non.teas.selfpay.master.without.tax.id.value=9833338
+new-atitesting.non.teas.selfpay.discover.without.tax.id.value=9997020
+new-atitesting.non.teas.selfpay.american.without.tax.id.value=9997022
+
+new-atitesting.non.teas.selfpay.american.without.tax.id.value1=10026119
+new-atitesting.non.teas.selfpay.master.card.without.tax.id.value=8533884
+new-atitesting.non.teas.selfpay.discover.card.without.tax.id.value=10026095
+
+newati.login.assessment.payment.uname.selfpaynonteas=stage81
+newati.login.assessment.payment.pwd.selfpaynonteas=Test123
+newati.login.selfpay.discover.without.tax.uname=stage82
+newati.login.selfpay.american.without.tax.uname=stage83
+newati.login.selfpay.teas.american.without.tax.uname=stage84
+newati.login.selfpay.teas.master.without.tax.uname=stage85
+newati.login.selfpay.teas.discover.without.tax.uname=stage86
+####### NewATI-295 Stage Self Pay Details End #####################
+
+
+
+
+################ Stage self pay Test data #########
+new-atitesting.createaccount.selfpayID=TUT223161
+new-atitesting.createaccount.selfpayPassword=test
+
+################ Stage self pay Test data #########
+
+
+############ Add Product Starts ####################
+new-atitesting.add.product.institution.name.value=section[class='order-payment-section order-payment-step-2'] #orderPaymentInst
+new-atitesting.add.product.institution.name.value1=#step2orderPaymentInst
+new-atitesting.add.product.description.value=section[class='order-payment-section order-payment-step-2'] div[class='clear-both'] table[class='custom-table order-detail-table'] span[data-bind='text: PurchaseDescription']
+new-atitesting.add.product.description.value1=div[data-bind="visible: PurchaseWorkflowType() == 'Semester Payment' || PurchaseWorkflowType() == 'Add Product'"]>table>tbody>tr>th:nth-child(1)
+new-atitesting.add.product.teas.with.tax.description.value=section[id='OrderPaymentDialog'] section[class='order-payment-section order-payment-step-2'] table[class='custom-table'] span[data-bind='text: PurchaseDescription']
+############ Add Product End #######################
+
+######## Select Institution Start ###################
+new-atitesting.select.institution.for.payment.loc=.available-inst-div ul li
+new-atitesting.select.institution.for.payment.down.arrow.loc=.teas-button-1.button.primary-button
+new-atitesting.select.institution.for.payment.selected.loc=.selected-inst-div ul li
+######## Select Institution End ###################
+ 
+################ Order Details Start #########
+new-atitesting.order.history.order.header.loc=.purchase-history-order-head
+new-atitesting.order.history.order.details.page.header.value=Order Details
+new-atitesting.order.history.order.no.loc=#tabs-2 table[class='custom-table'] tbody:nth-child(2) tr:nth-child(1) td:nth-child(1) a
+new-atitesting.order.history.order.date.loc=#tabs-2 table[class='custom-table'] tbody:nth-child(2) tr:nth-child(1) td:nth-child(2) span
+new-atitesting.order.history.order.item.purchased.loc=#tabs-2 table[class='custom-table'] tbody:nth-child(2) tr:nth-child(1) td:nth-child(3) span
+new-atitesting.order.history.order.details.order.no.loc=.custom-table.order-table td[data-bind='text: SelectedOrderID']
+new-atitesting.order.history.order.details.order.date.loc=.custom-table.order-table td[data-bind='shortDateString: SelectedOrderDate']
+
+new-atitesting.order.history.order.details.account.no.loc=.custom-table.order-table td[data-bind='text: Accountnumber']
+new-atitesting.order.history.order.details.student.id.loc=.custom-table.order-table td[data-bind='text: StudentID']
+new-atitesting.order.history.order.details.promotion.code.loc=.custom-table.order-table td[data-bind='text: PromotionCode']
+new-atitesting.order.history.order.details.payment.method.loc=.custom-table.order-table td[data-bind='text: PaymentMethod']
+new-atitesting.order.history.order.details.card.trans.id.loc=.custom-table.order-table td[data-bind='text: CardTransactionID']
+new-atitesting.order.history.order.details.selected.invoice.id.loc=.custom-table.order-table td[data-bind='text: SelectedInvoiceID']
+new-atitesting.order.history.order.details.puruchase.order.no.loc=.custom-table.order-table td[data-bind='text: PurchaseOrderNumber']
+new-atitesting.order.history.order.details.delivery.method.loc=.custom-table.order-table td[data-bind='text: DeliveryMethod']
+new-atitesting.order.history.order.details.email.loc=#emailResend #userEmail
+new-atitesting.order.history.order.details.billing.name.loc=#billingInfo li[data-bind='text: BillingName']
+new-atitesting.order.history.order.details.billing.address.loc=#billingInfo li[data-bind='text: BillingAddress']
+new-atitesting.order.history.order.details.billling.address.2.loc=#billingInfo li[data-bind='text: BillingAddressLine2']
+new-atitesting.order.history.order.details.billing.country.loc=#billingInfo li[data-bind='text: BillingCountry']
+new-atitesting.order.history.order.details.billing.phone.no.loc=#billingInfo li[data-bind='text: BillingPhoneNumber']
+
+new-atitesting.order.history.order.details.shipping.name.loc=#shippingInfo li[data-bind='text: ShippingName']
+new-atitesting.order.history.order.details.shipping.address.loc=#shippingInfo li[data-bind='text: ShippingAddress']
+new-atitesting.order.history.order.details.shipping.address.2.loc=#shippingInfo li[data-bind='text: ShippingAddressLine2']
+new-atitesting.order.history.order.details.shipping.country.loc=#shippingInfo li[data-bind='text: ShippingCountry']
+new-atitesting.order.history.order.details.shipping.phone.no.loc=#shippingInfo li[data-bind='text: ShippingPhoneNumber']
+new-atitesting.order.history.order.details.shipping.email.loc=#shippingInfo li[data-bind='text: ShippingEmail']
+new-atitesting.order.history.order.details.shipping.checkbox.loc=.question-option label
+new-atitesting.order.history.order.details..tax.amount.loc=section[class='order-payment-section order-payment-step-4'] span[data-bind='currency: TaxAmount']
+
+new-atitesting.order.history.order.details.description.loc=.order-details-lower #orderDescriptionTable .custom-table span[data-bind='text: Description']
+new-atitesting.order.history.order.details.institution.name.loc=.order-details-lower #orderDescriptionTable .custom-table span[data-bind='text: Institution']
+new-atitesting.order.history.order.details.footer.message.loc=.order-details-lower .global-footer span
+new-atitesting.order.history.order.details.footer.message.value.1=All test registrations are final. ATI Does Not Offer Returns.
+new-atitesting.order.history.order.details.footer.message.value.2=Damaged or defective products will be replaced if sent back to ATI within 30 days of purchase.
+################ Order Details End #########
+
+new-atitesting.semester.payment.coupon.code.loc=#couponCode
+new-atitesting.semester.payment.coupon.code.apply.button.loc=.purchase-details-submit .button.primary-button.focus-element-flag
+new-atitesting.semester.payment.coupon.code.total.amt.loc=span[data-bind='currency: SubTotal']
+new-atitesting.semester.payment.coupon.code.success.message.loc=#PurchaseSummary div p
+new-atitesting.semester.payment.coupon.code.success.message.value=Congratulations
+new-atitesting.semester.payment.coupon.code.total.amt.success.message.page.loc=span[data-bind='currency: PurchaseResultTotal']
+new-atitesting.semester.payment.coupon.code.student.name.success.message.page.loc=span[data-bind='text: PurchaseResultFullName']
+new-atitesting.semester.payment.coupon.code.time.success.message.page.loc=span[data-bind='text: PurchaseResultPaymentDateTime']
+new-atitesting.semester.payment.coupon.code.institution.name.success.message.page.loc=.student-pay-details span[data-bind='text: InstitutionName']
+new-atitesting.semester.payment.coupon.code.class.success.message.page.loc=.student-pay-details span[data-bind='text: ClassCode']
+new-atitesting.semester.payment.coupon.code.print.reciept.button.success.message.page.loc=.button.submit-order-button.submit-order-button-active.step-modal-nav-right.focus-element-flag
+new-atitesting.semester.payment.coupon.code.close.button.success.message.page.loc=.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close.focus-element-flag.ui-state-hover
+new-atitesting.semester.payment.coupon.code.close.button.success.message.page.with.button.loc=button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close focus-element-flag']
+new-atitesting.semester.payment.invalid.card.error.message.loc=.validation
+new-atitesting.semester.payment.invalid.card.error.message.value=Some payment method input fields are invalid. The following fields need to be changed: Credit Card Number; 
+
+###################### Purchase History ####################
+new-atitesting.purchase.history.message.loc=.no-data-available-area p
+new-atitesting.purchase.history.message.value=You have not placed any orders
+
+#################### Online Store ###########################
+new-atitesting.online.store.teas.product.loc=#ctl00_ctl00_MainContent_navShapping_CATEGORIES_ctrlNavigationn0
+new-atitesting.online.store.all.teas.product.loc=.ProductListItem
+new-atitesting.online.store.teas.product.teas.name.loc=.DetailLink a
+new-atitesting.online.store.teas.product.teas.name=TEAS V Online Practice Assessment Form A
+new-atitesting.online.store.teas.product.teas.add.to.cart.loc=.BuyButton input
+new-atitesting.online.store.your.shopping.cart.header.loc=.ShoppingCart h1
+new-atitesting.online.store.your.shopping.cart.check.out.button.loc=#ctl00_ctl00_MainContent_uxCart_Checkout1
+new-atitesting.online.store.secure.checkout.header.loc=.ContentContainer div h1
+new-atitesting.online.store.secure.checkout.proceed.to.payment.details.button.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_StartNavigationTemplateContainerID_StartNextButton
+new-atitesting.online.store.payment.frame.name=ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxPayment_BrainTreeIframe
+new-atitesting.online.store.secure.checkout.submit.order.check.agreement.loc=#chkAgreement
+new-atitesting.online.store.secure.checkout.submit.order.button.loc=#btnSubmit
+new-atitesting.online.store.secure.checkout.frozen.message.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxPayment_lblSubmitMessage
+new-atitesting.online.store.secure.checkout.frozen.message.value=Your order is now processing. This may take a couple of minutes, during which time your screen may appear "frozen". Do not navigate away from the page, use your browser's BACK or REFRESH buttons or press F5 on your keyboard until the transaction completes. Any of these actions may cause a duplicate charge to your credit card.
+new-atitesting.online.store.receipt.page.header.loc=.RHead
+new-atitesting.online.store.receipt.page.header.message.value=Assessment Technologies Institute Customer Receipt
+new-atitesting.online.store.secure.checkout.program.type.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxOrder_ddlProgramType
+
+new-atitesting.online.store.all.teas.product.tutorial.loc=.SpecialItem
+new-atitesting.online.store.product.tutorial.name=Active Stack - Pharmacology Flash Cards
+
+new-atitesting.online.store.learning.strategies.book.loc=Learning Strategies: Your Guide to Classroom and Test-Taking Success
+
+new-atitesting.online.store.teas.discover.transcript.loc=TEAS V / Discover Transcript
+new-atitesting.online.store.teas.discover.transcript.institution.from.loc=#teas_select_list #ctl00_MainContent_swplistboxInstitutions_lstLeftList
+new-atitesting.online.store.teas.discover.transcript.institution.right.arrow.loc=#ctl00_MainContent_swplistboxInstitutions_btnMoveToRight
+new-atitesting.online.store.teas.discover.transcript.institution.to.loc=#ctl00_MainContent_swplistboxInstitutions_lstRightList
+new-atitesting.online.store.teas.discover.transcript.institution.continue.button.loc=#ctl00_MainContent_btnContinue
+new-atitesting.fraud.card.error.msg=Some payment method input fields are invalid. The following fields need to be changed: Credit Card Number; 
+new-atitesting.fraud.card.error.msg.loc=.validation
+
+
+#siddharth loctors
+new-atitesting.semester.payment.ins.loc=section[class="order-payment-section order-payment-step-1"] #orderPaymentInst[data-bind="text: InstitutionName"]
+new-atitesting.semester.payment.status.loc=section[class="order-payment-section order-payment-step-1"] #orderPaymentClass	
+new-atitesting.semester.payment.status.due.date=section[class="order-payment-section order-payment-step-1"] #orderPaymentDueDate
+new-atitesting.semester.payment.status.description=section[class="order-payment-section order-payment-step-1"]  .custom-table tbody tr  td  span[data-bind="text: Description"]
+#new-atitesting.semester.payment.status.countinue=.focus-element-flag.step-modal-nav-right.move-to-next-content-active.focus-on
+
+#purchase details page
+new-atitesting.semester.payment.pur.loc=section[class="order-payment-section order-payment-step-2"] #orderPaymentInst[data-bind="text: InstitutionName"]
+new-atitesting.semester.payment.des.loc=section[class="order-payment-section order-payment-step-2"] .custom-table.order-detail-table>tbody>tr>td>span
+new-atitesting.semester.payment.previous.loc=.move-to-prev-content-active.focus-element-flag
+
+
+new-atitesting.sample.email.id=test1@gmail.com
+
+new-atitesting.Verbiage=Note: Shipping to Hawaii or Alaska, or to any country other than the U.S., requires that you choose the Priority Mail USPS option. No orders are shipped on Saturday, Sunday, or any federal holiday.
+
+new-atitesting.individualsemesterpayment.paymentcode=0124108
+new-atitesting.individualsemesterpayment.class=1181
+new-atitesting.latesemesterpayment.paymentcode=0125540
+new-atitesting.latesemesterpayment.class=Smart
+new-atitesting.online.store.smartprep.check.agreement.loc=#ctl00_ctl00_MainContent_uxCheckout_uxWizard_uxPayment_chkOpenPageTC
+new-atitesting.T&C=#ui-id-4

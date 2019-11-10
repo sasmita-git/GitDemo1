@@ -1,0 +1,547 @@
+package com.automation.newati.regression.learntab;
+
+import java.util.Set;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.ascendlearning.automation.ui.assertions.VerificationHandler;
+import com.ascendlearning.automation.ui.config.PropertiesRepository;
+import com.ascendlearning.automation.ui.handlers.BaseHandler;
+import com.ascendlearning.automation.ui.handlers.WindowHandler;
+import com.ascendlearning.automation.ui.test.BaseTest;
+import com.automation.newati.pages.ApplyTabPage;
+import com.automation.newati.pages.CreateAccountPage;
+import com.automation.newati.pages.HomePage;
+import com.automation.newati.pages.LearnTabPage;
+import com.automation.newati.pages.LoginPage;
+import com.automation.newati.pages.NclexPrepTabPage;
+import com.automation.newati.pages.PractiseAssessmentPage;
+import com.automation.newati.pages.TestTabPage;
+import com.automation.newati.pages.TutorialPage;
+import com.jaca.TestAnnotations;
+
+//All Test Cases in this Class needs to be run on Production
+
+public class EBook_ProdTest extends BaseTest {
+	private Logger logger = LogManager.getLogger(this.getClass());
+	private LoginPage loginPage;
+	private HomePage homePage;
+	private LearnTabPage learnTabPage;
+	private PractiseAssessmentPage practiceAssessmentPage;
+	private WindowHandler windowHandler;
+	private TutorialPage tutorialPage;
+	private BaseHandler baseHadler;
+	private TestTabPage testTabPage;
+	private ApplyTabPage applyTabPage;
+	private NclexPrepTabPage nclexPage;
+	private CreateAccountPage createAccountPage;
+	
+	@BeforeMethod(alwaysRun = true)
+	public void loginToApplication() throws Exception {
+		loginPage = new LoginPage(driver);
+		homePage = new HomePage(driver);
+		learnTabPage = new LearnTabPage(driver);
+		practiceAssessmentPage = new PractiseAssessmentPage(driver);
+		windowHandler = new WindowHandler(driver);
+		tutorialPage = new TutorialPage(driver);
+		baseHadler = new BaseHandler(driver);
+		testTabPage = new TestTabPage(driver);
+		applyTabPage = new ApplyTabPage(driver);
+		nclexPage = new NclexPrepTabPage(driver);
+		createAccountPage=new CreateAccountPage(driver);
+	}
+
+	/**
+	 *
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@Test(priority = 1, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = "NewATI-865: Verify that Functionaly for Nurse Drug for RN EBook. [Version : 1]")
+	public void NewATI865_VerifyNurseDrugHandbookFunctionality() throws Exception {
+
+		log(logger, "NewATI865_VerifyNurseDrugHandbookFunctionality Start");
+
+		loginPage.loginToApplication("stagepulse21","Test123");
+
+		log(logger, "Clicking on My ATI Tab");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.clickTab(1);
+
+		// Click on Learn Tab
+		log(logger, "Clicking on Learn Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if all enabled tutorials are displayed");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfEnabledTutorialsDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify RN Modules button is display on card front with count as '10'.");
+		learnTabPage.VerifyModuleButtonAndItsCount(
+				PropertiesRepository.getString("new-atitesting.learntab.module.name.502"), "10");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select Module name");
+		practiceAssessmentPage
+				.clickModuleButtonByNameEbook(PropertiesRepository.getString("new-atitesting.learntab.module.name.502"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if RN eBook Library title is displayed on Card Back");
+		practiceAssessmentPage.waitUntillElementIsVisible("#productEbookList>h1");
+		VerificationHandler.verifyTrue(baseHadler.findElement("#productEbookList>h1").getText()
+				.contains(PropertiesRepository.getString("new-atitesting.learntab.module.name.502")));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if RN eBook Library title has a count as '10'");
+		VerificationHandler.verifyTrue(baseHadler.findElement("#selectedSeriesEbookCount").getText().equals("10"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Text as 'Currently viewing Editions from:");
+		VerificationHandler.verifyTrue(baseHadler.findElement(".ebook-filter-area>span").getText()
+				.contains("Currently viewing Editions from:"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Text as 2016 eBook'");
+		VerificationHandler
+				.verifyTrue(baseHadler.findElement("span[data-bind='text: $root.SelectedEbookEditionOption']").getText()
+						.contains("2016 eBook"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Module List of 10 for RN Ebook");
+		VerificationHandler.verifyTrue(learnTabPage.verifyModuleListOnCardBackRNEbook());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Nurse’s Drug Handbook is display at the bottom of the card Back");
+		VerificationHandler.verifyTrue(learnTabPage.verifyNurseDrugHandbookIsLast());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Click on Nurse's Drug Handbook");
+		learnTabPage.clickButton(".ebook-row section div a[class='button primary-button focus-element-flag']", 9);
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		windowHandler.switchToFrame("OpenPageFrame");
+
+		// Close if help popup is displayed
+		if (baseHadler.findElement("#helpCloseBtn").isDisplayed()) {
+			baseHadler.findElement("#helpCloseBtn").click();
+		}
+
+		log(logger, "Nurse’s Drug Handbook is launch as open page.");
+		VerificationHandler.verifyTrue(
+				baseHadler.findElement(".toc-title.text-ellip").getText().equals("2017 Nurse’s Drug Handbook"));
+
+		log(logger, "NewATI865_VerifyNurseDrugHandbookFunctionality End");
+	}
+
+	/**
+	 *
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@Test(priority = 2, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = "NewATI-866: Verify that Functionaly for Nurse Drug for PN EBook. [Version : 1]")
+	public void NewATI866_VerifyNurseDrugHandbookFunctionalityPN() throws Exception {
+
+		log(logger, "NewATI866_VerifyNurseDrugHandbookFunctionalityPN Start");
+
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.ebook.2.0.user.name"),
+				PropertiesRepository.getString("newati.login.ebook.2.0.password"));
+
+		log(logger, "Clicking on My ATI Tab");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.clickTab(1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		//Click on Learn Tab
+		log(logger, "Clicking on Learn Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if all enabled tutorials are displayed");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfEnabledTutorialsDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify PN Modules button is display on card front with count as '9'.");
+		learnTabPage.VerifyModuleButtonAndItsCount(
+				PropertiesRepository.getString("new-atitesting.learn.tab.ebook.name"), "9");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select Module name");
+		practiceAssessmentPage.clickModuleButtonByNameEbook(PropertiesRepository.getString("new-atitesting.learn.tab.ebook.name"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+				
+		log(logger, "Verify Module List of 9 for PN Ebook");
+		VerificationHandler.verifyTrue(learnTabPage.verifyModuleListOnCardBackPNEbook());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Nurse’s Drug Handbook is display at the bottom of the card Back");
+		VerificationHandler.verifyTrue(learnTabPage.verifyNurseDrugHandbookIsLast());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Click on Nurse's Drug Handbook");
+		learnTabPage.clickButton(".ebook-row section div a[class='button primary-button focus-element-flag']", 8);
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		windowHandler.switchToFrame("OpenPageFrame");
+
+		// Close if help popup is displayed
+		if (baseHadler.findElement("#helpCloseBtn").isDisplayed()) {
+			baseHadler.findElement("#helpCloseBtn").click();
+		}
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Nurse’s Drug Handbook is launch as open page.");
+		VerificationHandler.verifyTrue(
+				baseHadler.findElement(".toc-title.text-ellip").getText().equals("2017 Nurse’s Drug Handbook"));
+
+		log(logger, "NewATI866_VerifyNurseDrugHandbookFunctionalityPN End");
+	}
+
+	/**
+	 *
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@Test(priority = 3, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = "NewATI-627: Verify New book and pdf book in ebook 2.0 [Version : 1]")
+	public void NewATI627_VerifyEbookAndPDF() throws Exception {
+
+		log(logger, "NewATI627_VerifyEbookAndPDF Start");
+
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.user.name.nursedrug"),
+				PropertiesRepository.getString("newati.login.password"));
+
+		log(logger, "Clicking on My ATI Tab");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.clickTab(1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Click on Learn Tab
+		log(logger, "Clicking on Learn Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Selecting Ebooks from Learn Tab");
+		tutorialPage.selectTutorialFromDropDown(PropertiesRepository.getString("new-atitesting.ebookDropdown.value"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if all enabled eBooks are displayed");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfEnabledEbooksDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select Module name");
+		practiceAssessmentPage
+				.clickModuleButtonByNameEbook(PropertiesRepository.getString("new-atitesting.learntab.module.name.502"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if RN eBook Library title is displayed on Card Back");
+		practiceAssessmentPage.waitUntillElementIsVisible("#productEbookList>h1");
+		VerificationHandler.verifyTrue(baseHadler.findElement("#productEbookList>h1").getText()
+				.contains(PropertiesRepository.getString("new-atitesting.learntab.module.name.502")));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select 2016 eBook from Dropdown");
+		Select dropdown = new Select(
+				baseHadler.findElement("#productEbookList div[class='select select-secondary'] select"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		dropdown.selectByVisibleText("2016 eBook");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify If List of ebook modules with 'EBOOK' button should display.");
+		VerificationHandler.verifyTrue(tutorialPage.verifyEbooListAndBtnDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 8
+		log(logger, "Click on Nurse's Drug Handbook");
+		learnTabPage.clickButton(".ebook-row section div a[class='button primary-button focus-element-flag']", 9);
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		windowHandler.switchToFrame("OpenPageFrame");
+
+		// Close if help popup is displayed
+		if (baseHadler.findElement("#helpCloseBtn").isDisplayed()) {
+			baseHadler.findElement("#helpCloseBtn").click();
+		}
+
+		log(logger, "Nurse’s Drug Handbook is launch as open page.");
+		VerificationHandler.verifyTrue(
+				baseHadler.findElement(".toc-title.text-ellip").getText().equals("2017 Nurse’s Drug Handbook"));
+		windowHandler.switchToMainWindow();
+
+		// close the above open page
+		log(logger, "Clicking on Close button");
+		homePage.clickButton(".ui-button-icon-primary.ui-icon.ui-icon-closethick", 0);
+
+//		log(logger, "Select Module name");
+//		practiceAssessmentPage
+//				.clickModuleButtonByName(PropertiesRepository.getString("new-atitesting.learntab.module.name.502"));
+
+		// Steep 9
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select 2016 PDF from Dropdown");
+		Select dropdown2 = new Select(
+				baseHadler.findElement("#productEbookList div[class='select select-secondary'] select"));
+		dropdown2.selectByVisibleText("2016 PDF");
+
+		log(logger, "Verify If List of ebook modules with 'PDF Book' and 'Media Resources' button should display.");
+		VerificationHandler.verifyTrue(tutorialPage.verifyEbooListAndPDFAndMediaResourceBtnDisplayed());
+
+		// Steep 10
+		log(logger, "Clicking on First PDF button");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.first.PDFBook.RN"), 0);
+
+		windowHandler.switchToLatestWindow();
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if the PDF is opened");
+		VerificationHandler.verifyTrue(driver.getTitle().contains(".pdf"));
+
+		Set<String> set = driver.getWindowHandles();
+		driver.switchTo().window((String) set.toArray()[0]);
+		// Steep 11
+		log(logger, "Clicking on First Media Resource button");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.first.mediaResources.RN"), 0);
+
+		log(logger, "Verify if the Open Page is opened");
+		VerificationHandler.verifyFalse(learnTabPage.verifyTutorialPageTutorialAndModuleName(
+				PropertiesRepository.getString("new-atitesting.learntab.ebook.mediaResource.ebookMediaIndex"),
+				PropertiesRepository.getString("new-atitesting.learntab.ebook.mediaResource.book")));
+
+		log(logger, "NewATI627_VerifyEbookAndPDF End");
+	}
+
+	/**
+	 *
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@Test(priority = 4, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = "NewATI-783: Verify open Ebook functionality [Version : 1]")
+	public void NewATI783_VerifyOpenEbook() throws Exception {
+
+		log(logger, "NewATI783_VerifyOpenEbook Start");
+
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.user.name.nursedrug"),
+				PropertiesRepository.getString("newati.login.password"));
+
+		// Steep 2 and 3
+		log(logger, "Clicking on My ATI Tab");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.clickTab(1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Click on Learn Tab
+		log(logger, "Clicking on Learn Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select Module name");
+		practiceAssessmentPage.clickModuleButtonByNameEbook(PropertiesRepository.getString("new-atitesting.learntab.module.name.502"));
+
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Module List of 10 for RN Ebook");
+//		VerificationHandler.verifyTrue(learnTabPage.verifyModuleListOnCardBackRNEbook());
+//		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 4
+		log(logger, "Select 2016 eBook from Dropdown");
+		Select dropdown = new Select(baseHadler.findElement("#productEbookList div[class='select select-secondary'] select"));
+		dropdown.selectByVisibleText("2016 eBook");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify If List of ebook modules with 'EBOOK' button should display.");
+		VerificationHandler.verifyTrue(tutorialPage.verifyEbooListAndBtnDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 5
+		log(logger, "Click on Nurse's Drug Handbook");
+		learnTabPage.clickButton(".ebook-row section div a[class='button primary-button focus-element-flag']", 9);
+		learnTabPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		windowHandler.switchToFrame("OpenPageFrame");
+
+		// Close if help popup is displayed
+		if (baseHadler.findElement("#helpCloseBtn").isDisplayed()) {
+			baseHadler.findElement("#helpCloseBtn").click();
+		}
+
+		log(logger, "Nurse’s Drug Handbook is launch as open page.");
+		VerificationHandler.verifyTrue(
+				baseHadler.findElement(".toc-title.text-ellip").getText().equals("2017 Nurse’s Drug Handbook"));
+		windowHandler.switchToMainWindow();
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 6
+		// close the above open page
+		log(logger, "Clicking on Close button");
+		homePage.clickButton(".ui-button-icon-primary.ui-icon.ui-icon-closethick", 0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select Module name");
+		practiceAssessmentPage
+				.clickModuleButtonByName(PropertiesRepository.getString("new-atitesting.learntab.module.name.502"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 7
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select 2016 PDF from Dropdown");
+		Select dropdown2 = new Select(
+				baseHadler.findElement("#productEbookList div[class='select select-secondary'] select"));
+		dropdown2.selectByVisibleText("2016 PDF");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify If List of ebook modules with 'PDF Book' and 'Media Resources' button should display.");
+		VerificationHandler.verifyTrue(tutorialPage.verifyEbooListAndPDFAndMediaResourceBtnDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 8
+		log(logger, "Clicking on First PDF button");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.first.PDFBook.RN"), 0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		windowHandler.switchToLatestWindow();
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if the PDF is opened");
+		VerificationHandler.verifyTrue(driver.getTitle().contains(".pdf"));
+
+		Set<String> set = driver.getWindowHandles();
+		driver.switchTo().window((String) set.toArray()[0]);
+
+		// Steep 9
+		log(logger, "Close Card back");
+		learnTabPage.clickButton(".closeButton.focus-element-flag.focus-on");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verfify if Learn tab , Test tab , Improve tab , Apply tab , NCLEX PREP tab are Displayed");
+		VerificationHandler.verifyTrue(learnTabPage
+				.IsDisplayed(".ui-tabs-nav.ui-helper-reset.ui-helper-clearfix.ui-widget-header.ui-corner-all"));
+
+		log(logger, "NewATI783_VerifyOpenEbook End");
+	}
+
+	/**
+	 *
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@Test(priority = 5, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = "NewATI-873: To verify RN and PN Library module for the single user [Version : 1]")
+	public void NewATI873_VerifyRNPNEbook() throws Exception {
+
+		log(logger, "NewATI873_VerifyRNPNEbook Start");
+
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.ebook.2.0.user.name"),
+				PropertiesRepository.getString("newati.login.ebook.2.0.password"));
+		 homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		 createAccountPage.acceptTermsAndConditionsForNewUser();
+		 homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Clicking on My ATI Tab");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.clickTab(1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		// Click on Learn Tab
+		log(logger, "Clicking on Learn Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 0);
+
+		// Steep 1
+		log(logger, "Verify if RN eBook Library title is displayed on Card Front");
+		VerificationHandler.verifyTrue(learnTabPage
+				.verifyEbookCardFront(PropertiesRepository.getString("new-atitesting.learntab.module.name.502")));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if PN eBook Library title is displayed on Card Front");
+		VerificationHandler.verifyTrue(learnTabPage
+				.verifyEbookCardFront(PropertiesRepository.getString("new-atitesting.learn.tab.ebook.name")));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 2
+
+		log(logger, "Select Module name RN eBook Liberary");
+		practiceAssessmentPage
+				.clickModuleButtonByName(PropertiesRepository.getString("new-atitesting.learntab.module.name.502"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Module List of 10 for RN Ebook");
+		VerificationHandler.verifyTrue(learnTabPage.verifyModuleListOnCardBackRNEbook());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Nurse’s Drug Handbook is display at the bottom of the card Back");
+		VerificationHandler.verifyTrue(learnTabPage.verifyNurseDrugHandbookIsLast());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Close Card back");
+		learnTabPage.clickButton(".closeButton.focus-element-flag.focus-on");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Steep 2
+		log(logger, "Select Module name PN eBook Liberary");
+		practiceAssessmentPage
+				.clickModuleButtonByName(PropertiesRepository.getString("new-atitesting.learn.tab.ebook.name"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Module List of 9 for PN Ebook");
+		VerificationHandler.verifyTrue(learnTabPage.verifyModuleListOnCardBackPNEbook());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Nurse’s Drug Handbook is display at the bottom of the card Back");
+		VerificationHandler.verifyTrue(learnTabPage.verifyNurseDrugHandbookIsLast());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "NewATI873_VerifyRNPNEbook End");
+	}
+	
+
+	/**
+	 * Pre Condition : 1. Needs to be run on Prod 
+	 * 2.User should have an enabled ATI TEAS SmartPrep  and RN eBook Library and Active Stack® Pharmacology Flash Cards under learn Tab, Video Case Study under Apply Tab and Board Vital under NCLEX tab
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@TestAnnotations(testID = "NewATI-835")
+	@Test(priority = 7, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = "NewATI-835: To verify the functionality of pulse user and non pulse product in Learn,Test,Apply and NCLEX tab [Version : 1]")
+	public void NewATI835_VerifyPulseNonPulseUser() throws Exception {
+
+		logger.info("Method : NewATI835_VerifyPulseNonPulseUser Start");
+		loginPage.loginToApplication("stagepulse21",
+				PropertiesRepository.getString("newati.login.pulse.user.password"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		Thread.sleep(5000);
+		//Step 1
+		log(logger, "Clicking on My ATI Tab");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.clickTab(1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		//Step 2
+		log(logger, "Verify if all enabled tutorials are displayed");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfEnabledTutorialsDisplayed()); 	
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		//Step 3
+		log(logger, "Verify if able to access ATI teas smart prep");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfTeasSmartPrepIsAccesible("ATI TEAS SmartPrep"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if able to access Flashcard");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfTeasSmartPrepIsAccesible("Active Stack® Pharmacology Flash Cards"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if able to access ebook");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfTeasSmartPrepIsAccesible("RN eBook Library"));			
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Click on Test Tab
+		log(logger, "Clicking on Test Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 1);		
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if all enabled Practice and Proctor assessments are displayed");
+		VerificationHandler.verifyTrue(testTabPage.VerifyIfEnabledPracticeAndProctorDisplayed());			
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Click on Apply Tab
+		log(logger, "Clicking on Apply Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 3);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if all enabled Simulations are displayed");
+		VerificationHandler.verifyTrue(applyTabPage.VerifyIfEnabledSimulationDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		//Step 3
+		log(logger, "Verify if able to access Video Case Study");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfVCSIsAccesible());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		//Click on NCLEX tab
+		log(logger, "Clicking on NCLEX Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 4);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if all enabled Board Vitals are displayed");
+		VerificationHandler.verifyTrue(nclexPage.VerifyIfEnabledBoardVitalsIsDisplayed());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		//Step 3
+		log(logger, "Verify if able to access Board Vitals");
+		VerificationHandler.verifyTrue(learnTabPage.VerifyIfBoardVitalsIsAccesible());		
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		logger.info("Method : NewATI835_VerifyPulseNonPulseUser Ends");
+	}
+}

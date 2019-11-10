@@ -1,0 +1,424 @@
+new-atitesting.homepage.userNameLoc=input[name='username']
+new-atitesting.homepage.userNameLoc.FV=#signOnForm-userId
+new-atitesting.homepage.userNameLoc.NFV=#signOnForm-userId
+new-atitesting.homepage.passwordLoc=#password
+new-atitesting.homepage.passwordLoc.FV=div[id*='passwordAndGo']>input:nth-child(1)
+new-atitesting.homepage.passwordLoc.NFV=#signOnForm-passwordText
+new-atitesting.goBtnLoc1=#signOnForm-passwordAndGo .signOnForm-go
+new-atitesting.goBtnLoc=input[data-atiid='loginAction']
+new-atitesting.newgoBtnLoc=.primary-button.focus-element-flag.mat-raised-button
+new-atitesting.all.tabs=.primary-nav
+new-atitesting.signout.loc=#portalLogout span:nth-of-type(1)
+add.product=#tabs-2 a[data-atiid="addProductAction"]
+add.product.apply.tab=#tabs-4 a[data-atiid="addProductAction"]
+add.product.learn.tab=#tabs-1 a[data-atiid="addProductAction"]
+
+#Common
+newati.Hope.Page.Title=Home - ATI Testing
+new-atitesting.common.li=li
+new-atitesting.common.section=section
+new-atitesting.common.div=div
+new-atitesting.common.nav=nav
+new-atitesting.common.a=a
+new-atitesting.peasewait.testtab.assessment.loading=.no-products h3
+new-atitesting.peasewait.bufferLoc1=.blockUI.blockOverlay
+new-atitesting.checkbox.learntab=#tutorialTypeLabel
+new-atitesting.peasewait.bufferLoc=.blockUI.blockMsg.blockPage
+new-atitesting.add.product.loc=.add-product-btn.focus-element-flag
+new-atitesting.add.product.id.loc=.focus-element-flag.focus-on
+new-atitesting.add.product.id.learn.tab.loc=#OrderPaymentDialog .focus-element-flag.focus-on
+new-atitesting.add.product.id.new.loc=div[class='add-product-step-1'] .focus-element-flag.focus-on
+new-atitesting.add.product.password.loc=.add-product-step-1 section .focus-element-flag[type='password']
+new-atitesting.add.product.continue.button.loc=.focus-element-flag.step-modal-nav-right.move-to-next-content-active
+new-atitesting.product.information.popup.loc=.product-info-cell>div
+new-atitesting.product.information.popup.close.button.loc=.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close.focus-element-flag.ui-state-hover
+new-atitesting.selfpay.product=section[class="card proctored-assessment front"]>section>div
+new-atitesting.selfpay.product.info.button=.icon.focus-element-flag.focus-on
+new-atitesting.logo.loc=#studentPortalHeader .logo
+new-atitesting.hometab.upper.links.loc=.secondary-nav ul li a
+new-atitesting.hometab.bottom.links.loc=.footer-wrapper nav ul li a
+new-atitesting.hometab.main.tab.links=.primary-nav li a
+new-atitesting.privacyPolicyLinkLoc=#studentPortalFooter li:nth-child(1) a
+new-atitesting.homepage.linkpage.linksText= h1.color-1
+new-atitesting.homepage.linkpage.linksText.contactus=a.display-inblock:nth-child(1)
+new-atitesting.homepage.linkpage.linksText.Terms=#Content_C001_Col00>h2
+new-atitesting.loginpage.student.sign.on.loc=.sign-in-area header h1
+new-atitesting.onlinestore.link=.sign-in-secondary-nav ul li
+new-atitesting.online.store.search.button=#ctl00_ctl00_txtSearchBox
+new-atitesting.online.store.go.button= #searchbox > input:nth-child(2)
+new-atitesting.homepage.myatitab.contentarea.dropdown.loc=.content-area-select div
+new-atitesting.homepage.myatitab.contentarea.dropdown.options.loc=.select-primary .focus-element-flag option
+new-atitesting.homepage.learn.tab=#tabs-1 .flipper
+new-atitesting.homepage.learn.tab.purchased.tutorial=div[class="learn-card-front-wrapper default-container"]
+new-atitesting.homepage.Test.tab=#tabs-2 .flipper
+new-atitesting.homepage.apply.tab=#tabs-4 .flipper
+new-atitesting.homepage.full.page.calendar.link=section [class="calendar-area-pulse"] a[data-bind="click: ShowFullPageCalendar"]
+new-atitesting.homepage.full.page.calendar.link.nonpulse=section[class="calendar-area"] div[class="calendar-area-select"] a[class="focus-element-flag focus-on"][data-bind="click: ShowFullPageCalendar"]
+new-atitesting.homepage.full.page.calendar.month.button.loc=#calendar .button-group a
+new-atitesting.homepage.full.page.calendar.previous.month=a[data-handler="prev"]
+new-atitesting.homepage.full.page.calendar.next.month=a[data-handler="next"]
+new-atitesting.homepage.full.page.calendar.today.date=.ui-datepicker-today a
+new-atitesting.homepage.full.page.calendar.year.loc=#datepicker .ui-datepicker-title span
+new-atitesting.calendar.week.names.loc=#datepicker .ui-datepicker-calendar th span
+new-atitesting.calendar.week.days.header.loc=#FullPageWeeklyCalendar .ui-datepicker-title span
+new-atitesting.homepage.full.page.month.previous.loc=a[aria-label="Previous Week"]
+new-atitesting.homepage.full.page.month.next.loc=a[aria-label="Next Week"]
+new-atitesting.homepage.calendar.week.names=#WeeklyDayAndDate span
+#Learn Tab
+new-atitesting.learn.tab=#LearnTabNav
+new-atitesting.learn.type.section=#tabs-1 aside
+
+#Test Tab
+new-atitesting.test.tab=#TestTabNav
+new-atitesting.test.tab.new.loc=#TestTabNav
+new-atitesting.test.view.section=#tabs-2 aside
+new-atitesting.test.result.button.loc=#testResults2
+#Improve Tab
+new-atitesting.improve.tab=#ImproveTabNav
+new-atitesting.improve.type.section=#tabs-3 .content-filters
+new-atitesting.improve.type.section.new=#tabs-3
+
+#Apply Tab
+new-atitesting.apply.tab=#ApplyTabNav
+new-atitesting.apply.type.section=#tabs-4 aside
+
+new-atitesting.nclex.tab=#NCLEXPrepTabNav
+#MyResults Tab
+new-atitesting.my.results.heading=.my-results header h1
+
+#Help Tab
+new-atitesting.my.help.heading=.my-help header h1
+#Home Page
+### Aditya Changes ###
+new-atitesting.homepage.my.account.loc=.header-wrapper>nav:nth-of-type(1)>ul>li:nth-child(1)>a
+new-atitesting.homepage.online.store.loc=.header-wrapper>nav:nth-of-type(1)>ul>li:nth-child(2)>a
+new-atitesting.homepage.contact.us.loc=.header-wrapper>nav:nth-of-type(1)>ul>li:nth-child(3)>a
+new-atitesting.homepage.sign.out.loc=.header-wrapper>nav:nth-of-type(1)>ul>li:nth-child(4)>a
+new-atitesting.homepage.alert.loc=#AlertTitle
+new-atitesting.homepage.news.section.loc=#body>section:nth-of-type(2)>div>aside>h1
+new-atitesting.homepage.news.section.link1.loc=.news-area>ul>li:nth-of-type(1)>a>span:nth-child(1)
+new-atitesting.homepage.news.section.link2.loc=.news-area>ul>li:nth-of-type(2)>a>span:nth-child(1)
+new-atitesting.homepage.news.section.link3.loc=.news-area>ul>li:nth-of-type(3)>a>span:nth-child(1)
+new-atitesting.ati.store.loc=div[id="content_title"] h1
+new-atitesting.ati.store.loc.new=#cart_btn>a
+
+##new-atitesting.add.product.header.loc=#ui-id-2
+new-atitesting.add.product.header1.loc=.add-product-step-1>section>h1
+new-atitesting.homepage.puse.banner.loc=.pulse-card
+new-atitesting.homepage.puse.banner.spedometer.loc=.usageContainer-60
+new-atitesting.homepage.puse.banner.info.link=.icon.focus-element-flag
+new-atitesting.homepage.puse.banner.info.popup.title.loc=#ui-id-6
+#.ui-dialog-title
+new-atitesting.homepage.puse.banner.info.popup.title=Product Information
+new-atitesting.homepage.forgot.pass.usename.poup.step.loc=.sign-in-step-username>h1
+new-atitesting.homepage.forgot.pass.pass.poup.step.loc=.sign-in-step-password>h1
+new-atitesting.homepage.forgot.pass.pass.poup.step2=Step 2: Enter your Username:
+new-atitesting.homepage.forgot.pass.usename.poup.step1=Step 1: I forgot my...
+new-atitesting.homepage.forgot.pass.usename.poup.step2=Step 2: Enter your email address
+new-atitesting.homepage.forgot.pass.usename.poup.title=Forgot Username/Password
+new-atitesting.homepage.puse.banner.numeric.value.loc=.chart-center>span
+new-atitesting.homepage.puse.banner.numeric.value.loc.new=.chart-center
+new-atitesting.homepage.puse.banner.numeric.value=99
+new-atitesting.learnTab.puse.banner.numeric.value=1
+new-atitesting.homepage.puse.banner.status.loc=.product-predict-text-green
+new-atitesting.homepage.puse.banner.view.details.link.loc=#view-details
+new-atitesting.homepage.puse.banner.view.details.link.predictAndUsageTab.loc=.ui-tabs-anchor
+new-atitesting.homepage.puse.banner.predictTab.heading.loc=.padding-left5
+new-atitesting.homepage.puse.banner.predictTab.heading=Proctored Test Results
+new-atitesting.homepage.puse.banner.UsageTab.heading.loc=.text-color.tile-font
+new-atitesting.homepage.puse.banner.UsageTab.heading=My usage of ATI learning resources
+new-atitesting.homepage.puse.banner.speedometer.text=ATI Pulse and Product Usage data updates after completion of applicable assessments, tutorials, simulations, or other product usage.
+new-atitesting.homepage.puse.banner.speedometer.text.loc=#overallUsageDialog>p
+new-atitesting.homepage.puse.banner.speedometer.text=ATI Pulse and Product Usage data updates after completion of applicable assessments, tutorials, simulations, or other product usage.
+new-atitesting.homepage.puse.banner.speedometer.text.loc=#overallUsageDialog > p:nth-child(1)
+new-atitesting.homepage.puse.banner.speedometer.text.loc.newtext=#overallUsageDialog > p:nth-child(1)
+Faculty.home.institution.name= zzDevon Medical Schoo
+new-atitesting.loginpage.IamFaculty.link.loc=#facultyPortallnk
+faculty.portal.loginpage.header.loc=.sign-in-area>header>h1
+#modal.continue.btn=div[class='modal-body'] button div[class='mat-button-ripple mat-ripple']
+modal.continue.btn=.text-ati-red.text-semibold.mat-button.mat-warn
+#Faculty Portal Locators
+ATIFaculti.login.username.loc=input[name='username']
+ATIFaculti.login.password.loc=input[name='password']
+
+ATIFaculti.login.username.loc.new=#md-input-1
+ATIFaculti.login.password.loc.new=#md-input-3
+
+ATIFaculti.login.go.button=.primary-button.focus-element-flag.mat-raised-button
+ATIFaculti.common.page.spinner.loc=div[class='block-ui-wrapper block-ui-main active']
+ATIFaculti.common.page.spinner.loc.new=.block-ui-wrapper.block-ui-main .block-ui-spinner .loader
+ATIFaculty.home.page.container.loc=.contact-widget-card.mat-card
+ATIFaculty.login.page.errorMsg.loc=.flex-container.errorMsg-inline
+ATIFaculty.atitesting.faculty.forgot.password.link=#forgotUsnPwdbtn
+ATIFaculty.atitesting.faculty.username.password.button=#forgotPasswordAction
+ATIFaculty.atitesting.faculty.username.textbox=.mat-input-infix>input[placeholder="Your Username"]
+ATIFaculty.atitesting.faculty.secutiry.question.continue.button=#validateUserName
+ATIFaculty.atitesting.secutiry.question.one=.mat-input-container.ng-untouched.ng-pristine.ng-valid>div>div>div>input
+ATIFaculty.atitesting.secutiry.question.two=#md-input-21
+ATIFaculty.atitesting.secutiry.question.three=#md-input-23
+ATIFaculty.atitesting.secutiry.question.continue.button2=.primary-button.focus-element-flag.mat-raised-button
+ATIFaculty.atitesting.new.password=#forgotPasswordNewPassword
+ATIFaculty.atitesting.reset.password=#forgotPasswordNewPasswordConfirmation
+ATIFaculty.atitesting.sign.on.now.button=#forgotPasswordSignOnNowAction
+ATIFaculty.common.page.loader=.block-ui-wrapper.block-ui-main.active
+proctor.assessment.id.loc=#ctl00_contentPlaceHolderBody_ucProductsManageProctorAssessments_ucProctorAssessmentsLogin_ProctorAssessementsInputBar_txtId
+proctor.assessment.pwd.loc=#ctl00_contentPlaceHolderBody_ucProductsManageProctorAssessments_ucProctorAssessmentsLogin_ProctorAssessementsInputBar_txtPassword
+faculty.portal.product.select.activity.proctor.assessment.submit.button.loc=#btnSubmitAssessment
+faculty.portal.product.select.activity.proctor.assessment.electronic.signature.textbox.loc=#txtFullName
+faculty.portal.product.select.activity.proctor.assessment.proctor.authentication.page.welcome.message.loc=.instructionHeader
+faculty.portal.product.select.activity.proctor.assessment.date.textbox.loc=#txtSignatureDate
+faculty.portal.product.select.activity.proctor.assessment.proceed.button.loc=#ctl00_CPHolder_btnProceed
+faculty.portal.proctor.approve.radio.button.loc=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStudent_ctl02_ctl00
+id.proctor.id.loc=#ctl00_contentPlaceHolderBody_ucProductsManageProctorAssessments_ucProctorAssessmentsLogin_ProctorAssessementsInputBar_txtId
+id.proctor.password.loc=#ctl00_contentPlaceHolderBody_ucProductsManageProctorAssessments_ucProctorAssessmentsLogin_ProctorAssessementsInputBar_txtPassword
+id.proctor.submit.loc=#btnSubmitAssessment
+faculty.portal.product.select.activity.proctor.assessment.electronic.signature.textbox.loc=#txtFullName
+id.proctor.stop.monitoring.button.loc=#btnStop
+id.proctor.ignore.radio.button.loc=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridWarning tr
+id.proctor.proctor.assessment.institution.section.at.top.loc=ctl00_contentPlaceHolderBody_filterControlsDiv
+faculty.portal.product.select.activity.proctor.assessment.electronic.signature.value=User
+faculty.portal.product.select.activity.proctor.assessment.date.textbox.loc=#txtSignatureDate
+faculty.portal.product.select.activity.proctor.assessment.proceed.button.loc=#ctl00_CPHolder_btnProceed
+faculty.portal.product.select.activity.proctor.assessment.proctor.authentication.page.welcome.message.loc=.instructionHeader
+#new-atitesting.add.product.id.loc=.add-product-step-1 section .focus-element-flag[type='text']
+#new-atitesting.test.assessment.checkbox.loc=#ctl00_CPHolder_chkIAgree
+new-atitesting.proctor.refresh.button=#btnRefreshBottom
+faculty.portal.proctor.approve.radio.button.loc=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStudent_ctl02_ctl00
+new-atitesting.proctor.start.test.button=#ctl00_CPHolder_btnStart
+
+###################Priyanka Changes###########################
+new-atitesting.myati.pleaseload.message=div[data-bind='visible: IsTab2Loading'] h3
+new-atitesting.add.product.header.loc=#ui-id-4
+
+id.proctor.id.loc=label[for='txtId']+input
+id.proctor.password.loc=label[for='txtPassword']+input
+id.proctor.submit.loc=#btnSubmitAssessment
+
+id.home.page.left.navigator.icon.from.proctor.link=.mat-toolbar-row span img[class='sidebar-icon']
+id.home.page.left.navigator.icon.link=.mat-toolbar-row span img
+id.home.page.left.navigator.arrow.icon.link=.material-icons.sidebar-dropdown.pull-right.mat-icon
+id.home.page.left.navigator.student.view.link=.ati-accent-link
+id.home.page.student.view.continue.btn=.text-ati-red.text-semibold.mat-button.mat-primary
+id.home.page.left.navigator.icon.help.link=.ati-nav-link md-icon[aria-label='help']
+id.home.page.proctor.left.navigator.icon.link=.flex-item.mat-list .mat-list-item-content a md-icon
+id.home.page.left.navigation.edit.profile.link=.ati-accent-link .material-icons.sidebar-icon.mat-icon
+id.home.page.alert.message.loc=.mat-sidenav-content div[class='alert-blue flex-container']
+id.home.edit.profile.page.personal.tab.link.loc=#summary ul
+#id.home.page.proctor.left.navigator.icon.link=.ati-nav-link .material-icons.sidebar-icon.mat-icon
+new-atitesting.learntab.add.product=section [id='tabs-2'] div[class='no-products'] div a
+#SD
+id.home.page.alert.close=.closeButton.focus-element-flag>label
+new-atitesting.download.report.loc=.default-button.focus-element-flag[data-atiid='downloadAction']
+#EBook
+new-atitesting.product.information.popup.close.button.loc.new=.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close.focus-element-flag.ui-state-focus
+
+
+##Sasmita
+new-atitesting.homepage.calender=.ui-datepicker-month
+new-atitesting.homepage.full.page.viewdetails.link=#view-details
+new-atitesting.homepage.full.page.viewDetails.page.loc=.custom-table tr th		
+new-atitesting.homepage.full.page.viewDetails.closelink.loc=button[title='Close'] span
+
+new-atitesting.logintab.upper.links.loc=.sign-in-secondary-nav ul li a
+new-atitesting.logintab.Faculty/Proctor.links.loc=#facultyPortallnk
+new-atitesting.logintab.Technical.Requirements.links.loc=.tech-requirements-area a
+new-atitesting.faculty.secutiry.question.username.text=.sign-in-step-password h1
+new-atitesting.faculty.secutiry.question.resetpassword.text=.sign-in-step-password p
+new-atitesting.homepage.full.page.calendar.area=section[class="calendar-area-pulse"] section div a[data-bind="click: ShowFullPageCalendar"]
+new-atitesting.homepage.full.page.toast.message=.toast-message i
+new-atitesting.edit.address.link.loc=a[data-atiid="editPersonalInfoAction"]
+new-atitesting.edit.address.save.loc=a[data-atiid="updatePersonalInfoAction"]
+new-atitesting.edit.address.field.loc=input[data-atiid="address1"]
+new-atitesting.edit.password.link.loc=a[data-bind="click: EditPassword"]
+new-atitesting.oldpassword.loc=input[data-atiid="oldPassword"]
+new-atitesting.newpassword.loc=input[data-atiid="newPassword"]
+new-atitesting.confirmpassword.loc=input[data-atiid="confirmnewPassword"]
+new-atitesting.edit.password.save.loc=a[data-atiid="updatePasswordAction"]
+new-atitesting.edit.sequrity.link.loc=a[data-bind="click: EditSecurityQuestions"]
+new-atitesting.edit.sequrity.field.loc=input[data-atiid="securityAnswer1"]
+new-atitesting.edit.sequrity.save.loc=a[data-atiid="updateSecurityQuestionErrorMessage"]
+
+#####14thDec
+new-atitesting.all.recentactivity.loc=div[data-bind="html:ProductName"]
+new-atitesting.all.resulttab.section.loc=.table-header-subhead.focus-element-flag span
+
+
+
+####peakhour
+
+id.home.page.left.navigator.icon.from.proctor.link=.mat-toolbar-row span img[class='sidebar-icon']
+id.home.page.left.navigator.icon.link=.mat-toolbar-row span img
+id.home.page.left.navigator.icon.help.link=.ati-nav-link md-icon[aria-label='help']
+#id.home.page.proctor.left.navigator.icon.link=.flex-item.mat-list .mat-list-item-content a md-icon
+id.home.page.left.navigation.edit.profile.link=.ati-accent-link .material-icons.sidebar-icon.mat-icon
+id.home.page.alert.message.loc=.mat-sidenav-content div[class='alert-blue flex-container']
+id.home.edit.profile.page.personal.tab.link.loc=#summary ul
+#id.home.page.proctor.left.navigator.icon.link=.ati-nav-link .material-icons.sidebar-icon.mat-icon
+
+new-atitesting.product.information.popup.close.button.loc.update=div[aria-describedby="productEbookInfoDialog"] div button 
+new-atitesting.product.information.popup.close.button.loc.update=div[aria-describedby="productEbookInfoDialog"] div button 
+new.atitesting.add.product.error.msg.loc=div[class="add-product-step-1"] .validation>strong
+###swagatika
+
+new-atitesting.mu.username.loc=#ctl00_CPHolder_LoginName
+new-atitesting.mu.password.loc=ctl00_CPHolder_Password
+new-atitesting.mu.signin.button.loc=#ctl00_CPHolder_btnLogin
+new-atitesting.mu.search.username.loc=#ctl00_CPHolder_txtSearchUsername
+new-atitesting.mu.users.go.button.loc=#ctl00_CPHolder_cmdGo
+new-atitesting.mu.users.table.load.loc=#ctl00_CPHolder_DataGridUsers
+new-atitesting.mu.users.selected.row.loc=#ctl00_CPHolder_DataGridUsers tr[class='tr_odd']
+new-atitesting.mu.users.loginas.button.loc=#ctl00_CPHolder_btnLoginAs
+new-atitesting.emulator.student.pwd=input[data-atiid="password"]
+new-atitesting.student.go.button=a[data-atiid="loginAction"]
+new-atitesting.mu.main.menu.loc=.AspNet-Menu > li:nth-child(1) > a:nth-child(1)
+new-atitesting.mu.sys.admn.menu.loc=.AspNet-Menu > li > ul>li
+new-atitesting.mu.mgmt.utility.menu.loc=#aspnetForm p a
+new-atitesting.home.page.tabs=.primary-nav>ul>li
+
+new-atitesting.home.returnToFacultyAcc.link.loc=#portalLogout span
+
+##privacy policy link Vishal
+new-atitesting.privacypolicy=#Content_C002_Col00>h2
+new-atitesting.privacyPolicyFooterLinkLoc=.footer-wrapper nav ul li
+new-atitesting.userTermsConditionsLinkLoc=.footer-wrapper nav ul li
+new-atitesting.user.terms.and.conditions.header.loc=#Content_C001_Col00>h1
+# Proctor locators - Vaishali
+ATIFaculti.login.waitfor.loc=.sign-in-area h1
+id.home.page.alert.link=.alert-blue.flex-container .flex-item a
+id.home.page.left.navigator.menu.link=.mat-toolbar-row>span:nth-of-type(1)
+id.home.page.sidebar.header=.sidebar-header.mat-list
+id.proctor.monitor.page.assessment.button=input[value='Monitor Another Assessment']
+id.proctor.monitor.page.manage.students.button=input[value='Manage Students']
+id.proctor.monitor.page.autorefresh.textfield=#ctl00_contentPlaceHolderBody_ucMonitorTests_txtRefreshRate
+id.proctor.monitor.page.updatetime.button=#lnkUpdateTime
+id.proctor.monitor.page.stop.monitoring.button=#btnStop
+new-atitesting.proctor.agreement.checkbox=.procInstructionList input
+id.proctor.monitor.page.refresh.button=#btnRefreshTop
+id.proctor.monitor.page.approve.button=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStudent_ctl02_ctl00
+#input+label:contains('Approve')
+id.proctor.monitor.page.stoptest.checkbox=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStudent_ctl02_4305594
+id.proctor.monitor.page.assessment.name=#ctl00_contentPlaceHolderBody_ucMonitorTests_LabelAssessmentName
+id.proctor.monitor.page.abandon.button=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStopped_ctl02_ctl01
+id.proctor.monitor.page.close.button=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStopped_ctl02_ctl00
+id.proctor.monitor.page.deny.button=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStudent_ctl02_ctl01
+id.proctor.monitor.page.noaction.button=#ctl00_contentPlaceHolderBody_ucMonitorTests_DataGridStudent_ctl02_ctl02
+id.proctor.monitor.page.another.id.textfield=#ctl00_contentPlaceHolderBody_ucProctorBackToMonitor_txtId
+id.proctor.monitor.page.another.pwd.textfield=#ctl00_contentPlaceHolderBody_ucProctorBackToMonitor_txtPassword
+id.proctor.monitor.page.another.submit.button=#ctl00_contentPlaceHolderBody_ucProctorBackToMonitor_btnSubmitProctorBackToMonitor
+id.proctor.monitor.page.another.back.button=#ctl00_contentPlaceHolderBody_ucProctorBackToMonitor_btnBackMonitor
+id.proctor.monitor.page.instruction.header=.instructionHeader
+id.home.page.cohort.select.text=.material-icons.sidebar-icon>img
+id.home.page.cohort.enter.textfield=input[placeholder='Enter Cohort']
+id.home.page.cohort.toggle=.mat-slide-toggle-thumb
+id.home.page.cohort.selected.textfield=.mat-option
+id.home.page.cohort.save.button=.mat-button.mat-warn span
+id.product.page.practice.assessment.tab=#ctl00_contentPlaceHolderBody_ucTabbedSubMenuManageProducts_PracticeSubNav
+id.product.page.practice.assessment.tab.save.button=#ctl00_contentPlaceHolderBody_ucProductsPracticeAssessments_btnSaveChanges
+id.product.page.practice.assessment.all.rows=.products_tableGrid>tbody td:nth-child(1)[class="products_tablecontent"]
+
+new-atitesting.proctor.resumetest.button=#btnReturnUI
+new-atitesting.proctor.error.message=#ctl00_CPHolder_msg
+new-atitesting.proctor.backtomain.button=#ctl00_CPHolder_btnBack
+new-atitesting.proctor.assessment.card.name=#tabs-2 .card.proctored-assessment.front .description
+new-atitesting.proctor.error.message1.loc=.test_standard
+new-atitesting.proctor.complete.message.loc=#msgMessage>center
+new-atitesting.proctor.complete.ok.button=#btnOK
+new-atitesting.proctor.finish.message.loc=.test_standard
+new-atitesting.proctor.finish.button=#btnFinishUI
+new-atitesting.proctor.score.area=.reporting-header-score
+
+new-atitesting.proctor.error.message.stop.text=The proctor has stopped you from continuing this test
+new-atitesting.proctor.error.message.deny.text=The proctor has denied you permission to take this test
+new-atitesting.proctor.error.message.outside.click.text=Moving outside the test area is strictly prohibited
+new-atitesting.proctor.complete.message.text=THIS IS THE LAST PAGE OF THE TEST
+new-atitesting.proctor.finish.message.test=Please press the \"Finish\" button to score your test.
+
+
+new-atitesting.content.area.dropdown=#ContentArea
+new-atitesting.home.hide.checkbox=label[for="disabledFrontTab2"] .checkbox-checked
+new-atitesting.home.test.tab.message=#tabs-2 .no-products[data-bind='visible: IsTab2Loading']
+
+new-atitesting.proctor.assessment.page.radio.button=table[class='questionFont'] tr input[type='radio']
+new-atitesting.proctor.assessment.page.checkbox=table[class='questionFont'] tr input[type='checkbox']
+new-atitesting.proctor.assessment.page.draganddrop=table[class='questionFont'] tr td
+new-atitesting.proctor.assessment.page.textbox=tr input[type='text']
+new-atitesting.proctor.assessment.page.hotspot.image=td map area
+
+asmt.login.faculty.msg.loc=#divErrorMessage
+asmt.login.inactive.institution.close.loc=#ui-id-2 + button
+asmt.login.inactive.institution.popup.loc=h2[id="ui-id-2"][class="ui-dialog-title"]
+asmt.login.reactivation.account.popup.loc=h2[id="ui-id-1"][class="ui-dialog-title"]
+asmt.login.reactivation.account.popup.choice.loc=.question-option.focus-element-flag>form>label
+asmt.login.reactivation.account.popup.choice.emailsent.loc=#ForgotPasswordDialog>h1
+asmt.login.reactivation.account.popup.choice.continue.loc=.move-to-next-content-active.focus-element-flag>span
+asmt.login.reactivation.account.popup.close.loc=#ui-id-1 + button
+
+new-atitesting.home.news.date.loc=.date[data-atiid='showNewsItemDateAction']
+##Vishal regression changes##
+new-atitesting.home.page.news.header.loc=aside[class='news-area'] h1
+new-atitesting.home.page.news.links.loc=span[class='title']
+new-atitesting.news.link.pop.up.name.loc=#ui-id-4
+
+new-atitesting.news.seemore.loc=.more-icon	
+new-atitesting.improve.popup.close.loc=.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close.focus-element-flag.ui-state-focus.ui-state-hover
+SMloc=#tutorialModuleUsagePercent
+
+new-atitesting.pulse.banner.info.btn.loc=.icon.focus-element-flag
+new-atitesting.pulse.banner.messages.loc=#pulseInfoDialog p
+
+new-atitesting.demo.css.color.loc=.accent-button
+new-atitesting.demo.css.color.attribue=border-top-color
+new-atitesting.speedometer.score1.css.color.loc=.usage-overlay-60
+new-atitesting.speedometer.css.score1.color.attribue=background-color
+new-atitesting.speedometer.score0.css.color.loc=.usageBackground-60
+new-atitesting.cardback.speedometer.loc.pharmacology=#productTutorialModuleList li[data-bind="css:{'flash-cards':Module.ResourceTypeID == 5}"] .usage-60
+new-atitesting.cardback.speedometer.loc.Sk2=#productSkillsModulesModuleList li .usage-60
+
+new-atitesting.calendar.event.close.btn.loc=div[aria-describedby='calendarEventsDialog'] div button
+
+new-atitesting.cardback.speedometer.loc.Nurselogic=#productTutorialModuleList li .usage-60
+
+new.atitesting.downloaf.button.ipp.page.loc=button[aria-label='Download Full Report']
+new.atitesting.cardback.dd.loc=select[aria-describedby='SimViewDescription']
+new.atitesting.cardback.firstModule.loc=#BeginCaseButton1
+new.atitesting.cardback.kognitoModule.loc=#BeginCaseButton16
+
+newati.close.button.LTI=.close-button.focus-element-flag
+
+newati.simulation.name.LTI=span[data-bind='text:ContentProductName']
+newati.module.name.LTI=span[data-bind='text:ContentProductName']
+newati.product.module.name.LTI=span[data-bind='text:ContentProductModuleName']
+newati.iframe.LTI=#LTIFrame
+newati.close.dialog.LTI=section[data-atiid='CloseDialog']
+newati.close.dialog.yes.LTI=a[data-atiid="yesAction"]
+newati.close.button.LTI.kognito=.close-button > span:nth-child(2)
+newati.close.button.LTI.civility=#close-button > a
+
+new-atitesting.welcometoati=#wm-title-109146 > span
+new-atitesting.welcometoati.close=#wm-shoutout-109146 > div.wm-close-button.walkme-x-button.walkme-outline-hand
+
+newati.card.back.title.loc=#productTutorialModuleList>h1
+newati.card.back.title.loc.quiz=#learningSystemModuleList>h1
+newati.card.back.title.loc.stt=.lesson-header-details>ul>li>span
+
+newati.home.page.add.product.link.loc=a[class='add-product-btn focus-element-flag']
+
+new-atitesting.question.assement.question.close.yes.button.new=button[class='button secondary-button focus-element-flag ng-star-inserted']
+
+new.atitesting.home.page.recent.activity.header.loc=section[class='activity-summary-area'] h1[class='section-h1']
+
+newati.atitesting.homepage.news.header.loc=div[class='news-responsive-no-calendar'] h1
+newati.atitesting.homepage.news.list.loc=div[class='news-responsive-no-calendar'] ul li
+newati.atitesting.homepage.news.name.loc=span[class='title']
+newati.atitesting.homepage.news.popup.name.loc=div[aria-describedby='newsDialog'] span
+newati.atitesting.homepage.news.popup.close.button.loc=div[aria-describedby='newsDialog'] button
+
+newati.close.dialog.yes.LTI.new=#CloseDialog > section > nav > ul > li:nth-child(1) > a
+new.atitesting.cardback.ha.vpe.loc=#BeginCaseButton13
+
+new.atitesting.cardback.ha.chart.loc=#btnChart>div
+newati.simulation.module.name.LTI=span[data-bind='text:ContentProductModuleName']
+
+newati.close.dialog.ha.LTI=#CloseDialog
+newati.close.dialog.proceed.LTI=#CloseDialog section section span[class='right'] button
+new-atitesting.homepage.puse.banner.info.popup.forgot.loc=#ui-id-1

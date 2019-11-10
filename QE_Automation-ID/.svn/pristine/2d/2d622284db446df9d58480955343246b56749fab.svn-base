@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Institutional Delivery Project" preserve-order="true" parallel="methods" thread-count="2">
+
+	<listeners>
+		<!--<listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> -->
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.id.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+			
+	<test name="Institution Delivery Smoke">
+		<classes>
+			<class name="com.automation.id.smoke.Smoke_ITR_BV_TEAS_PreviewTest"></class>
+			<class name="com.automation.id.smoke.Smoke_WarmTransfersTest"></class>
+			<class name="com.automation.id.smoke.Smoke_HomeTest"></class>
+			<class name="com.automation.id.smoke.Smoke_NonCarpHomePageTest"></class>
+			<class name="com.automation.id.smoke.Smoke_EditProfilePageTest"></class>
+			<class name="com.automation.id.smoke.Smoke_STT_SKM_RL_PreviewTest"></class>
+			<class name="com.automation.id.smoke.Smoke_PeoplePageTest"></class>
+			<class name="com.automation.id.smoke.Smoke_PersonnelRoleTest"></class>
+			<class name="com.automation.id.smoke.Smoke_FacultyRoleTest"></class>
+			<class name="com.automation.id.smoke.Smoke_HelpPageTest"></class>
+			
+		</classes>
+	</test>
+	
+</suite>

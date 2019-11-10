@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Institutional Delivery Project">
+	<listeners>
+		<listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> 
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.id.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+	<!-- Regression Test Case Start -->
+	<test name="Institution Delivery Regression">
+		<classes>
+			<class name="com.automation.id.login.ForgotPasswordTest"></class>
+			<class name="com.automation.id.login.LoginTest2" />
+			<class name="com.automation.id.login.LoginTest3"></class>
+			<class name="com.automation.id.login.LoginTest4"></class>
+			<!-- 6 -->
+			<class name="com.automation.id.product.ManageRosterTest"></class>
+			<class name="com.automation.id.product.ManageRosterTest1"></class>
+			<class name="com.automation.id.product.ManageRosterTest3"></class>
+			
+			<class name="com.automation.id.edit.profile.AccountCreationTest"></class>
+			<class name="com.automation.id.edit.profile.EditProfileTest"></class>
+			<!-- 3 -->
+			<class name="com.automation.id.help.HelpPageTest"></class>
+			<!-- 6 -->
+			<class name="com.automation.id.help.HelpPageTest2"></class>
+		</classes>
+
+	</test>
+	<!-- Regression Test Case End -->
+
+</suite>

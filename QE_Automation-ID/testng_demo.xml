@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Institutional Delivery Project">
+	<test name="Institution Delivery">
+		<classes>
+			<class name="com.automation.id.home2.HomeTest2">
+				<methods>
+					<include name="INST1946_VerifyHomeDashboard"></include>
+					<include name="INST1948_VerifyCustomizedFromEllipses"></include>
+				</methods>
+			</class>
+			<class name="com.automation.id.home2.HomeTest2Instructor">
+				<methods>
+					<include name="INST1982_VerifyGraduationFilterApplyBtn"></include>
+					<include name="INST1989_VerifyGraduationCohort"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

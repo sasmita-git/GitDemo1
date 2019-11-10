@@ -1,0 +1,46 @@
+#The bowser you want to launch the tests on. Should be one of {android|chrome|firefox|htmlunit|internet explorer|iPhone|iPad|opera|safari}.
+global.browser.name=chrome
+#global.browser.name=firefox
+#global.browser.name=ie
+#global.browser.name=edge
+#global.browser.name=android
+
+#Timeout Properties. 
+waittimeout=5000
+verifyinterval=250
+global.driver.wait=60
+
+#The bowser you want to launch the tests on. Should be one of {android|chrome|firefox|htmlunit|internet explorer|iPhone|iPad|opera|safari}.
+#global.browser.capability.browserName=firefox
+global.browser.capability.browserName=chrome
+global.browser.capability.browserName.ch=chrome
+#global.browser.capability.browserName=internet explorer
+#A key specifying which platform the browser should be running on. This value should be one of {WINDOWS|XP|VISTA|MAC|LINUX|UNIX|ANDROID}
+global.browser.capability.platform=WINDOWS
+
+#Driver Executables
+global.browser.chrome.driver.executable=C:/WebDrivers/chromedriver.exe
+#global.browser.ie.driver.executable=C:/WebDrivers/IEDriverServer.exe
+#global.browser.ie.driver.executable=C:/WebDrivers/internetexplorerdriver.exe
+
+global.report.file.name=NewATI_AUTOMATION_REPORT.html
+
+#Environment Parameterization. 
+global.environment.name=stage
+
+#TestLink Integration
+global.testlink.api.projectname=New ATI
+global.testlink.api.planname=Smoke_Automation
+global.testlink.execute=false
+global.testlink.api.devkey=9c93b1af80d561e73eb131506e821bdc
+
+global.driver.wait=120
+global.grid.mode=false
+global.grid.hub=http://10.16.62.82:4444/wd/hub
+
+#Default download location for files that you may want to download as a part of your tests
+global.download.location=C:/download/NewATI
+
+#Mobile browser URL
+global.mobile.hub=http://127.0.0.1:4723/wd/hub
+global.mobile.device.name=Nexus_6_API_24

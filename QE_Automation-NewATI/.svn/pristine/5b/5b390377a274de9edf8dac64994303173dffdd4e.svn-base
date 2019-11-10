@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project">
+
+	<listeners>
+		<listener
+			class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" />
+
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+
+
+	<test name="CreateAccountTestClassScripts">
+		<classes>
+			<class name="com.automation.newati.regression.learntab.LearnTabOthers">
+				<methods>
+					<include name="NewATI519_VerifyFlashCardSemesterPayment"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>  
+	
+	

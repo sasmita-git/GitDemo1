@@ -1,0 +1,128 @@
+
+#### PROCTOR ASSIGN
+assign.proctor.button= #mat-tab-label-0-5 > div:nth-child(1)
+assign.proctor.select.institution= li.active:nth-child(1) > a:nth-child(1) > span:nth-child(2)
+assign.proctor.select.all.institution=.select-institution
+assign.proctor.select.proctor= li.active:nth-child(2) > a:nth-child(1) > span:nth-child(2)
+assign.proctor.search.button.for.proctor=[aria-label='Search in list']
+assign.proctor.export.button=.text-ati-black
+assign.proctor.list.of.proctor=.select-institution.ng-star-inserted
+assign.proctor.save.changes.button= button.mat-button.mat-primary.ng-star-inserted span.mat-button-wrapper
+assign.proctor.search.button.for.assessments=[aria-label='Search in table']
+
+
+###STEP2
+
+#### PROCTOR CERTIFICATION COURSE
+
+step2.proctor.certificate.course=#mat-expansion-panel-header-2
+step2.proctor.guides.and.resources=.mat-expansion-panel-header.ng-tns-c25-13.ng-trigger.ng-trigger-expansionHeight.ng-star-inserted.mat-expanded
+step2.begin.certification= button.ng-star-inserted span
+step2.certification.expiration.date=span.default-expires
+
+
+
+
+
+######## STEP2 ALL ELEMENTS
+step2.search.button=[aria-label='Search']
+step2.close.button=[aria-label='Cancel Search']
+step2.search.here=[aria-label="search assessments to proctor"]
+step2.batch.to.search=10608966
+step2.continue.button=.pad-left-24.pad-right-24.ng-star-inserted.action-area div:nth-child(2)>button:nth-child(1)>span
+step2.checkbox.for.assessment=.mat-checkbox-inner-container
+
+step2.Assessment.name.column=div.grid-header-selected span
+step2.Assessment.name= .grid-body > div:nth-child(2) > span:nth-child(1)
+step2.cohort.group.column=div.grid-header:nth-child(3) > span:nth-child(1)
+##step2.institution.column=div.grid-header.ng-star-inserted span
+step2.institution.column=div.grid-header:nth-child(4) > span:nth-child(1)
+step2.load.more.button=div.pad-left-24:nth-child(3) > button:nth-child(1) > span:nth-child(1)
+step2.number.of.assessment.selected= .action-area > div:nth-child(1) > span:nth-child(1)
+step2.close.button.after.search.assessment= .search-area > div:nth-child(3) > button:nth-child(1) > span:nth-child(1) > mat-icon:nth-child(1)
+step2.arrow.button.beside.assessment.name.column= 
+
+
+###STEP3
+step3.all.checkbox=.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin
+step3.electronicsignature= input#signature
+step3.current.date=
+step3.I.agree.button=.top-margin-32.flex-container.ng-star-inserted .mat-button-wrapper
+
+
+###STEP4
+step4.continue.button=button.mat-button.mat-primary span.mat-button-wrapper
+step4.all.students.checkbox=.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin div:nth-child(3)
+step4.search.icon= .ati-heading
+step4.search.here=#search-control
+step4.student.name= span.blue-text
+
+
+
+###STEP5
+step5.start.proctoring.button=button.mat-raised-button.mat-primary span.mat-button-wrapper
+
+pmPage.EndAllSessionsbutton = button[color='primary']
+
+###ProctorMonitoringPage
+pmPage.GlobalMenubutton = div.active-session-menu  button.mat-icon-button
+pmPage.ProctorNewAssessmentbutton = div.mat-menu-content.ng-trigger.ng-trigger-fadeInItems  *:nth-child(1)
+pmPage.StopAllAssessmnetsbutton  = div.mat-menu-content.ng-trigger.ng-trigger-fadeInItems  *:nth-child(2)
+
+pmPage.BatchGridTitle(assessment name) = h2[class='mat-h2'][mattooltipclass='my-tooltip']
+
+pmPage.CheckboxToSelectStudentUsers =  mat-checkbox #mat-checkbox-1
+pmPage.AddStudentsbutton = div.mat-menu-content.ng-trigger.ng-trigger-fadeInItems  button:nth-child(1)
+pmPage.EndSessionsbutton  = div.mat-menu-content.ng-trigger.ng-trigger-fadeInItems  button:nth-child(2)
+pmPage.SearchIconbutton = button.search-button.mat-icon-button.ng-star-inserted
+pmPage.CloseSearch  = button[aria-label='Close search']
+pmPage.StatusColumn = mat-cell.mat-cell.cdk-column-status.mat-column-status.ng-star-inserted'
+pmPage.CompletedColumn = mat-cell.mat-cell.cdk-column-completed.mat-column-completed.ng-star-inserted
+pmPage.TimeColumn =  mat-cell.mat-cell.cdk-column-time.mat-column-time.ng-star-inserted
+pmPage.ActionsColumn =  mat-cell.mat-cell.cdk-column-action.mat-column-action.ng-star-inserted
+pmPage.SettingsIcon =  div.menu-container>button
+pmPage.BatchGridExpanderIcon =  span.mat-expansion-indicator.ng-tns-c9-5.ng-trigger.ng-trigger-indicatorRotate.ng-star-inserted
+
+
+pmPage.ApproveButton=button.mat-button:nth-child(1) > span:nth-child(1)
+pmPage.DenyButton=button.mat-button:nth-child(2) > span:nth-child(1)
+pmPage.ResumeButton= div.table-container:nth-child(1) > mat-table:nth-child(1) > mat-row:nth-child(2) > mat-cell:nth-child(4) > button:nth-child(1) > span:nth-child(1)
+pmPage.IgnoreButton=.mat-button > span:nth-child(1)
+pmPage.CloseButtonBatchGrid=mat-cell.mat-cell:nth-child(6) > button:nth-child(1) > span:nth-child(1)
+pmPage.AbandonButtonBatchGrid=mat-cell.mat-cell:nth-child(6) > button:nth-child(2) > span:nth-child(1)
+pmPage.abandon.confirm= .confirm-button > span:nth-child(1)
+pmPage.close.confirm=.confirm-button > span:nth-child(1)
+### PROCTOR NEW ASSESSMENT
+
+global.menu= .active-session-menu > button:nth-child(2) > span:nth-child(1) > mat-icon:nth-child(1)
+proctor.new.assessments.button= button.mat-menu-item:nth-child(1)
+PNA.assessment.search.button= button.ng-star-inserted > span:nth-child(1) > mat-icon:nth-child(1)
+PNA.search.assessment= #mat-input-0
+PNA.searched.assessment.checkbox= .mat-checkbox-inner-container
+PNA.assessment.continue.button = .mat-button > span:nth-child(1)
+PNA.assessment.close.button = button.mat-icon-button:nth-child(4) > span:nth-child(1) > mat-icon:nth-child(1)
+
+PNA.complete.agreement.all.checkbox = div.mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin
+#PNA.complete.agreement.all.checkbox1=#mat-checkbox-102 > label:nth-child(1) > div:nth-child(1)
+#PNA.complete.agreement.all.checkbox2=#mat-checkbox-103 > label:nth-child(1) > div:nth-child(1)
+#PNA.complete.agreement.all.checkbox3=#mat-checkbox-104 > label:nth-child(1) > div:nth-child(1)
+#PNA.complete.agreement.all.checkbox4=#mat-checkbox-105 > label:nth-child(1) > div:nth-child(1)
+#PNA.complete.agreement.all.checkbox5=#mat-checkbox-106 > label:nth-child(1) > div:nth-child(1)
+#PNA.complete.agreement.all.checkbox6=#mat-checkbox-107 > label:nth-child(1) > div:nth-child(1)
+
+PNA.electronic.signature=#mat-input-1
+PNA.I.Agree= .mat-button > span:nth-child(1)
+PNA.start.proctoring= .mat-button > span:nth-child(1)
+
+#### BATCH GRID ELEMENTS
+
+gear.button= .menu-container > button:nth-child(1) > span:nth-child(1) > mat-icon:nth-child(1)
+add.students.from.batch.grid = button.mat-menu-item:nth-child(1)
+add.students.modal.pop.up.search.button= button.ng-star-inserted:nth-child(2) > span:nth-child(1) > mat-icon:nth-child(1)
+add.students.modal.pop.up.all.student.check.box= .mat-checkbox-inner-container.mat-checkbox-inner-container-no-side-margin
+add.students.modal.pop.up.add.students.button= button.mat-button:nth-child(2) > span:nth-child(1)
+
+
+
+
+

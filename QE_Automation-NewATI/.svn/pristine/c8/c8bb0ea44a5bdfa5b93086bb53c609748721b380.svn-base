@@ -1,0 +1,413 @@
+#newati.login.url=https://student.atitesting.com
+newati.login.url=https://stage-student.atitesting.com
+newati.login.password1=Test123
+newati.stage.login.url=https://stage-student.atitesting.com						
+newati.faculty.stage.login.url2=https://www.atitesting.com
+newati.newfaculty.stage.login.url=https://stage-faculty.atitesting.com  								  
+newati.stage.login.mu.url=https://stage-mu.atitesting.com/
+newati.newfaculty.stage.login.errorMsg=Invalid Faculty credentials, Please
+id.url.prod=https://stage-faculty.atitesting.com
+id.url=https://stage-faculty.atitesting.com/login
+
+newati.login.ebook.2.0.user.name=stageautoe
+newati.login.ebook.2.0.password=Test123
+
+newati.login.user.name.718=stagepulse20
+newati.login.user.pass.718=Test123
+
+newati.login.payment.product.username=Automation_online
+newati.login.payment.product.password=Test123
+
+newati.login.user.name.771=stagejun18
+newati.cdn.771=CDN005205517
+newati.product.id.771=9n+RTD3b6
+newati.vcs.date.771=
+
+new-atitesting.lnp.username=User_3848065
+new-atitesting.lnp.password=ati
+
+newati.user.name.572=stagefr1a
+newati.password.572=Test123
+
+newati.login.user.name.ebook=Ascend_stage58
+newati.login.user.1015=BV_NewATI1015
+
+createnew-atitesting.new.usernameInput.539=stg820a.
+new-atitesting.emailInput.539=bang820aaga@gm.com
+new-atitesting.createaccount.stage.addProductCDNValue=CDN005205517
+newati.login.user.namewithrecentactivity=stgauto1
+newati.login.user.namewithrecentactivity58=prod58
+newati.login.passwordofuserwithrecent=Test123
+newati.login.user.name=stgauto1
+newati.login.user.name.nonpulse=stageNonpulseUser
+newati.login.user.password=Test123
+newati.login.user.name.TEASShare=stgauto2
+newati.login.password=Test123
+newati.login.learn.tab.user.name=stagepr1
+newati.login.learn.tab.password=Test123
+new-atitesting.forgot.pwd.user.name=stage522
+newati.login.payment.uname=stagereg27
+newati.login.payment.pwd=Test123
+newati.login.payment.uname.selfpaynonteas=stgauto1
+new-atitesting.non.teas.selfpay.id.value=9993454
+newati.login.payment.individual.sem.uname=stage1108092017
+newati.login.payment.ontime.sem.pwd=Test123
+newati.payment.ontime.sem.input2=0123406
+newati.payment.ontime.class.input2=0517changeing
+newati.login.selfpay.sem.uname.orderhistory=stagec1
+newati.login.selfpay.sem.pwd=Test123
+faculty.portal.itr.product.assessment.id.value=9833339
+faculty.portal.itr.product.assessment.pwd.value=test
+#new-atitesting.add.product.productid=SKM257821
+#new-atitesting.add.product.productpassword=28E5X
+new-atitesting.add.product.peak.productid=CDN005856832 
+new-atitesting.add.product.productpassword=68Z5366T55
+#new-atitesting.add.product.productid=10025363 
+#new-atitesting.add.product.productpassword=12
+newati.login.payment.individual.sem.uname.Smartprep=stage1108102017
+newati.login.payment.individual.sem.pwd=Test123
+newati.login.smart.prep.user.name=stagenewbuild
+newati.login.smart.prep.password=Test123
+newati.facultyportal.username=pradeep.personnel
+newati.facultyportal.password=testing
+new-atitesting.cdn.learn.tab.product.id=CDN005205517-TUT298863
+new-atitesting.selfpay.asessment.test.tab.product.id=ORD9993454
+new-atitesting.selfpay.asessment.learn.tab.product.id=TUT229205
+new-atitesting.selfpay.asessment.test.tab.product.id.teas=ORD10026119
+new-atitesting.selfpay.asessment.test.tab.product.id1=ORD9833338
+new-atitesting.selfpay.asessment.learn.tab.product.id=TUT173611
+new-atitesting.cdn.learn.tab.product.name=ATI TEAS SmartPrep
+new-atitesting.cdn.selfpay.Tes.tab.product.name=RN Adult Medical Surgical 2013
+new-atitesting.cdn.selfpay.Tes.tab.product.name.Leadership=RN Leadership 2013
+new-atitesting.cdn.selfpay.Tutorial.tab.product.name=Pharmacology Made Easy 3.0
+new-atitesting.add.product.productid.student.mimic=CDN-CDN005873629
+new-atitesting.vcs.rnLite=Video Case Studies RN - Lite
+
+newati.nclex.login.user.name2=TestUser_07042017_13
+newati.nclex.login.password=Test123
+newati.nclex.login.user.name1=stage3869
+newati.nclex.login.user.name1.PN=User050918321
+newati.nclex.login.user.name1.PN.new=User051818106
+newati.nclex.login.password3=Test123
+newati.nclex.rn.pn.login.user.name=stage27mar
+newati.nclex.rn.pn.login.password=Test123
+newati.nclex.bv.login.user.name=stagemar22
+newati.nclex.bv.login.user1023.name=BV_automation
+newati.nclex.bv.login.user1022.name=Ascend_gg8
+newati.nclex.bv.login.user.password=Test123
+newati.nclex.login.username=stagenclexauto
+newati.nclex.login.password=Test123
+
+newati.nclex.select.instance.login.username=stagenclexinstance
+newati.nclex.select.instance.login.password=Test123
+
+newati.nclex.login.enable.disable.username=stage_newNclex
+newati.nclex.login.enable.disable.password=Test123
+
+newati.username.kognito=stagemay21
+newati.pass.kognito=Test123
+
+newati.Hope.Page.Title=Home - ATI Testing
+newati.login.pulse.user.name=stagese110
+newati.login.pulse.user702.name=stagepulse21
+newati.login.pulse.user.password=Test123
+newati.login.pulse.user702.name.pulse=stage_march21
+newati.login.pulse.user700.name=User_2384862
+newati.login.pulse.user700.password=ati
+newati.login.pulse.user702.prod.name=prodpr10
+newati.login.user.name.nonpulse=stgauto1
+
+Faculty.login.pulse.user.name=cps.personnel
+Faculty.login.pulse.user.password=Password1
+
+new-atitesting.add.product.secondary.cdn.id=CDN004320615	
+new-atitesting.add.product.primary.cdn.id=CDN005205517		
+
+# Proctor Details
+id.url=https://stage-faculty.atitesting.com/login
+id.login.faculty.username=cd_proc.stage
+id.login.faculty.password=Test@123
+id.login.faculty.username.proctor=angan.111
+id.login.faculty.password.proctor=Test123
+
+#id.login.faculty.username=angan.prod
+#id.login.faculty.password=Test123
+
+id.proctor.id.value=9843919
+id.proctor.pwd.value=28W6874T56
+
+id.login.student.username=stage3869
+id.login.student.password=Test123
+new-atitesting.Product.id.peak.testing=CDN005856832-TUT308814
+
+
+new-atitesting.proctor.assessment=ATI TEAS 5
+id.proctor.id.value.prod=10076883
+id.proctor.pwd.value.prod=24Z5574T53
+id.login.faculty.username.prod=abhi.instructor
+id.login.faculty.password.prod=Test123
+####sasmita
+newati.nclex.login.user.name1.new=stagepr1
+newati.login.pulse.user702.name.new=stagepulse22
+
+new-atitesting.inactive1.user.name1=Ascend_stage58
+new-atitesting.inactive1.password1=Test123
+newati.login.user.name.new=stagepulse22
+newati.login.user.name.new.pulse=stagepulse21
+newati.login.user.name.new.newpulse=stagePulseAuto
+newati.login.user.name11111=Ascend_user26
+new-atitesting.cdn.selfpay.Tutorial.tab.product.name.tutorial.pme=Pharmacology Made Easy 3.0
+new-atitesting.cdn.learn.tab.product.name.new=Dosage Calculation 2.0: Dimensional Analysis
+new-atitesting.cdn.learn.tab.product.id.new=TUT307791
+new-atitesting.createaccount.stage.addProductCDNValue1=CDN005856125
+new-atitesting.cdn.learn.tab.product.id.cdn=CDN005856125-TUT308796
+newati.login.user.name.new.olddd=Ascend_stage58
+
+new-atitesting.add.product.peak.productid.stage=CDN005856832
+new-atitesting.Product.id.peak.testing.stage=CDN005856832-TUT308814
+newati.login.user.name.new.pulse.practice=stage12022019194
+new-atitesting.Product.id.peak.testing.stage=CDN005856832-TUT308814
+new.atitesting.calender.user=stagemar9
+newati.Disabled.Semester.payment.products.user=stage4145
+
+#Sasmita
+new-atitesting.createaccount.addProductCDNValue1=CDN005856125
+new-atitesting.createaccount.stage.addProductIDValue=TUT307791
+new-atitesting.createaccount.stage.addProductCorseId=Mqx5BdH9+
+new-atitesting.createaccount.stage.addProductproctorID=10020645
+new-atitesting.createaccount.stage.addProductproctorpwd=85Z5284s68
+new-atitesting.createaccount.stage.addProductpracticeID=10025363
+new-atitesting.createaccount.stage.addProductpracticepwd=12
+new-atitesting.addresseditinput.new=41 Madison Avenue
+newati.login.user.name.new.pulseuser=User042518581
+
+##Mimic TC's
+newati-atitesting.faculty.username=riyaz.instructor
+newati-atitesting.faculty.password=iamlegend
+new-atitesting.cdn.learn.tab.product.name.RNebook=RN eBook Library
+new-atitesting.cdn.learn.tab.product.ebookName.Info=RN eBook Library
+new-atitesting.cdn.learn.tab.product.name.PNebook=PN eBook Library
+new-atitesting.cdn.learn.tab.product.ebookName.Info.pn=PN eBook Library
+
+#swagatika
+new-atitesting.mu.username=cps.personnel
+new-atitesting.mu.password=Password1
+new-atitesting.mu.student.username=stagepulse22
+new-atitesting.mu.student.password=Test123
+newati.nclex.login.user.name1.new.boardvital=User020518378
+
+new-atitesting.566.student.username=evstud.nopas
+new-atitesting.566.student.password=test
+
+newati.login.user.name.home=User020718990
+newati.login.password.new=Test678
+
+newati.login.pulse.user.name.new=User020718149
+newati.login.pulse.user.pwd.new=Test123
+newati.login.user.name.forgotpwd=User02071862
+newati.login.user.name.admission=User021218760
+newati.login.user.name.flashcard=User021318236
+newati.login.user.name.nursedrug=User021418544
+new-atitesting.cdn.learn.tab.product.name.update=Dosage Calculation 2.0: Desired Over Have
+new-atitesting.cdn.learn.tab.product.id.update=CDN004193421-TUT258831
+
+new-atitesting.individualsemesterpayment.paymentcode=0124108
+new-atitesting.individualsemesterpayment.class=1181
+new-atitesting.latesemesterpayment.paymentcode=0125540
+new-atitesting.latesemesterpayment.class=Smart
+
+newati.login.practice.assessment.uname3=AutoUser09032018391
+newati.login.practice.assessment.name.42=RN Comprehensive Online Practice 2016 A
+newati.login.practice.cohort.name.42=pulseagain 
+
+id.login.proctor.username=cd_proc.stage
+id.login.proctor.password=Test@123
+
+id.login.proctor.rnl.2013.username=cd_proc_RNL2013_stage
+id.login.proctor.rnl.2013.password=Test123
+id.login.proctor.pncp.2014.username=cd_proc_PNCP2011_stage
+id.login.proctor.pncp.2014.password=Test123
+
+id.proctor.id.value.prod.rnl2013=10041825
+id.proctor.pwd.value.prod.rnl2013=test
+
+id.proctor.id.value.prod.rncp2010=10156065
+id.proctor.pwd.value.prod.rncp2010=89Z6886R48
+
+id.proctor.id.value.prod.cta=10156063
+id.proctor.pwd.value.prod.cta=49Z6832C56
+
+id.proctor.id.value.prod.pncp2014=10164268
+id.proctor.pwd.value.prod.pncp2014=34Z6823P55
+id.proctor.id.value.prod.rnncoc2013=10156067
+id.proctor.pwd.value.prod.rnncoc2013=59Z5526R69
+
+id.proctor.id.value.prod.rnmh2010=10156066
+id.proctor.pwd.value.prod.rnmh2010=69Z4858R49
+
+id.proctor.id.value.prod.itemType=10164267
+id.proctor.pwd.value.prod.itemType=74Z6967H55
+
+id.login.faculty.username.792=User_2267629
+id.login.faculty.pass.792=ati
+
+newati.login.user.name.maint=Ascend_maint
+newati.login.user.pwd.maint=Test123
+
+newati.login.user.inactive.inst=User_3692624
+newati.login.pwd.inactive.inst=ati
+
+newati.nclex.login.user.name1.boardvital.new=TestBoardvital
+newati.nclex.login.user.password.boardvital.new=Test123
+new-atitesting.add.product.secondary.cdn.id.new=CDN005124416
+newati.nclex.login.user.name1.skm.new=Stgreg001
+
+
+newati.login.payment.uname.payment.code=0120921
+newati.login.payment.class.code=1 022-1.
+#newati.login.payment.coupon.code.input=CARPJT8727908278
+newati.login.payment.coupon.code.input=CARPJT6619326622
+# Copoun Code to be used.
+
+#CARPJT1824632194
+#CARPJT6024788198
+#CARPJT8424944202
+#CARPJT2925100206
+#CARPJT3425256210
+#CARPJT4525412214
+#CARPJT3825412214
+#
+
+
+new-atitesting.cdn.learn.tab.product.id.update.new=CDN005130312-TUT316614
+
+#Vishal
+id.rn.adult.medical.surgical.2013.proctor.id.value=10187546
+id.rn.adult.medical.surgical.2013.proctor.pwd.value=35Z6964R52
+newati.login.user.name.value=stgauto10
+new-atitesting.demo.products.faculty.user=User_3053287
+new-atitesting.demo.products.faculty.pwd=ati
+
+newati.fac.disable.demo.products.user=nipun.stagedirector
+newati.fac.disable.demo.products.pwd=Test_001
+
+newati.speedometer.zero.percent.user=stage_user4
+newati.speedometer.zero.percent.pwd=Test123
+###Don't use below user
+newati.Speedometer.color.usage.100%.user=User_2221546
+newati.Speedometer.color.usage.100%.pwd=ati
+###
+#newati.Speedometer.color.module.yellow.user=ChmbSTGStu33
+newati.Speedometer.color.module.yellow.user=User_3404584
+#Curriculum Cohort
+newati.cohort.username.915=AutoUser1505201857
+newati.cohort.passwords.915=Test123
+newati.GC.cohort=CDN005333923
+newati.GC.cohort.with.batch.id=CDN005333923-TUT319742
+newati.GC.cohort.with.batch.id.new=CDN005333923-TUT319769
+newati.CC.cohort=CDN005335016
+newati.CC.cohort.with.batch.id=CDN005335016-TUT319748
+newati.GC.product=Dosage Calculation 2.0: Ratio and Proportion
+newati.CC.product=Dosage Calculation 2.0: Desired Over Have
+newati.GC.CC.both.products=Skills Modules 2.0
+newati.SM1.cohort.with.batch.id=CDN005333923-SKM319745
+newati.SM2.cohort.with.batch.id=CDN005335016-SKM319750
+newati.GC.cohort.coueseID=JETMP/1T7
+newati.CC.cohort.coueseID=gXU0qdccO
+
+#Date Format (D/M/YYYY)
+newati.cohort.date1=1/6/2018
+newati.cohort.course1=AutocourseGC
+newati.cohort.assigenedProduct1=PN Fundamentals 2014
+newati.cohort.productType1=Proctored Assessment
+
+newati.cohort.date2=15/7/2018
+newati.cohort.course2=AutocourseGC
+newati.cohort.assigenedProduct2=Dosage Calculation 2.0: Desired Over Have
+newati.cohort.productType2=Tutorial
+
+newati.VCSSchedule.date.771=30/6/2018
+newati.VCSSchedule.course.771=devika
+newati.VCSSchedule.assigenedProduct.771=Video Case Studies RN
+newati.VCSSchedule.productType.771=Tutorial
+
+newati.cohort.date3=31/8/2018
+newati.cohort.course3=AutocourseGC
+newati.cohort.assigenedProduct3=The Communicator 2.0
+newati.cohort.productType3=Simulation
+newati.card.back.module.name1=Technique Identifer: Client discharge planning
+newati.card.back.module.name2=Technique Identifier: Client living with asthma
+newati.card.back.module.name3=Virtual Interaction: Adolescent clients at risk for suicide
+newati.card.back.module.name4=Virtual Interaction: Adult clients misusing alcohol
+
+
+newati.cohort.date4=29/6/2018
+newati.cohort.course4=AutocourseCC
+newati.cohort.assigenedProduct4=RN Pharmacology 2013
+newati.cohort.productType4=Proctored Assessment
+
+newati.cohort.date5=17/7/2018
+newati.cohort.course5=AutocourseCC
+newati.cohort.assigenedProduct5=Sigma Theta Tau Modules 2017
+newati.cohort.productType5=Tutorial
+
+newati.cohort.date6=28/8/2018
+newati.cohort.course6=AutocourseCC
+newati.cohort.assigenedProduct6=Skills Modules 2.0
+newati.cohort.productType6=Tutorial
+
+newati.user.928=stagesmoke18
+
+new-atitesting.add.product.productid.530=10254862
+new-atitesting.add.product.productpass.530=26Z5352P53
+new-atitesting.add.product.CDN.530=CDN005333418
+new-atitesting.product.530=PN Maternal Newborn Online Practice 2014 B
+
+new-atitesting.add.product.productid.547=TUT319719
+
+id.login.proctor.teas.username=abhi.instructor
+id.login.proctor.teas.password=Test123
+
+newati.focused.review.user.name=atistg426201801
+newati.Kognito.user=stg_kognito
+
+newati.gray.user=stagepulseuser
+newati.red.user=User_2774268
+newati.yellow.user=User_2559306
+newati.green.user=User_2221546
+newati.pulse.pass=ati
+
+newati.civility.username1=stageuser_civility
+
+newati.login.payment.product.username.update=Automation_online26thJun
+newati.nclex.login.user.name1.boardvital.newuser=Testboardvital16thJuly
+newati.nclex.login.user.name1.boardvital.newusr1=Testboardvitaluser
+newati.GC.cohort.Quiz=CDN005205517
+newati.login.user.name.vcs=vcsuser
+
+newati.ehr.login.username=stageautomation
+newati.ehr.login.password=Test123
+
+#newati.learning.system.3.0.login.username=stageLS3.0
+newati.learning.system.3.0.login.username=stageLS3.0
+newati.learning.system.3.0.login.password=Test123
+
+newati.learning.studio.terms.and.condition.cohort.quiz=CDN005205517
+
+newati.focused.review.2.0.username=stagefr2.0jan8
+newati.focused.review.2.0.password=Test123
+
+newati.focused.review.2.0.618.username=stagedec20
+newati.focused.review.2.0.618.password=Test123
+
+newati.login.practice.assessment.resutlts.username=AutoCD16012019766
+newati.login.practice.assessment.resutlts.password=Test123
+
+newati.stt.username=stagesmokejan3
+newati.stt.password=Test123
+
+new-atitesting-FR2.0-username.value=stagefr2.0jan10
+new-atitesting-FR2.0-password.value=Test123
+
+new-atitesting-FR2.0-Proctor-Username.value=stagefrtesting
+new-atitesting-FR2.0-Proctor-Password.value=Test_001

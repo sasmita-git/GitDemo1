@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Institutional Delivery Project" >
+
+	<listeners>
+		<!--<listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> -->
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.id.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+	<test name="Institution Delivery" preserve-order="true">
+		<classes>
+			
+		<!-- 	<class
+				name="com.automation.id.products.manageproducts.LoginPageValidationTest" />
+			<class name="com.automation.id.home.HomeTest" />  Not to take this for new Home 2.0
+			<class name="com.automation.id.login.LoginTest" />
+			<class name="com.automation.id.help.HelpPageTest" />
+			<class name="com.automation.id.home.AlertsTest"></class>
+			<class name="com.automation.id.manageproducts.PracticeAssessmentTest"></class>
+			<class name="com.automation.id.peopletab.PeopleTabSmokeTest"></class> -->
+			
+			<!--  Optimized Start -->
+			<!-- 2 -->
+			<class name="com.automation.id.smoke.HomeTest"></class>
+			<!-- 2 -->
+			<class name="com.automation.id.smoke.LoginTest"></class>
+			<!-- 1 -->
+			<class name="com.automation.id.smoke.HelpPageTest"></class>
+			<!-- 3 -->
+			<!-- <class name="com.automation.id.smoke.NewProductsPageTest"></class> -->
+			<!--11 -->
+			<class name="com.automation.id.smoke.ReportTest"></class>
+			<!-- 2 -->
+			<class name="com.automation.id.smoke.ProductsTest"></class>
+			<!-- 1 -->
+			<class name="com.automation.id.smoke.BenchMarkTest"></class>
+			<!-- 7 -->
+			<class name="com.automation.id.home2.HomeTest2"></class>
+			<!-- 2 -->
+			<class name="com.automation.id.home2.HomeTest2CARPInstitution"></class>
+			<!-- 5 -->
+			<class name="com.automation.id.home2.HomeTest2Director"></class>
+			<!-- 10 -->
+			<class name="com.automation.id.home2.HomeTest2Instructor"></class>
+			<!-- 2 -->
+			<class name="com.automation.id.home2.HomeTest2Personnel"></class>
+			<!-- 1 -->
+			<class name="com.automation.id.home2.HomeTest2Proctor"></class>
+			<!-- 3 -->
+			<class name="com.automation.id.smoke.PeoplePageTest"></class>
+			<!--  Optimized End -->
+		</classes>
+	</test>
+	
+<!-- 	<test name="Institution Delivery Home 2.0">
+		<classes>
+			<class name="com.automation.id.home2.HomeTest2"></class>
+			<class name="com.automation.id.home2.HomeTest2Director"></class>
+			<class name="com.automation.id.home2.HomeTest2Instructor"></class>
+			<class name="com.automation.id.home2.HomeTest2Personnel"></class>
+			<class name="com.automation.id.home2.HomeTest2Proctor"></class>
+			<class name="com.automation.id.home2.HomeTest2CARPInstitution"></class>
+		</classes>
+
+	</test> -->
+
+</suite>

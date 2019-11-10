@@ -1,0 +1,301 @@
+new-atitesting.homepage.myatitab.ebookstype.select.loc=[data-bind*='TutorialFilterOptions']
+new-atitesting.homepage.myatitab.ebooks.continutBtn.loc=#nexz
+new-atitesting.homepage.myatitab.ebooksmodule.link=[data-bind*='click: ShowCardBack']
+new-atitesting.speedometer.cardback.loc=#tutorialModuleUsagePercent
+new-atitesting.first.PDFBook.RN=div[id='productEbookList'] a[class='button primary-button focus-element-flag']
+new-atitesting.first.PDFBook.mediaresource=.button.secondary-button.focus-element-flag
+new-atitesting.first.mediaResources.RN=div[id='productEbookList'] a[class='button secondary-button focus-element-flag']
+
+new-atitesting.results.header.loc=.my-results>header>h1
+new-atitesting.learntab.all.modules.loc=section[id='tabs-1'] ul[class='image-grid flipcontainer'] li
+new-atitesting.learntab.specific.modules.name.loc=.learn-card-front-wrapper.default-container>section
+new-atitesting.learntab.specific.modules.info.icon.loc=ul[class='image-grid flipcontainer']>li>section>div:nth-of-type(1)>header>a:nth-child(2)
+new-atitesting.all.modules.type.loc=section div header span
+new-atitesting.tutorial.dropdownLoc=select[data-bind*='TutorialFilterOptions']
+new-atitesting.infocard.titleLoc=#tabs-1 ul[class='image-grid flipcontainer'] .title
+new-atitesting.homepage.myatitab.learntab.type.dd.loc=#tabs-1 div[class='content-filters'] div
+new-atitesting.infocard.tutorialNameLoc=#tabs-1 ul[class='image-grid flipcontainer'] .description
+new-atitesting.specific.modules.name.loc.name=div[class='description']
+new-atitesting.specific.modules.name.loc=div[class='description']
+new-atitesting.specific.modules.pharmacology.button.loc=nav[class='actions'] div[data-bind='visible: !Tutorial.HasMultipleLearningLoopItems()'] a
+new-atitesting.specific.modules.pharmacology.button.new.loc=nav[class='actions'] div[data-bind='visible: !Tutorial.HasMultipleLearningLoopItems()'] a[class='button primary-button cardflip focus-element-flag']
+new-atitesting.select.instance.quiz.loc=nav[class='actions'] div[data-bind='visible: Tutorial.HasMultipleLearningLoopItems()'] a[class='button primary-button cardflip focus-element-flag']
+new-atitesting.learntab.tutorial.stt.card.back.header.loc=#productTutorialModuleList>h1
+new-atitesting.learntab.tutorial.stt.all.card.front.button=section[class='modal-additional-content'] ul li
+new-atitesting.learntab.tutorial.stt.all.card.front.button.update=.product-list-style>li
+new-atitesting.learntab.tutorial.nurse.logic.all.card.front.button=#productTutorialModuleList section[class='modal-additional-content'] ul li
+new-atitesting.learntab.tutorial.stt.card.front.begin.lesson.button=a[class='button primary-button focus-element-flag']
+new-atitesting.learntab.tutorial.skills.module2.card.front.module.name.loc=.product-result-take
+new-atitesting.learntab.tutorial.stt.card.front.module.section1.loc=div[class='product-tutorial-list-cell'] div[class="time-suggested-spent"]
+new-atitesting.learntab.tutorial.stt.card.front.module.section1.new.loc=.product-nurselogic-list-cell section
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.begin.test.button.new.loc=div div a[class='button focus-element-flag primary-button']
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.begin.test.button.loc=section[class='module-two-tests product-tutorial-display-name-fix']
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.begin.test.button.a.loc=a[class='button focus-element-flag primary-button']
+new-atitesting.learntab.tutorial.logo=.logo
+new-atitesting.learntab.tutorial.name.value=.lesson-header-details ul li span
+new-atitesting.learntab.quiz.bank.question.starting.number.loc=.sub-header ul li h1 span[data-atiid='questionNumber']
+new-atitesting.learntab.quiz.bank.question.ending.number.loc=.sub-header ul li h1 span[data-bind='text: MaxQuestionNumber']
+new-atitesting.learntab.quiz.bank.flag.button.loc=.flag-for-review-ribbon-off.focus-element-flag
+new-atitesting.learntab.quiz.bank.question.submit.button.loc=.submit-answer-button-disabled.focus-element-flag
+new-atitesting.learntab.quiz.bank.question.starting.number.loc=.sub-header ul li h1 span[data-atiid='questionNumber']
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.previous.button.loc=.focus-element-flag.move-to-prev-content.move-to-prev-content-active
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.ipp.header.loc=.lesson-header-details ul li
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.ipp.header.name.loc=.lesson-header-details ul li span[data-bind='text: AssessmentName']
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.ipp.close.button.loc=.close-button.focus-element-flag
+new-atitesting.learntab.tutorial.nurse.logic.card.front.module.name= Priority Setting Frameworks Beginning Test
+new-atitesting.learntab.tutorial.skillsmodule.card.front.module.name=Central Venous Access Devices Posttest
+new-atitesting.assessment.continue.button.loc=footer[class='product-screen-footer'] #moveNext
+new-atitesting.learntab.tutorial.card.back.disabled.module.loc=section[class='product-tutorial-list-buttons default-container disabled-background-module']
+
+
+new-atitesting.generic.tutorial.checkbox.new.loc=.question-option.focus-element-flag label
+new-atitesting.generic.tutorial.radio.button.new.loc=.ng-pristine.ng-valid label[class='ng-binding']
+new-atitesting.generic.tutorial.dragbox1.loc=#DropZoneOne
+new-atitesting.generic.tutorial.dragbox2.loc=#DropZoneTwo
+new-atitesting.question.img.loc=#hotSpotImg
+new-atitesting.myati.assessment.question.unanswered.close.loc=.modal-section button span
+new-atitesting.generic.tutorial.submit.new.loc=#moveNext
+new-atitesting.pleasewait.bufferLoc=.blockUI.blockMsg.blockPage
+new-atitesting.pleasewait.new.bufferLoc=.sub-header h1
+new-atitesting.generic.tutorial.continue.loc=.focus-element-flag.move-to-next-content-active
+new-atitesting.generic.dragamddrop.loc=.ng-binding.ng-scope.as-sortable-item-handle
+new-atitesting.generic.tutorial.flag.value=.flag-for-review-ribbon-off.focus-element-flag
+new-atitesting.question.assement.question.close.button=.close-button > span:nth-child(2)
+new-atitesting.question.assement.question.close.button.flash=.close-button.focus-element-flag.focus-on span[class="ui-button-icon-primary ui-icon ui-icon-closethick"]
+new-atitesting.learntab.tutorial.nurse.logic.table.of.contents.loc=.lesson-menu aside header
+new-atitesting.learntab.tutorial.nurse.logic.expand.all.loc=.lesson-menu>aside>h2 a 
+new-atitesting.learntab.tutorial.nurse.logic.expand.all.more.loc=.lesson-menu section[data-bind='with: LessonTOCMenu'] ul li[id='lessonHeader'] a div[class='more-icon']
+new-atitesting.learntab.tutorial.nurse.logic.expand.all.less.loc=.lesson-menu section[data-bind='with: LessonTOCMenu'] ul li[id='lessonHeader'] a div[class='less-icon']
+
+new-atitesting.learntab.quiz.bank.tools.glossary.button.loc=.lesson-glossary-icon
+new-atitesting.learntab.quiz.bank.tools.calculator.button.loc=.lesson-calculator-icon
+new-atitesting.learntab.quiz.bank.tools.study.guide.button.loc=.lesson-studyguide-icon
+new-atitesting.learntab.tutorial.nurse.logic.maximum.time.button.loc=.media-maximum-time-label
+new-atitesting.learntab.tutorial.nurse.logic.continue.button.loc=#LessonContainer section[class='lesson-content-container'] .move-to-next-content-active.focus-element-flag
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.close.button.loc=header[class='main-header product tutorial-header'] div[class='back-button-container'] a
+new-atitesting.learntab.tutorial.nurse.logic.tutorial.card.back.time.spent.loc=div[class='time-suggested-spent']
+new-atitesting.learntab.tutorial.nurse.logic.continue.where.you.left.off.window.loc=.button.primary-button.focus-element-flag
+new-atitesting.learntab.tutorial.skills.module2.card.back.header.loc=#productSkillsModulesModuleList h1
+new-atitesting.learntab.tutorial.skills.module2.card.back.name.value=Skills Modules 2.0 (30)
+new-atitesting.learntab.tutorial.skills.module2.all.card.front.button=#productSkillsModulesModuleList .module-additional-wrapper section[class='modal-additional-content'] ul li
+new-atitesting.learntab.tutorial.skills.module2.card.front.begin.lesson.button=section[class='skills-cell'] div[class='skills-row-back-cell']  div a
+new-atitesting.learntab.tutorialBeginTest.Loc=ul[class='product-list-style'] li:nth-child(1) section div:nth-child(1) div:nth-child(1) div a
+new-atitesting.learntab.product.info.close.btn.loc=div[style*='display: block;'] button[class='ui-button ui-widget ui-state-default ui-corner-all ui-button-icon-only ui-dialog-titlebar-close focus-element-flag']
+new-atitesting.learntab.loading.products.loc=#tabs-1 > div:nth-child(2) > h3
+new-atitesting.applytab.loading.products.loc=#tabs-4 > div:nth-child(2) > h3
+
+new-atitesting.learntab.quiz.bank.all.begin.quiz.button.loc=.product-list-style li section[class='product-quiz-list-buttons'] div div[class='quiz-actions']
+new-atitesting.learntab.quiz.bank.all.begin.quiz.card.back.name.loc=div[class='quiz-display-name'] span
+new-atitesting.learntab.quiz.bank.all.begin.quiz.card.back.begin.quiz.button.loc=div[class='module-buttons quiz-bank-buttons'] a[class='button focus-element-flag primary-button']
+new-atitesting.learntab.quiz.bank.all.begin.quiz.card.back.begin.quiz.name.value=Communication
+new-atitesting.learntab.quiz.bank.info.loc=section[class='card front quiz-banks'] div header a
+new-atitesting.learntab.quiz.bank.accessed.loc=section[class='card front quiz-banks'] footer span span
+new-atitesting.learntab.quiz.bank.tools.button.loc=.button.default-button.tool-dropdown.focus-element-flag
+new-atitesting.learntab.quiz.bank.tools.button.loc.new=.button.default-button.tool-dropdown.focus-element-flag.tool-dropdown-highlight
+new-atitesting.learntab.quiz.bank.show.hint.button.loc=.hint-button-off.focus-element-flag
+new-atitesting.learntab.quiz.bank.show.hint.button.loc.new=.focus-element-flag.hint-button-off
+new-atitesting.learntab.quiz.bank.flag.button.loc=.flag-for-review-ribbon-off.focus-element-flag
+new-atitesting.learntab.quiz.bank.question.starting.number.loc=.sub-header ul li h1 span[data-atiid='questionNumber']
+new-atitesting.learntab.quiz.bank.question.submit.button.loc=.submit-answer-button-disabled.focus-element-flag
+new-atitesting.learntab.quiz.bank.question.continue.button.loc=.move-to-next-content.focus-element-flag
+new-atitesting.learntab.quiz.bank.tools.glossary.button.loc=.lesson-glossary-icon
+new-atitesting.learntab.quiz.bank.tools.study.guide.button.loc=.lesson-studyguide-icon
+new-atitesting.learntab.quiz.bank.show.hint.show.in.yellow.color.loc=.hint-area ul li
+new-atitesting.learntab.quiz.bank.question.continue.wihtout.selecting.answer.message.loc=#ui-id-2
+new-atitesting.learntab.quiz.bank.question.continue.wihtout.selecting.answer.close.button.loc=.ui-button.ui-widget.ui-state-default.ui-corner-all.ui-button-icon-only.ui-dialog-titlebar-close.ui-state-hover
+new-atitesting.generic.QuizBankname.value=.card.front.quiz-banks 
+new-atitesting.specific.QuizBankname.value=.description
+new-atitesting.specific.QuizBanknameCount.value=nav[class='actions'] a[class='button primary-button cardflip focus-element-flag']  .result-count-temp
+new-atitesting.specific.QuizBankBckCount.value=.module-cell
+new-atitesting.learntab.info.loc=.product-info-cell div
+new-atitesting.learntab.info.close.loc=div[class='ui-dialog-titlebar ui-widget-header ui-corner-all ui-helper-clearfix ui-draggable-handle'] button span
+new-atitesting.learntab.tutorial.accessed.loc=section[class='card front tutorial'] div footer span span
+new-atitesting.learntab.quiz.bank.accessed.loc=section[class='card front quiz-banks'] div footer span span
+new-atitesting.learntab.hide.products.checkbox.loc=#tabs-1 .question-option.disabled-checkbox label
+new-atitesting.learntab.hide.products.loc=#tabs-1 .image-grid li
+
+new-atitesting.myatitab.improvetab.dd.loc=#tabs-3 .select.select-secondary select
+new-atitesting.myatitab.improvetab.type.dd.1.value=All
+new-atitesting.myatitab.improvetab.type.dd.2.value=Practice Assessment Focused Reviews
+new-atitesting.myatitab.improvetab.type.dd.3.value=Proctored Assessment Focused Reviews
+new-atitesting.myatitab.improvetab.type.date.loc=#tabs-3 #applications li section .time-accessed span:nth-child(2)
+new-atitesting.myatitab.improvetab.assessment.name.loc=#tabs-3 .description
+new-atitesting.myatitab.testtab.Sort.dd.1.Sort=Date Accessed
+new-atitesting.myatitab.testtab.Sort.dd.2.Sort=Name
+new-atitesting.myatitab.testtab.Sort.dd.3.Sort=Due Date
+new-atitesting.myatitab.testtab.value.dd.1.value=All
+new-atitesting.myatitab.testtab.value.dd.2.value=Accessed
+new-atitesting.myatitab.testtab.value.dd.3.value=Not Accessed
+new-atitesting.myatitab.improvetab.value.dd.1.value=All
+new-atitesting.myatitab.improvetab.value.dd.2.value=Accessed
+new-atitesting.myatitab.improvetab.value.dd.3.value=Not Accessed
+new-atitesting.myatitab.improvetab.time.accessed.loc=#tabs-3 .time-accessed
+new-atitesting.myatitab.testtab.dd.loc=#tabs-2 .select.select-secondary select
+new-atitesting.myatitab.testtab.all.assessment.name=#tabs-2 .description
+new-atitesting.myatitab.testtab.type.date.loc=#tabs-2 #applications li section .time-accessed span
+
+new-atitesting.myatitab.testtab.type.dd.1.value=All
+new-atitesting.myatitab.testtab.type.dd.2.value=Practice
+new-atitesting.myatitab.testtab.type.dd.3.value=Proctored
+new-atitesting.myatitab.testtab.type.practice.assessment.value=Practice Assessment 
+new-atitesting.myatitab.testtab.type.proctored.assessment.value=Proctored Assessment
+new-atitesting.myatitab.testtab.assessment.type.loc=.card.proctored-assessment.front header span
+new-atitesting.myatitab.testtab.type.practice.assessment.title.value=.card.practice-assessment.front .title
+new-atitesting.myatitab.testtab.type.proctored.assessment.title.value=.card.proctored-assessment.front .title
+
+
+################## Apply Tab Start ########################
+new-atitesting.myatitab.applytab.dd.loc=#tabs-4 .select.select-secondary select
+new-atitesting.myatitab.applytab.all.assessment.name=#tabs-4 .description
+new-atitesting.myatitab.applytab.loc=#tabs-4
+################## Apply Tab End ########################
+
+
+new-atitesting.myatitab.testtab.type.simulation.date.value=.card.simulation.front .time-accessed span
+
+
+######################## FlashCard Start ###################################
+new-atitesting.flashcard.cardfront.name.loc=#tabs-1 ul[class='image-grid flipcontainer'] li:nth-child(1) section div[class='description']
+new-atitesting.flashcard.cardback.being.button.loc=ul[class='product-list-style'] li:nth-child(1) section div[class='product-tutorial-list-cell'] a
+new-atitesting.flashcard.assessment.page.loc=section[class='lesson-header-details'] li:nth-child(1) span:nth-child(2)
+new-atitesting.flashcard.cardback.all.product.list.loc=#productTutorialModuleList
+
+new-atitesting.quizbanks.name.loc=#learningSystemModuleList
+new-atitesting.loginpage.gobuttonloc=input[type='submit']
+new-atitesting.learntab.quizloc=#tabs-1 ul[class='image-grid flipcontainer'] li:nth-child(1) section nav div:nth-child(1) a
+
+new-atitesting.learntab.quizbanks.begintestOrcontinuetestLoc=ul[class='product-list-style'] section>div>div:nth-child(2)>div>div:nth-child(1) a
+new-atitesting.learntab.quizbanks.startquizLoc=ul[class='product-list-style'] section>div>div:nth-child(1)>div div:nth-child(2) a
+new-atitesting.quizbanks.assessmentnameloc=.lesson-header-details ul li span:nth-of-type(2)
+new-atitesting.quizbanks.assessmentname.loc=.lesson-header-details ul li:nth-child(3) span:nth-child(2)
+new-atitesting.quizbanks.headers=.module-cell .quiz-display-name span
+
+new-atitesting.Homepage.Myresultstab.loc=header[id='studentPortalHeader'] div:nth-child(1) nav[class='primary-nav'] ul li:nth-child(3)
+new-atitesting.quizbanks.assessmentLoc=.radio:nth-child(1) div:nth-child(1) input
+new-atitesting.learntab.tutorials.assessment.submitButton=.focus-element-flag.submit-answer-button-active
+
+new-atitesting.homepage.myatitab.flashcard.link.loc=span[data-bind='text:ButtonText']
+new-atitesting.homepage.myatitab.flashcard.beginlesson.link.loc=ul[class='product-list-style'] li:nth-child(1) section>div[class='product-tutorial-list-cell'] a
+new-atitesting.homepage.myatitab.flashcardInsturctionHeaderText.loc=#flashcard-instructions h1
+new-atitesting.homepage.myatitab.flashcardInsturctionHeaderText.value=Instructions
+new-atitesting.homepage.myatitab.flashcard.frame.expected=#tutorialFrame
+new-atitesting.homepage.myatitab.startflashcardlink.loc=#start-flashcards-btn
+new-atitesting.flashcard.flashcardInstructionHeader.question.value=#flashcard-slide .flashcard:nth-child(2) div[class='flashcard-front flashcard-main flashcard-question'] h1 span:nth-child(3)
+new-atitesting.homepage.myatitab.showanswerbttn.loc=#flashcard-slide .flashcard:nth-child(3) button#show-answer-btn
+new-atitesting.homepage.myatitab.showanswerbttn.value=#flashcard-slide .flashcard:nth-child(3) button:nth-child(2)
+new-atitesting.flashcard.result.loc=#flashcard-final-screen>header>span
+new-atitesting.homepage.myatitab.viewactlrntmplt.closepdf.loc=.close-button.focus-element-flag
+new-atitesting.cardback.close.loc=.closeButton.focus-element-flag.focus-on
+######################## FlashCard End ###################################
+
+
+##Active Learning Start
+new-atitesting.myatitab.learntab.active.learning.template=#MyATIToolsSubNav
+new-atitesting.myatitab.learntab.student.instructions=#myATIcontainer > section:nth-child(11) > div > a
+##Active Learning Stop
+
+
+## Aditya Changes ##
+
+new-atitesting.learn.tab.contentareadropdown.loc=.content-area-select>div>select
+new-atitesting.learn.tab.edition.loc=.ebook-filter-area>span:nth-child(2)
+new-atitesting.learn.tab.ebook.pdfbookbtn=.ebook-row>section:nth-of-type(1)>div:nth-child(1)>a
+new-atitesting.learn.tab.ebook.pdf.pagenumber.textbox.loc=#pageNumberz
+new-atitesting.learn.tab.ebook.pdf.pagenumber.loc=.textLayer>div:nth-child(5)
+new-atitesting.learn.tab.admission.content=.learn-card-front-wrapper.default-container>section>div.description
+
+new-atitesting.learn.tab.question.no.loc=.sub-header h1 .ng-binding
+new-atitesting.learn.tab.question.no.loc1=.sub-header h1 .ng-binding
+new-atitesting.learn.tab.question.no.loc1.new=.sub-header h1 span
+new-atitesting.assessment.time.elapsed.loc=.assessment-controls .time .ng-binding
+new-atitesting.assessment.time.elapsed.loc.new=.assessment-controls li
+new-atitesting.assessment.flag.button.loc=#flagButton
+
+new-atitesting.learn.tab.module.accessed=.product-list-style>li footer div span
+new-atitesting.learn.tab.module.speedometer.value=#tutorialModuleUsagePercent
+
+
+new-atitesting.assessment.time.elapsed.loc.new=.assessment-controls li .ng-binding
+new-atitesting.assessment.flag.button.loc.new=.flag-for-review-ribbon-off.focus-element-flag
+
+new-atitesting.learntab.quiz.bank.show.hint.button.loc1=.focus-element-flag.hint-button-off
+new-atitesting.learntab.tutorial.name.value1=.lesson-header-details ul li span
+
+#Sasmita 
+new-atitesting.assessment.time.elapsed.loc1=.assessment-controls li .ng-binding
+new-atitesting.assessment.flag.button.loc1=.flag-for-review-ribbon-off.focus-element-flag
+new-atitesting.specific.product.name.loc=span[data-bind="text: Title"]
+new-atitesting.specific.spedometer.name.loc=.usage-overlay-50
+new-atitesting.specific.product.testtab.name.loc=.title
+new-atitesting.nclextab.checkboxp.loc=.checkbox-checked
+new-atitesting.specific.moreinfo.name.loc=a[aria-label="more info"]
+new-atitesting.nclexprep.tab.boardVital.Product=section[class='card front board-vital'] div[class='learn-card-front-wrapper default-container']
+new-atitesting.nclextab.checkbox.loc=#disabledNCLEXProductCheckbox .checkbox-checked
+new-atitesting.allytab.allproducts.loc=.card.simulation.front
+new-atitesting.nclex.allproducts.loc=.card.front.tutorial
+
+###Swagatika
+new-atitesting.STTLesson.Logo.loc=#image6280Img
+new-atitesting.STTLesson.home.loc=#menu45711c_1span
+new-atitesting.STTLesson.coursemenu.loc=#menu45711c_2span
+new-atitesting.STTLesson.reference.loc=#menu45711c_3span
+new-atitesting.STTLesson.MeetAuthor.loc=#menu45711c_5span
+new-atitesting.STTLesson.help.loc=#menu45711c_4span
+new-atitesting.STTLesson.bottomdetails.loc=.menu45711Font1>tbody>tr>td>span
+new-atitesting.STTLesson.course.menus.loc=#menu45711_1 a div table tr td span
+new-atitesting.STT.Lesson.started.loc.update=.text45505Font1
+new-atitesting.STT.Lesson.pagination.prev.loc=#shape36935text
+new-atitesting.STT.Lesson.pagination.next.loc=#shape45514text
+new-atitesting.STT.reference.page.text.loc=#text50776Img
+new-atitesting.STT.reference.links.loc=.text50767Font1
+new-atitesting.STT.meetauthor.page.text.loc=.text4279Font2
+new-atitesting.STT.lesson.help.content.loc=.text11785Font1
+new-atitesting.STT.lesson.help.troubleshoot.loc=#text11785 > p:nth-child(11) > span:nth-child(1)
+#Vishal
+new-atitesting.question.new.img.answer.loc=#polygon3
+new-atitesting.generic.draganddrop.loc=[ng-repeat="choice in vm.choices"]
+new-atitesting.generic.sixquestion.radio.button.loc=.ng-pristine .ng-untouched 
+
+## Test Tab - Vaishali 
+new-atitesting.test.tab.accessed.text.loc=section[aria-labelledby='TestTabNav'] ul[id='testApplications'] span[class='time-accessed'] span:contains('\\/')
+new-atitesting.test.tab.not.accessed.text.loc=section[aria-labelledby='TestTabNav'] ul[id='testApplications'] span[class='time-accessed'] span:contains('Never')
+new-atitesting.test.tab.accessed.date=section[aria-labelledby='TestTabNav'] ul[id='testApplications'] span[class='time-accessed'] span
+new-atitesting.improve.tab.area=#tabs-3 .no-data-available-area>h3
+#new-atitesting.learn.tab.focus.review=#tabs-3 .card.focused-review
+new-atitesting.learn.tab.focus.review=.flex-item-one
+new-atitesting.home.tab.recent.activity.tutorial.loc=div[data-bind*='Tutorial']
+new-atitesting.home.tab.recent.activity.NCLEX.loc=div[data-bind*='Board Vitals']
+new-atitesting.home.tab.recent.activity.flashcard.loc=div[data-bind*='Flashcard']
+new-atitesting.demo.popup.header.loc=#first-screen h3
+new-atitesting.demo.popup.verbiage.loc=#first-screen p
+new-atitesting.demo.popup.button.loc=#first-screen button
+
+new-atitesting.assessment.recent.activity.loc=.ra-row.rb-col-main.focus-element-flag
+new-atitesting.hide.disable.checkbox=#learnProductCheckBox span
+
+new-atitesting.assessment.recent.activity.loc=.ra-row.rb-col-main.focus-element-flag
+
+newati.add.product.learn.tab=#tabs-1>aside a[data-atiid='addProductAction']
+newati.add.product.learn.tab.no.products=#tabs-1 div[class='no-products'] .button.primary-button.cardflip.focus-element-flag 
+newati.add.product.learn.tab.no.prod=#tabs-1 div[class='no-products'] div a
+newati.add.product.error.msg.loc=.validation>strong
+
+newati.smart.prep.termsofuse.popup=#TermsConditions
+
+new-atitesting.demo.popup2.verbiage.loc=#second-screen p
+
+newati.card.front.infoTable.headers.loc=.custom-table.front-usage-data>tbody>tr>td:first-child
+new-atitesting.home.tab.recent.activity.pharmacologymadeeasy.3.0.loc=.more-recentAct-results > div:nth-child(1) > a:nth-child(1) > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(2)
+
+##########Devika##########
+new.atitesting.multiple.instance.stt.module=.button.primary-button.button-focus.focus-element-flag.select-instance-modules
+new.atitesting.stt.post.assessment.result.button=#TestResultButton18
+new-atitesting.stt.tutorial.begin.lesson=#BeginLessonButton4
+
+asmt.maint.textarea.loc=#fillInNumericAnswer
+new-atitesting.quizbanks.assessmentnameloc.new=.lesson-header-details>ul>li>span
+newati.cardback.header.span.loc=#selectedTutorialModuleCount
+
+new-atitesting.cardback.close.loc.update=.closeButton.focus-element-flagn
+new-atitesting.cardback.close.loc.vcs=button.closeButton:nth-child(1)
+new-atitesting.nclextab.header.section.loc=.description

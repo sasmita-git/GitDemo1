@@ -1,0 +1,111 @@
+package com.automation.newati.learntab;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.ascendlearning.automation.ui.assertions.VerificationHandler;
+import com.ascendlearning.automation.ui.config.PropertiesRepository;
+import com.ascendlearning.automation.ui.test.BaseTest;
+import com.automation.newati.pages.HomePage;
+import com.automation.newati.pages.LoginPage;
+import com.automation.newati.pages.MyATITabMainPage;
+import com.automation.newati.pages.TutorialPage;
+
+public class STTTest extends BaseTest {
+
+	private Logger logger = LogManager.getLogger(this.getClass());
+	private LoginPage loginPage;
+	private MyATITabMainPage myATITabMainPage;
+	private HomePage homePage;
+	private TutorialPage tutorialPage;
+
+	@BeforeMethod(alwaysRun = true)
+	public void setUp() throws Exception {
+		loginPage = new LoginPage(driver);
+		myATITabMainPage = new MyATITabMainPage(driver);
+		homePage = new HomePage(driver);
+		tutorialPage = new TutorialPage(driver);
+	}
+
+	@Test(priority = 1, alwaysRun = true, enabled = true, groups = { "Smoke",
+			"Regression" }, description = "Verify Sigma Theta Tau 2017 Modules on card back listed in custom order")
+	public void NewATI808_VerifySTTListedInCustomOrder() throws Exception {
+		logger.info("NewATI808_VerifySTTListedInCustomOrder Start");
+		log(logger, "NewATI808_VerifySTTListedInCustomOrder Start");
+
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.stt.username"),
+				PropertiesRepository.getString("newati.stt.password"));
+		myATITabMainPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		// Step 2 Start
+		log(logger, "Clicking on My ATI Tab");
+		homePage.clickTab(1);
+		myATITabMainPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		myATITabMainPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		myATITabMainPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		log(logger, "Verify if Content Area drop down is displayed");
+		VerificationHandler.verifyTrue(homePage.isElementDisplayed("new-atitesting.content.area.dropdown"),
+				"Unable to Verify if Content Area drop down is displayed");
+
+		// Click on Learn Tab
+		log(logger, "Clicking on Learn Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		log(logger, "Verifying STT Product");
+		VerificationHandler.verifyTrue(tutorialPage.verifyAssessmentNameByName("Sigma Theta Tau Modules 2017"),
+				"Unable to Verify STT Product");
+
+		log(logger, "Clicking on STT modules list");
+		tutorialPage.clickModuleButtonByName("Sigma Theta Tau Modules 2017");
+		VerificationHandler.verifyTrue(
+				tutorialPage.clickSelectInstance("Part of CDN005916425-TUT334722 for class GCsatgereg"),
+				"Unable to Click on STT modules list");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		log(logger, "Verifying Cardback header");
+		VerificationHandler.verifyTrue(
+				tutorialPage.verifyMessage(
+						PropertiesRepository.getString("new-atitesting.tutorial.cardback.module.header.name.loc"), 0,
+						PropertiesRepository.getString("new-atitesting.tutorial.cardback.module.header.name.value")),
+				"Unable to Verify Cardback header");
+
+		List<String> moduleNames = new ArrayList<String>();
+		moduleNames.add(PropertiesRepository.getString("sttname1.value"));
+		StringBuilder sb = new StringBuilder();
+		sb.append(PropertiesRepository.getString("sttname2.value")).append(", ")
+				.append(PropertiesRepository.getString("sttname2.value1")).append(", ")
+				.append(PropertiesRepository.getString("sttname2.value2"));
+		moduleNames.add(sb.toString());
+		moduleNames.add(PropertiesRepository.getString("sttname3.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname4.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname5.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname6.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname7.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname8.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname9.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname10.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname11.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname12.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname13.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname14.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname15.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname16.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname17.value"));
+		moduleNames.add(PropertiesRepository.getString("sttname18.value"));
+		log(logger, "Verifying STT Module name in card back");
+		VerificationHandler.verifyTrue(tutorialPage.verifyModuleListInLearnTab(moduleNames),
+				"Unable to Verify STT Module name in card back");
+
+		log(logger, "NewATI808_VerifySTTListedInCustomOrder End");
+		logger.info("NewATI808_VerifySTTListedInCustomOrder End");
+
+	}
+
+}

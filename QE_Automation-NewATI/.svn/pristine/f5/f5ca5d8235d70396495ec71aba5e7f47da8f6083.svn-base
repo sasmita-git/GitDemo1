@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project" parallel="classes" thread-count="3">
+
+	 <listeners>
+		<!-- <listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> 
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>-->
+	</listeners> 
+
+
+	<test name="Verification for smoke suit">
+		
+		<classes>
+		<!-- Total  1-->
+		<class name="com.automation.newati.smoke.SmokeTest14"></class>
+		
+		<!-- Total 1 -->
+		<class name="com.automation.newati.smoke.SmokeTest5"></class>
+		<!-- Total 1 -->
+		<class name="com.automation.newati.smoke.SmokeTest12"></class>
+		<!-- Total 6 -->
+		<class name="com.automation.newati.smoke.SmokeTest1"></class>
+		
+		<!-- Total 4 -->
+		<class name="com.automation.newati.smoke.SmokeTest2"></class>
+		
+		<!-- Total 1 -->
+		<class name="com.automation.newati.smoke.SmokeTest13"></class>
+		<!-- Total 6 -->
+		<class name="com.automation.newati.smoke.SmokeTest3"></class>
+		<!-- Total 2 -->
+		<class name="com.automation.newati.smoke.SmokeTest4"></class>
+		
+		<!-- Total 1 -->
+		<class name="com.automation.newati.smoke.SmokeTest6"></class>
+		<!-- Total 4 -->
+		<class name="com.automation.newati.smoke.SmokeTest7"></class>
+		<!-- Total 1 -->
+		<class name="com.automation.newati.smoke.SmokeTest8"></class>
+		<!-- Total 1 -->
+		<class name="com.automation.newati.smoke.SmokeTest9"></class>
+		<!-- Total 2 -->
+		<class name="com.automation.newati.smoke.SmokeTest10"></class>
+		
+		<!-- Total 3 -->
+		<class name="com.automation.newati.smoke.SmokeTest11"></class>
+		
+		<!-- Total  1-->
+		<class name="com.automation.newati.smoke.SmokeTest15"></class>
+		<!-- Total  1-->
+		<class name="com.automation.newati.smoke.SmokeTest16"></class>
+		
+		
+	
+		</classes>
+	
+	</test>
+</suite>   

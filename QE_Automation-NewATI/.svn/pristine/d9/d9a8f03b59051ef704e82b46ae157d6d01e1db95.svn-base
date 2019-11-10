@@ -1,0 +1,92 @@
+new-atitesting.applytab.disable.product.checkbox=#tabs-4 .question-option.disabled-checkbox label
+new-atitesting.homepage.myatitab.testtab.nodata.loc=#tabs-2 .no-products h3
+new-atitesting.homepage.myatitab.testtab.nodata=No assessments currently available.
+
+ 
+new-atitesting.myati.apply.tab.simulation.modules=.product-list-style li .product-tutorial-list-buttons div:nth-of-type(1) a
+new-atitesting.myati.apply.tab.simulation.link.index=0
+new-atitesting.myati.apply.tab.simulation.links=.button.cardflip.primary-button.button-focus.focus-element-flag
+new-atitesting.cardback.close.loc.new=button[class='closeButton focus-element-flag focus-on']
+ 
+new-atitesting.cardback.close.loc.improve=div[aria-describedby="slideShowDialog"] button
+new-atitesting.applytab.list.all.modules.loc=section[id='tabs-4'] .flipper section[class='card simulation front'] 
+new-atitesting.applytab.all.modules.loc=section[id='tabs-4']>ul[class='image-grid flipcontainer']>li
+new-atitesting.applytab.specific.modules.name.loc=.card.simulation.front>div:nth-of-type(1)>section>div
+new-atitesting.applytab.specific.modules.info.icon.loc=section[id='tabs-4']>ul[class='image-grid flipcontainer']>li>section:nth-of-type(1)>header>a:nth-child(2)
+
+
+new-atitesting.nclextab.cardfront.header=#tabs-6 ul li span[data-bind='text: Title']
+new-atitesting.nclextab.cardfront.info.loc=#tabs-6 ul li header a
+new-atitesting.nclextab.cardfront.footer.loc=#tabs-6 .learn-card-front-wrapper.default-container>footer
+new-atitesting.nclextab.cardfront.name.loc=section[class='card front board-vital'] div[class='learn-card-front-wrapper default-container'] .description
+new-atitesting.nclextab.cardfront.button.name.loc=#tabs-6 ul li nav div div a[class='button cardflip focus-element-flag primary-button'] span
+new.atitesting.learntab.selfpay.tutorial.name=Pharmacology Made Easy 3.0
+new.atitesting.onlinestore.tutorial=div[class="learn-card-front-wrapper default-container"]>section>div:nth-child(1)
+new.atitesting.testtab.selfpay.assess.name=RN Adult Medical Surgical 2013
+new-atitesting.apply.tab.module.speedometer.value=#simModuleUsagePercent
+new-atitesting.VCS.view.challenge.button=#VCSLite>table>tbody>tr>td>input[value='VIEW CHALLENGE VIDEO']
+new-atitesting.VCS.view.expert.button=#VCSLite>table>tbody>tr>td>input[value='VIEW EXPERT RESPONSE VIDEO']
+new-atitesting.VCS.player=.vjs-limelight-big-play
+
+
+####sasmita
+new.atitesting.learntab.selfpay.tutorial.name=Pharmacology Made Easy 3.0
+new-atitesting.myati.apply.tab.videocasestudy.link.index.new=1
+new-atitesting.myati.apply.tab.simulation.link.index.update=3
+
+##Swagatika
+new-atitesting.myati.apply.tab.simulation.link.index.VCS=2
+new-atitesting.myati.VCSPage.Name.loc=#casestudyLabel>span:nth-of-type(2)
+new-atitesting.cardback.close.simulation.loc=.kineticjs-content canvas
+new-atitesting.vcsLite.disablemodule.checkbox.loc=#disabledModuleCheckbox
+new-atitesting.vcsLite.view.cardback.loc=[aria-describedby='TutorialViewDescription']
+new-atitesting.vcsLite.sort.cardback.loc=[aria-describedby='TutorialSortDescription']
+new-atitesting.vcsLite.begin.btn.loc=a[id^='BeginLessonButton']
+new-atitesting.vcsLite.begintest.btn.loc=a[id^='BeginTestButton']
+new-atitesting.vcsLite.result.btn.loc=a[id^='CaseResultButton']
+
+
+
+#####Devika
+new-atitesting.applytab.simulation.kognito.card.front.module=#BeginCaseButton16
+new.atitesting.simulation.kognito.module.close.button=.close-button.focus-element-flag
+new-atitesting.simulation.kognito.click.close.yes=.button.primary-button.focus-element-flag.focus-on
+new.atitesting.kognito.card.back.close.button=.closeButton.focus-element-flag
+newati.myati.result.kognito.prodcut.value.new=The Communicator 2.0
+newati.myati.result.kognito.module=Virtual Interaction: Adolescent clients and performance enhancement substances
+
+
+new-atitesting.kognito.confirm.popup=.button.primary-button.focus-element-flag
+new-atitesting.cardback.kognito.close.loc=.closeButton.focus-element-flag
+new-atitesting..kognito.recent.activity=.ra-row.rb-col-main.focus-element-flag
+new-atitesting..kognito.cardback=.simulation-card-back-list
+new-atitesting.select.instance.modal.window.loc=#selectInstanceContainerNCLEXPrepTab
+new-atitesting.select.instance.modal.ul.window.loc=#selectInstanceContainerNCLEXPrepTab ul li
+
+new-atitesting.model.window.products.loc=#tabs-6 .product-list-style.duplicate-list li
+new-atitesting.model.window.products.ID.loc=.duplicate-product-header div:first-child span
+new-atitesting.model.window.products.renew.btn.loc=.duplicate-action-modules.duplicate-action-renew a
+new-atitesting.model.window.products.expiresOn.loc=.teas-expire
+new-atitesting.model.window.products.expiresOnDate.loc=.teas-expire span
+
+new-atitesting.model.window.products.accessed.loc==.time-accessed span
+new-atitesting.cardback.close.loc.ebook=span.ui-button-text
+new-atitesting.cardback.close.loc.new.ATI=.closeButton
+new-atitesting.cardback.close.loc.quiz.new=.close-button.focus-element-flag
+new-atitesting.cardback.close.loc.quiz.popup.close=.end-assessment-confirm-dialog .button-row .button.secondary-button.focus-element-flag.ng-star-inserted
+
+new-atitesting.apply.tab.simulation.card.back.name.loc=#productTutorialModuleList h1
+new-atitesting.apply.tab.simulation.name=.actions div a[class='button primary-button button-focus focus-element-flag select-instance'] div[class='result-count-temp']
+new-atitesting.apply.tab.card.back.header.loc=#productApplyModuleList h1
+new-atitesting.apply.tab.card.back.view.sort.label.loc=div[class='back js-back-active'] div[class='content-filters'] label
+new-atitesting.apply.tab.card.back.view.dd.loc=div[class='back js-back-active'] div[class='content-filters'] div span[id='SimViewDescription']
+new-atitesting.apply.tab.card.back.sort.dd.loc=div[class='back js-back-active'] div[class='content-filters'] div[id='SimulationCardbackSortDropDown']
+new-atitesting.apply.tab.all.tabs.loc=#tabs-4 ul li
+new-atitesting.apply.tab.all.tabs.default.container.loc=div[class='learn-card-front-wrapper default-container']
+new-atitesting.apply.tab.ehr.module.button.loc=nav div a[class='button primary-button button-focus focus-element-flag select-instance']
+new-atitesting.apply.tab.card.back.module.each.section.loc=div[id='productApplyModuleList'] ul[class='product-list-style']
+new-atitesting.apply.tab.card.back.module.button.loc=section[class='product-tutorial-list-buttons'] div[class='product-apply-list-cell-1'] a[class='button primary-button focus-element-flag']
+new-atitesting.apply.tab.assessment.name.loc=section[class='lesson-header-details smartprep-details'] ul li span
+new-atitesting.apply.tab.assessment.header.name.loc=div[class='wrapper'] div[class='container-fluid'] h1
+new-atitesting.apply.tab.assessment.close.button.loc=a[class='close-button focus-element-flag']
+new-atitesting.apply.tab.assessment.confirmation.popup.yes.button.loc=section[id='CloseDialog'] a[data-atiid='yesAction']

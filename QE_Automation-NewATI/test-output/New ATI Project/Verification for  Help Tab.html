@@ -1,0 +1,511 @@
+<html>
+<head>
+<title>TestNG:  Verification for  Help Tab</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Verification for  Help Tab</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/14</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 24 14:51:46 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>95 seconds (95911 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageTest<br/>
+<a href="#Output-87674905" onClick='toggleBox("Output-87674905", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-87674905" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-87674905">
+
+Unable to login To Applicationorg.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.11.0', revision: 'e59cfb3', time: '2018-03-11T20:26:55.152Z'
+System info: host: 'HMECL000695', ip: '10.160.240.150', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_181'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SASMIT~1.MIS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2adec2e8d5fc0e522f5ad03dcd074b72<br/>
+</div>
+</td>
+<td><div><pre>com.ascendlearning.automation.ui.exceptions.DriverException: Driver Verification exception:   Unable to login To Application
+	at com.automation.newati.pages.LoginPage2.loginToApplication(LoginPage2.java:143)
+	at com.automation.newati.helptab.VerifyHelpPageTest.setUp(VerifyHelpPageTest.java:34)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;HMECL000695&apos;, ip: &apos;10.160.240.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SASMIT~1.MIS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2adec2e8d5fc0e522f5ad03dcd074b72
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at com.automation.newati.pages.LoginPage2.loginToApplication(LoginPage2.java:81)
+	... 27 more
+... Removed 30 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace87674905", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace87674905'><pre>com.ascendlearning.automation.ui.exceptions.DriverException: Driver Verification exception:   Unable to login To Application
+	at com.automation.newati.pages.LoginPage2.loginToApplication(LoginPage2.java:143)
+	at com.automation.newati.helptab.VerifyHelpPageTest.setUp(VerifyHelpPageTest.java:34)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:517)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:601)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
+from unknown error: cannot determine loading status
+from disconnected: received Inspector.detached event
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;HMECL000695&apos;, ip: &apos;10.160.240.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SASMIT~1.MIS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 2adec2e8d5fc0e522f5ad03dcd074b72
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:273)
+	at com.automation.newati.pages.LoginPage2.loginToApplication(LoginPage2.java:81)
+	... 27 more
+</pre></div></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageTest@442675e1</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageTest@442675e1</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageTest@442675e1</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setup()'><b>setup</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.setUp()'><b>setUp</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest2.NewATI680_VerifyBrowserVersionInFAQSection()'><b>NewATI680_VerifyBrowserVersionInFAQSection</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest2<br>Test method: NewATI-680:Veridy the Technical requirements verbiage should be updated to include Windows 10 as supported OS.<br/>
+<a href="#Output-2108297149" onClick='toggleBox("Output-2108297149", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2108297149" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2108297149">
+
+NewATI680_VerifyBrowserVersionInFAQSection Start<br/>
+
+click on help tab<br/>
+
+Unable to click Tab<br/>
+</div>
+</td>
+<td><div><pre>com.ascendlearning.automation.ui.exceptions.DriverException: Driver Verification exception:   Unable to click Tab
+	at com.automation.newati.pages.HomePage.clickTab(HomePage.java:65)
+	at com.automation.newati.helptab.VerifyHelpPageRegressionTest2.NewATI680_VerifyBrowserVersionInFAQSection(VerifyHelpPageRegressionTest2.java:42)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;HMECL000695&apos;, ip: &apos;10.160.240.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SASMIT~1.MIS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 32a9a59743474915271d80395b2a6663
+*** Element info: {Using=css selector, value=.primary-nav}
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:417)
+	at com.ascendlearning.automation.ui.utils.ByCssSelectorExtended.findElements(ByCssSelectorExtended.java:41)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
+	at com.ascendlearning.automation.ui.handlers.BaseHandler.findElements(BaseHandler.java:123)
+	at com.ascendlearning.automation.ui.handlers.BaseHandler.findElements(BaseHandler.java:116)
+	at com.automation.newati.pages.HomePage.clickTab(HomePage.java:52)
+	... 25 more
+... Removed 28 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2108297149", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2108297149'><pre>com.ascendlearning.automation.ui.exceptions.DriverException: Driver Verification exception:   Unable to click Tab
+	at com.automation.newati.pages.HomePage.clickTab(HomePage.java:65)
+	at com.automation.newati.helptab.VerifyHelpPageRegressionTest2.NewATI680_VerifyBrowserVersionInFAQSection(VerifyHelpPageRegressionTest2.java:42)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:659)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:845)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1153)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:771)
+	at org.testng.TestRunner.run(TestRunner.java:621)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:357)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:352)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:310)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:259)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1199)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1124)
+	at org.testng.TestNG.run(TestNG.java:1032)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.38.552522 (437e6fbedfa8762dec75e2c5b3ddb86763dc9dcb),platform=Windows NT 10.0.14393 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: &apos;3.11.0&apos;, revision: &apos;e59cfb3&apos;, time: &apos;2018-03-11T20:26:55.152Z&apos;
+System info: host: &apos;HMECL000695&apos;, ip: &apos;10.160.240.150&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_181&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.38.552522 (437e6fbedfa876..., userDataDir: C:\Users\SASMIT~1.MIS\AppDa...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.103, webStorageEnabled: true}
+Session ID: 32a9a59743474915271d80395b2a6663
+*** Element info: {Using=css selector, value=.primary-nav}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:346)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementsByCssSelector(RemoteWebDriver.java:417)
+	at com.ascendlearning.automation.ui.utils.ByCssSelectorExtended.findElements(ByCssSelectorExtended.java:41)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:307)
+	at com.ascendlearning.automation.ui.handlers.BaseHandler.findElements(BaseHandler.java:123)
+	at com.ascendlearning.automation.ui.handlers.BaseHandler.findElements(BaseHandler.java:116)
+	at com.automation.newati.pages.HomePage.clickTab(HomePage.java:52)
+	... 25 more
+</pre></div></td>
+<td>9</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest2@6166e06f</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI12_verifyHelpFAQSection()'><b>NewATI12_verifyHelpFAQSection</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-12:Help Tab-FAQ verifications.::Help Tab</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI13_verifyHowToHowToUseATIverifications()'><b>NewATI13_verifyHowToHowToUseATIverifications</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-13:Help Tab-How to Use ATI verifications::Help Tab</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.NewATI24_verifyElementsOnFeedbackPage()'><b>NewATI24_verifyElementsOnFeedbackPage</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-24:Check for the elements on Feedback page.</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.NewATI25_verifySubmitButtonBecomeEnable()'><b>NewATI25_verifySubmitButtonBecomeEnable</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-25:Verify that submit button become enable.</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.NewATI30_VerifySubmitandCancelButton()'><b>NewATI30_VerifySubmitandCancelButton</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest<br>Test method:  NewATI-30:Check for Submit and Cancel button on Comments and Suggestions Feedback.</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest.NewATI32_VerifyCommentsandSuggestionsFeedbackafterSelectingRatings()'><b>NewATI32_VerifyCommentsandSuggestionsFeedbackafterSelectingRatings</b><br>Test class: com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-32:Check for Submit and Cancel button on Comments and Suggestions Feedback after selecting ratings</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest@453da22c</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageTest.NewATI46_verifyHelpPageTab()'><b>NewATI46_verifyHelpPageTab</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageTest<br>Test method: Verify if student is navigated to 'Help Tab'.::Help Tab</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageTest@442675e1</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI48_verifyFAQSection()'><b>NewATI48_verifyFAQSection</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-48:Verify the availability of FAQs section.</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI505_verifyGettingStartedSection()'><b>NewATI505_verifyGettingStartedSection</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-505:Verification for 'Getting Started with ATI' section under Help tab.</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI506_verifyHowToDocumentFAQ()'><b>NewATI506_verifyHowToDocumentFAQ</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: Verification for availability of 'How To Documents' sub section under FAQ section</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI529_verifyGettingStartedSection()'><b>NewATI529_verifyGettingStartedSection</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: NewATI-529:Verify the order of Getting started with ATI section :STU-3637.</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageTest.NewATI52_verifyHelpTabFAQverifyFAQSectionInFAQ()'><b>NewATI52_verifyHelpTabFAQverifyFAQSectionInFAQ</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageTest<br>Test method: Verify the availability of FAQs in FAQs section.::Help Tab</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageTest@442675e1</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI87_verifyHowToHowToUseATISection()'><b>NewATI87_verifyHowToHowToUseATISection</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: Help Tab: How to Use ATI</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+<tr>
+<td title='com.automation.newati.helptab.VerifyHelpPageRegressionTest.NewATI90_verifyHelpTabFAQ()'><b>NewATI90_verifyHelpTabFAQ</b><br>Test class: com.automation.newati.helptab.VerifyHelpPageRegressionTest<br>Test method: Help Tab: FAQs</td>
+<td></td>
+<td>0</td>
+<td>com.automation.newati.helptab.VerifyHelpPageRegressionTest@16267862</td></tr>
+</table><p>
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+	<configuration>
+		<!-- custom styles -->
+		<styles>
+        <![CDATA[
+            #test-details-wrapper th:nth-child(2), td.timestamp {
+    			display: none
+			} 
+        ]]>
+		</styles>
+
+	</configuration>
+</extentreports>

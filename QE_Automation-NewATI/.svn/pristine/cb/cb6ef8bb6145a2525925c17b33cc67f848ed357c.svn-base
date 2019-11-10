@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project" >
+	<listeners>
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+	</listeners>
+	<test name="Peak Hour Testing Scenarios">
+		<classes>
+			<class name="com.automation.newati.myati.test.ProctoredAssessmentTest_TEAS"></class>
+			<!-- <class name="com.automation.newati.peakhourtesting.ProctoredAssessmentTest_PeakHour"></class> -->
+		</classes>
+	</test>
+</suite>   
+
+	
+
+

@@ -1,0 +1,257 @@
+package com.automation.newati.applytab;
+
+import java.util.List;
+
+import org.apache.commons.collections.CollectionUtils;
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.ascendlearning.automation.ui.assertions.VerificationHandler;
+import com.ascendlearning.automation.ui.config.PropertiesRepository;
+import com.ascendlearning.automation.ui.handlers.BaseHandler;
+import com.ascendlearning.automation.ui.handlers.TextHandler;
+import com.ascendlearning.automation.ui.handlers.WindowHandler;
+import com.ascendlearning.automation.ui.test.BaseTest;
+import com.automation.newati.pages.ApplyTabPage;
+import com.automation.newati.pages.EHRPage;
+import com.automation.newati.pages.HAPage;
+import com.automation.newati.pages.HomePage;
+import com.automation.newati.pages.LearnTabPage;
+import com.automation.newati.pages.LoginPage;
+import com.automation.newati.pages.NclexPrepTabPage;
+import com.automation.newati.pages.PractiseAssessmentPage;
+import com.automation.newati.pages.TestTabPage;
+import com.automation.newati.pages.TutorialPage;
+import com.jaca.TestAnnotations;
+
+public class HealthAssessment  extends BaseTest{
+	
+	private Logger logger = LogManager.getLogger(this.getClass());
+	private LoginPage loginPage;
+	private HomePage homePage;
+	private LearnTabPage learnTabPage;
+	private PractiseAssessmentPage practiceAssessmentPage;
+	private WindowHandler windowHandler;
+	private TutorialPage tutorialPage;
+	private BaseHandler baseHadler;
+	private TestTabPage testTabPage;
+	private ApplyTabPage applyTabPage;
+	private NclexPrepTabPage nclexPage;
+	private BaseHandler baseHandler;
+	private EHRPage ehrPage;
+	private HAPage hapage;
+
+	@BeforeMethod(alwaysRun = true)
+	public void loginToApplication() throws Exception {
+		loginPage = new LoginPage(driver);
+		homePage = new HomePage(driver);
+		learnTabPage = new LearnTabPage(driver);
+		practiceAssessmentPage = new PractiseAssessmentPage(driver);
+		windowHandler = new WindowHandler(driver);
+		tutorialPage = new TutorialPage(driver);
+		baseHadler = new BaseHandler(driver);
+		testTabPage = new TestTabPage(driver);
+		applyTabPage = new ApplyTabPage(driver);
+		nclexPage = new NclexPrepTabPage(driver);
+		baseHandler=new BaseHandler(driver);
+		hapage=new HAPage(driver);
+		ehrPage=new EHRPage(driver);
+		
+	}
+	
+	/**
+	 *
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@TestAnnotations(testID = "NewATI-1138")
+	@Test(priority = 1, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = "NewATI-1138:Verify Health Assessment Card front page")
+	public void NewATI1138_VerifyHealthAssessmentCardFront() throws Exception {
+
+		log(logger, "NewATI1138_VerifyHealthAssessmentCardFront Start");
+		
+		log(logger, "login to application with existing user ");
+		loginPage.loginToApplication(PropertiesRepository.getString("new-atitesting-healthassessment-username.value"), PropertiesRepository.getString("new-atitesting-healthassessment-password.value"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.add.product.loc"), 20);
+		log(logger, "Clicking on My ATI Tab");
+		homePage.clickTab(1);
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+		log(logger, "Clicking on Apply  Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 3);
+		
+		log(logger, "NewATI1138_VerifyHealthAssessmentCardFront End");
+	}
+	
+	/**
+	 *
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@TestAnnotations(testID = "NewATI-1268")
+	@Test(priority = 1, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = " NewATI-1268:Verify card back and card front functionality for Health Assessment")
+	public void  NewATI1268_VerifyCardbackAndCardfrontFunctionalityForHA() throws Exception {
+
+		log(logger, "NewATI1138_VerifyHealthAssessmentCardFront Start");
+		
+		log(logger, "login to application with existing user ");
+		loginPage.loginToApplication(PropertiesRepository.getString("new-atitesting-healthassessment-username.value"), PropertiesRepository.getString("new-atitesting-healthassessment-password.value"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.add.product.loc"), 20);
+		log(logger, "Verify if Add Product Link is displayed in Home page");
+		VerificationHandler.verifyTrue(homePage.isElementDisplayed("newati.home.page.add.product.link.loc"));
+		log(logger, "Clicking on My ATI Tab");
+		homePage.clickTab(1);
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+		log(logger, "Verify if Content Area drop down is displayed");
+		VerificationHandler.verifyTrue(homePage.isElementDisplayed("new-atitesting.content.area.dropdown"));
+		log(logger, "Clicking on Apply  Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 3);
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.list.all.modules.loc"), 60);
+		log(logger, "Verifying HealthAssess ");
+		VerificationHandler.verifyTrue(hapage.VerifyIfHealthAssessDisplayed(
+				PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name")));
+		log(logger, "Verifying cardfront for HealthAssessment ");
+		VerificationHandler.verifyTrue(applyTabPage.verifyCardFrontDetails(PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"), "17"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+		
+		log(logger, "click on module  for HealthAssessment ");
+		tutorialPage.clickOnVCSModuleByName(PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new.atitesting.cardback.dd.loc"), 20);
+		log(logger, "Close Card back");
+		applyTabPage.clickButton(PropertiesRepository.getString("new-atitesting.cardback.close.loc.new"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+		
+		log(logger, "Selecting 'Fundamentals' Option from Content Area");
+		tutorialPage.selectValueBySelectClass(
+				PropertiesRepository.getString("new-atitesting.content.area.dropdown.loc"),
+				PropertiesRepository.getString("new-atitesting.content.area.value.fundamentals"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+
+		log(logger, "Verifying  all fields on card front and Modules count show is 17 in card front");
+		VerificationHandler.verifyTrue(
+				applyTabPage.verifyCardFrontDetails(PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"), "17"));
+		log(logger, "click on module  for HealthAssessment ");
+		tutorialPage.clickOnVCSModuleByName(PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new.atitesting.cardback.dd.loc"), 20);
+		log(logger, "Verify view dropdown ");
+		VerificationHandler.verifyTrue(tutorialPage.isElementDisplayed("new.atitesting.cardback.dd.loc"));
+		hapage.waitForElementPresent(PropertiesRepository.getString("new.atitesting.cardback.dd.loc"), 20);
+		log(logger, "Verify view dropdown ");
+		hapage.verifyDropdownOptionInHACardback("Accessed");
+		log(logger, "Verifying Card back header section");
+		log(logger, "Verifying View label");
+		log(logger, "Verifying View label with Accessed");
+		log(logger, "Verifying View label with NotAccessed");
+		log(logger, "Verifying Course Activities module in cardback");
+		log(logger, "NewATI1268_VerifyCardbackAndCardfrontFunctionalityForHA End");
+	}
+
+
+/**
+*
+* @author syed.pasha
+* @throws Exception
+*/
+@TestAnnotations(testID = "NewATI-1168")
+@Test(priority = 1, alwaysRun = true, enabled = true, groups = {
+		"Regression" }, description = "NewATI-1168:Verify [HA]Cardback Student engagement speedometer")
+public void NewATI1168_VerifyCardbackStudentEngagementSpeedometer() throws Exception {
+
+	log(logger, "NewATI1168_VerifyCardbackStudentEngagementSpeedometer Start");
+	
+	log(logger, "login to application with existing user ");
+	loginPage.loginToApplication(PropertiesRepository.getString("new-atitesting-healthassessment-username.value"), PropertiesRepository.getString("new-atitesting-healthassessment-password.value"));
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.add.product.loc"), 20);
+	log(logger, "Verify if Add Product Link is displayed in Home page");
+	VerificationHandler.verifyTrue(homePage.isElementDisplayed("newati.home.page.add.product.link.loc"));
+	log(logger, "Clicking on My ATI Tab");
+	homePage.clickTab(1);
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+	log(logger, "Verify if Content Area drop down is displayed");
+	VerificationHandler.verifyTrue(homePage.isElementDisplayed("new-atitesting.content.area.dropdown"));
+	log(logger, "Clicking on Apply  Tab");
+	homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 3);
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+	log(logger, "Verifying HealthAssess ");
+	VerificationHandler.verifyTrue(hapage.VerifyIfHealthAssessDisplayed(
+			PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name")));
+	log(logger, "Getting Module count from Card Front");
+	/*VerificationHandler.verifyEquals(*/
+	hapage.getModuleCount(
+					PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"));
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+	log(logger, "click on module button from cardfront ");
+	hapage.clickOnHAModuleButton(
+			PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"));
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+	log(logger, "Verify the spedometer in card back per each modules");
+	
+	log(logger, "NewATI1168_VerifyCardbackStudentEngagementSpeedometer End");
+}
+
+
+/**
+*
+* @author sasmita
+* @throws Exception
+*/
+@TestAnnotations(testID = "NewATI-1177")
+@Test(priority = 1, alwaysRun = true, enabled = true, groups = {
+		"Regression" }, description = "NewATI-1177:Verify the VPE modules for HA")
+public void NewATI1177_VerifyTheVPEModulesForHA() throws Exception {
+
+	log(logger, "NewATI1177_VerifyTheVPEModulesForHA Start");
+	
+	log(logger, "login to application with existing user ");
+	loginPage.loginToApplication(PropertiesRepository.getString("new-atitesting-healthassessment-username.value"), PropertiesRepository.getString("new-atitesting-healthassessment-password.value"));
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.add.product.loc"), 20);
+	log(logger, "Verify if Add Product Link is displayed in Home page");
+	VerificationHandler.verifyTrue(homePage.isElementDisplayed("newati.home.page.add.product.link.loc"));
+	log(logger, "Clicking on My ATI Tab");
+	homePage.clickTab(1);
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+	log(logger, "Verify if Content Area drop down is displayed");
+	VerificationHandler.verifyTrue(homePage.isElementDisplayed("new-atitesting.content.area.dropdown"));
+	log(logger, "Clicking on Apply  Tab");
+	homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 3);
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.list.all.modules.loc"), 20);
+	log(logger, "Verifying HealthAssess ");
+	VerificationHandler.verifyTrue(hapage.VerifyIfHealthAssessDisplayed(
+			PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name")));
+	log(logger, "Getting Module count from Card Front");
+	/*VerificationHandler.verifyEquals(*/
+	hapage.getModuleCount(
+					PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"));
+	hapage.waitForElementPresent(PropertiesRepository.getString("new-atitesting.applytab.tab.loc"), 20);
+	log(logger, "click on module button from cardfront ");
+
+	hapage.clickOnHAModuleButton(
+			PropertiesRepository.getString("new-atitesting.apply.tab.simulation.ha.tutor.name"));
+	
+	hapage.waitForElementPresent(PropertiesRepository.getString("new.atitesting.cardback.dd.loc"), 20);
+	
+	VerificationHandler.verifyTrue(tutorialPage.isElementDisplayed("new.atitesting.cardback.dd.loc"));
+	
+	hapage.verifyDropdownOptionInHACardback("Accessed");
+	
+	
+	log(logger, "click on the NonVPE module");
+	log(logger, "Verify the  NonVPE  page");
+	log(logger, "click on close button");
+	log(logger, "Verify the pop up");
+	log(logger, "Verify the card back for HA");
+	log(logger, "Verify the card back accessed date");
+	log(logger, "Navigate to recent activity");
+	
+	
+	log(logger, "NewATI1177_VerifyTheVPEModulesForHA End");
+}
+}
+
+
+

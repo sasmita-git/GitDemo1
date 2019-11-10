@@ -1,0 +1,26 @@
+
+#Help
+id.help.all.portlets.loc=.help-section-card.mat-card
+id.help.all.portlets.heading.name.loc=.help-section-card.mat-card md-card-title[class='help-card-title mat-card-title']
+id.help.all.portlets.heading.name.new.loc=mat-card-title[class='help-card-title mat-card-title']
+id.help.all.portlets.message.loc=.help-section-card.mat-card md-card-content[class='help-card-text mat-card-content']
+id.help.all.portlets.message.new.loc=.help-card-text.mat-card-content
+
+
+id.help.resource.contents=div[class='panel-heading'] div span
+id.help.best.practice.ATI.policy=.material-icons.flex-item.mat-icon
+id.help.resource.icon.link=.flex-item.material-icons.mat-icon
+id.help.resource.ebook.pdf.link=.formatHelpText>a 
+
+
+id.help.website.basics.header.loc=div[class='lead'] span
+id.help.website.basics.all.menu.loc=accordion[class='panel-group']
+id.help.website.basics.all.menu.name.loc=accordion-group div[class='panel-title'] span
+id.help.website.basics.all.menu.plus.symbol.loc=accordion-group mat-icon
+id.help.website.basics.all.menu.name.verify.loc=accordion-group div[class='panel-collapse ng-star-inserted'] div[class='panel-border'] h3 span
+id.help.website.basics.all.menu.welcome.to.ati.link.loc=accordion-group div[class='panel-collapse ng-star-inserted'] div[class='panel-border'] ul li a
+id.help.website.basics.all.menu.welcome.to.ati.link.popup.message1.loc=div[class='mat-tab-body-content ng-trigger ng-trigger-translateTab'] h2
+id.help.website.basics.all.menu.welcome.to.ati.link.popup.message1.next.button.loc=button[class='mat-button mat-primary']
+
+id.help.tile.list.link=.panel-collapse .panel-border a
+id.help.tile.resources.link=.flex-container .flex-item.ng-star-inserted a

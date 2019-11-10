@@ -1,0 +1,47 @@
+asmt.myati.tabs.learn=LEARN
+asmt.myati.tabs.test=TEST
+asmt.myati.tabs.improve=IMPROVE
+asmt.myati.tabs.apply=APPLY
+
+asmt.myati.practice.type=Practice
+asmt.myati.assessment.type=Practice Assessment
+asmt.myati.assessment.type.Proctor=Proctored Assessment
+asmt.myati.quiz.type=Quiz Bank
+asmt.myati.assessment.name=RN Mental Health Online Practice 2013 B
+#asmt.myati.assessment.name=RN VATI Fundamentals 2013
+asmt.myati.assessment.rn.mental.health.online.practice.2013.b.button.name=BEGIN
+asmt.myati.test.tab.assessment.pause.button.header.message.value.loc=You\u2019ll be directed back to the assessment upon full utilization of the allotted pause time.
+asmt.myati.test.tab.assessment.performance.page=Individual Performance Profile
+
+asmt.assessment.dcfpa.proctor.assessment.name=Dosage Calculation Fundamentals Proctored Assessment 2.0 Form A
+asmt.myati.recent.activity.product.type.focused.review.name=Focused Review
+
+asmt.stimulus.assessment=Practice_Test_stimulus
+asmt.exhibit.assessment=Practice_Test_Exhibit
+
+asmt.footer.text=Copyright © 2019 Assessment Technologies Institute\, L.L.C. All rights reserved.
+asmt.footer.link1=Privacy Policy
+asmt.footer.link1.title=Privacy Policy - for Students | ATI
+asmt.footer.link2=Web Site Terms of Use
+asmt.footer.link2.title=Website Terms of Use
+asmt.footer.link3=User Terms and Conditions
+asmt.footer.link3.title=User Terms of Conditions
+asmt.footer.link4=ATI Product Solutions
+asmt.footer.link4.title=All Products - For Students | ATI
+
+asmt.fiba.assessment=Assessment_practice_FIBA_question_Automation_2
+asmt.fiba.correcr.answer.mixedCase=BanGlorE
+
+#Quiz Bank
+asmt.learntab.quiz.bank.name.loc=Learning System RN 2.0
+asmt.learntab.quiz.bank.name.loc1=Learning System RN
+new-atitesting.learntab.quiz.bank.all.begin.quiz.card.back.begin.quiz.name.value=Communication
+#new-atitesting.learntab.quiz.bank.all.begin.quiz.card.back.begin.quiz.name.value=Communication Final
+asmt.quiz.show.hint.glossary.header.value=Glossary
+asmt.quiz.show.hint.calculator.header.value=Calculator
+asmt.quiz.show.hint.critical.thinking.guide.header.value=Critical Thinking Guide
+
+#Question Unanswered.
+asmt.assessment.unanswered.popup.content.text.value=Select an answer or flag the question to continue.
+asmt.myati.assessment.flagged.items.popup.message.value=Questions have been flagged. Unanswered flagged questions will be scored as incorrect. To return to the assessment and review the flagged questions, click Cancel. To score/complete assessment without reviewing the flagged questions, click Continue
+

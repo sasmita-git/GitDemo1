@@ -1,0 +1,53 @@
+newati.nclex.preptab.login.user.name=stgauto1
+newati.nclex.preptab.login.pwd=Test123
+new-atitesting.nclexprep.tab.product.input.value=TUT305688
+new-atitesting.nclexprep.tab.product.pwd.value=13H5G
+
+new-atitesting.nclexprep.tab.product.name=NCLEX-RN Live Review Tutorial
+new-atitesting.nclexprep.tab.rn.product.name=Board Vitals NCLEX Prep RN
+newati.nclex.preptab.renew.login.user.name=Ascend_bv02
+newati.nclex.preptab.disabled.login.user.name=Ascend_bv03
+newati.nclex.preptab.renew.login.pwd=Test123
+new-atitesting.nclexprep.renew.subscription.expired.date.info=2/19
+new-atitesting.nclexprep.tab.rn.availableDate=3/1/2021
+new-atitesting.nclexprep.tab.pn.availableDate=3/2/2021
+new-atitesting.nclexprep.tab.rn.expiresDate=8/28/2021
+new-atitesting.nclexprep.tab.pn.expiresDate=8/29/2021
+
+new-atitesting.nclexprep.onlinestore.id=ID ORD1846640
+new-atitesting.nclexprep.onlinestore.expiredOn.date=6/5/2018
+new-atitesting.nclexprep.gc.id=ID CDN005387528-TUT322366
+new-atitesting.nclexprep.gc.accessed=Never
+new-atitesting.nclexprep.gc.expiresOn.date=9/12/2018
+new-atitesting.nclexprep.cc.id=ID CDN005387730-TUT322394
+new-atitesting.nclexprep.cc.available.date=2/14/2019
+new-atitesting.nclexprep.cc.expiresOn.date=8/13/2019
+
+####sasmita 17thdec
+
+newati.nclex.preptab.login.user.name.new=stage101
+The NCLEX® Experience RN (4)
+#new-atitesting.nclexprep.tab.rn.product.name
+
+new.atitestig.nclex.cardfront.product.name=The NCLEX® Experience RN
+new.atitestig.nclex.cardfront.product.with.module.count=The NCLEX® Experience RN (4)
+new.atitestig.nclex.cardfront.module.count=4
+new.atitestig.nclex.cardback.section1.header.value=Overview Videos
+new.atitestig.nclex.cardback.section1.value=View the following videos to learn more about the NCLEX experience 
+new.atitestig.nclex.cardback.section1.value1=improve your test taking strategies
+new.atitestig.nclex.cardback.section1.value2=and see what NCSBN is researching for possible changes to the NCLEX.
+new.atitestig.nclex.cardback.section2.header.value=Next Generation NCLEX Item Type Videos
+new.atitestig.nclex.cardback.section2.value=Learn more about new item types being tested by NCSBN.
+new.atitestig.nclex.cardback.section3.header.value=Next Generation NCLEX Item Type Quizzes
+new.atitestig.nclex.cardback.section3.value=Now that you are familiar with each possible new item type 
+new.atitestig.nclex.cardback.section3.value1=try answering some on your own!
+new.atitestig.nclex.cardback.experience.left.section.topvalue.value=WANT MORE NCLEX PREP?
+new.atitestig.nclex.cardback.experience.left.section.bottomvalue.value1=Try BoardVitals
+new.atitestig.nclex.cardback.experience.left.section.bottomvalue.value2=our NCLEX prep quiz bank.
+new.atitestig.nclex.cardback.experience.right.section.topvalue.value1=Get ready to pass NCLEX with BoardVitals
+new.atitestig.nclex.cardback.experience.right.section.topvalue.value2=a Computer Adaptive Testing (CAT) platform with thousands of NCLEX-style questions to give you the practice you need to prepare for NCLEX.
+new.atitestig.nclex.card.front.disabled.by.instructor.message.value=Disabled by Instructor
+
+newati.myati.assessment.NCLEX.experience.prodcut.value.new= The NCLEX® Experience RN
+new.atitestig.nclex.recent.activity.module.test.module.name.value=Clinical Judgment Sample Items A
+new.atitestig.nclex.recent.activity.module.test.module.name.2.value=Clinical Judgment Sample Items B

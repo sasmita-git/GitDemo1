@@ -1,0 +1,138 @@
+new-atitesting.homepage.myatitab.type.selectebooks.value=eBooks
+new-atitesting.learntab.tutorial.128.nurse.logic.card.front.module.name=Knowledge and Clinical Judgment
+new-atitesting.learntab.tutorial.skills.module.name=Blood Administration
+new-atitesting.learntab.tutorial.96.skills.module.name=Central Venous Access Devices
+new-atitesting.learntab.tutorial.133.skills.module.name=Nursing Concepts
+new-atitesting.learntab.tutorial.139.nurse.logic.card.front.module.name=Priority Setting Frameworks
+#new-atitesting.learntab.tutorial.128.nurse.logic.card.front.module.name=Testing and Remediation
+new-atitesting.learntab.quiz.bank.name.loc=Learning System RN
+new-atitesting.learntab.tutorial.nurse.logic.name=NurseLogic 2.0
+new-atitesting.learntab.quiz.bank.name.loc.2.0=Learning System RN 2.0
+new-atitesting.learntab.quiz.bank.name.loc.pn.2.0=Learning System PN 2.0
+
+new-atitesting.learntab.tutorial.nurse.logic.card.back.name.value=NurseLogic 2.0 (4)
+new-atitesting.allDropdown.quizbans.value=Quiz Banks
+new-atitesting.flashCardDropdown.value=Flashcards
+new-atitesting.ebookDropdown.value=eBooks
+new-atitesting.all.value=All
+new-atitesting.learntab.tutorial.142.dosage.name=Dosage Calculation 2.0: Dimensional Analysis
+new-atitesting.learntab.tutorial.142.dosage.module.name=Critical Care Medications
+new-atitesting.learntab.tutorial.142.dosage.module.name.new=Case Studies and Finals
+new-atitesting.learntab.tutorial.137.pharmacology.made.easy.name=Pharmacology Made Easy 3.0
+new-atitesting.learntab.tutorial.flowOne=Pharmacology Made Easy 3.0
+new-atitesting.learntab.tutorial.137.pharmacology.made.easy.module.name=Infection
+new-atitesting.learntab.tutorial.skills.153.module.name=Central Venous Access Devices
+new-atitesting.testtab.teas.v.b.name=ATI-ASMT-CPNP
+new-atitesting.testtab.flowOne.name=Targeted Medical-Surgical 2013: Endocrine
+new-atitesting.learntab.smartprep.tutorial=ATI TEAS SmartPrep
+new-atitesting.nclexprep.tab.product.name.new=BoardVitals NCLEX Prep PN
+new-atitesting.learntab.smartprep.tutorial.section.name=Reading
+new-atitesting.learntab.smartprep.tutorial.section.name.eng=English and Language Usage
+new-atitesting.learntab.tutorial.153.assessment.name=Sigma Theta Tau Modules 2017 (18)
+new-atitesting.learntab.assessment.flagged.questions=riyaz
+new-atitesting.learntab.tutorial.153.module.name.new=Using Evidence to Guide Strategic Planning 2017
+new-atitesting.learntab.tutorial.153.module.name=Building a Better Business Plan
+new-atitesting.learntab.railway.management.section.name=Airway Management
+new-atitesting.learntab.stepto.success.section.name=Steps to Success
+##new-atitesting.learntab.tutorial.153.module.name=Building a Better Business Plan=======
+#new-atitesting.learntab.tutorial.153.module.name=Building a Better Business Plan
+new-atitesting.learntab.skills.module.2.0.name.1=Airway Management
+new-atitesting.learntab.skills.module.2.0.name.2=Ambulation, Transferring, Range of Motion
+new-atitesting.learntab.skills.module.2.0.name.3=Blood Administration
+new-atitesting.learntab.skills.module.2.0.name.4=Central Venous Access Devices
+new-atitesting.learntab.skills.module.2.0.name.5=Closed-Chest Drainage
+new-atitesting.learntab.skills.module.2.0.name.6=Diabetes Management
+new-atitesting.learntab.skills.module.2.0.name.7=Enemas
+new-atitesting.learntab.skills.module.2.0.name.8=Enteral Tube Feeding
+new-atitesting.learntab.skills.module.2.0.name.9=Health Care Fraud, Waste, and Abuse Prevention
+new-atitesting.learntab.skills.module.2.0.name.10=HIPAA
+new-atitesting.learntab.skills.module.2.0.name.11=Infection Control
+new-atitesting.learntab.skills.module.2.0.name.12=IV Therapy
+new-atitesting.learntab.skills.module.2.0.name.13=Maternal Newborn
+new-atitesting.learntab.skills.module.2.0.name.14=Medication Administration 1
+new-atitesting.learntab.skills.module.2.0.name.15=Medication Administration 2
+new-atitesting.learntab.skills.module.2.0.name.16=Medication Administration 3
+new-atitesting.learntab.skills.module.2.0.name.17=Medication Administration 4
+new-atitesting.learntab.skills.module.2.0.name.18=Nasogastric Tube
+new-atitesting.learntab.skills.module.2.0.name.19=Nutrition, Feeding, and Eating
+new-atitesting.learntab.skills.module.2.0.name.20=Ostomy Care
+new-atitesting.learntab.skills.module.2.0.name.21=Oxygen Therapy
+new-atitesting.learntab.skills.module.2.0.name.22=Pain Management
+new-atitesting.learntab.skills.module.2.0.name.23=Personal Hygiene
+new-atitesting.learntab.skills.module.2.0.name.24=Physical Assessment of a Child
+new-atitesting.learntab.skills.module.2.0.name.25=Physical Assessment of an Adult
+new-atitesting.learntab.skills.module.2.0.name.26=Specimen Collection
+new-atitesting.learntab.skills.module.2.0.name.27=Surgical Asepsis
+new-atitesting.learntab.skills.module.2.0.name.28=Urinary Catheter Care
+new-atitesting.learntab.skills.module.2.0.name.29=Vital Signs
+new-atitesting.learntab.skills.module.2.0.name.30=Wound Care
+new-atitesting.learntab.tutorial.name.new=Achieve
+new-atitesting.learntab.NewATI-742.product.name=Achieve
+new-atitesting.learntab.cardback.module.name=2017 Nurse's Drug Handbook
+
+###Aditya Changes###
+new-atitesting.learntab.module.name.502=RN eBook Library
+new-atitesting.learntab.module.name=RN Review Modules
+new-atitesting.add.product.ebookproductid=LIB2855
+new-atitesting.add.product.ebookproductpassword=test
+new-atitesting.learn.tab.ebook.name=PN eBook Library
+new-atitesting.cdn.learn.tab.ebook.name=PN eBook Library
+new-atitesting.learn.tab.ebook.pdf.pagenumber=1
+new-atitesting.add.product.tut.id=TUT316597
+new-atitesting.add.product.tut.pwd=29D5W
+new-atitesting.tutorialDropdown.value1=Tutorials
+new-atitesting.Tutorial.143.select.instance.name=Achieve
+
+#Peak Hr Testing
+new-atitesting.add.product.peak.productid=CDN005546424
+new-atitesting.Product.id.peak.testing=CDN005546424-TUT397984
+
+#new-atitesting.nclexprep.tab.product.name=Board Vitals NCLEX Prep PN
+
+#####sasmita changes
+new-atitesting.selfpay.asessment.learn.tab.product.id=CDN005848025-TUT307891
+new-atitesting.learntab.tutorial.nurse.logic.card.front.module.name.new=ATI-ASMT-CPNP
+
+
+new-atitesting.learntab.ebook.mediaResource.ebookMediaIndex=RN eBook Library 2016
+new-atitesting.learntab.ebook.mediaResource.book=Adult Medical Surgical Nursing RN 10.0
+
+new-atitesting.selfpay.asessment.learn.tab.product.id.for.payment=TUT173611
+
+new-atitesting.improve.tab.area.text.expected=No items match your filter criteria
+
+new.atitesting.learntab.selfpay.assess.name.tutorial=Active Stack® Pharmacology Flash Cards
+new.atitesting.testtab.selfpay.assess.name.teas=Test of Essential Academic Skills V
+new.atitesting.testtab.selfpay.assess.name295=RN Leadership 2013
+NewATI734.simulation.name=Real Life RN Medical Surgical 2.0
+NewATI734.module.name=COPD
+new.atitesting.learntab.flashcard.name.value=Cardiovascular System Drugs
+
+new.atitesting.module.name.sk2.0=Skills Modules 2.0
+
+#Devika
+new-atitesting.learntab.smartprep.tutorial.section.name.maths=Mathematics
+new-atitesting.learntab.smartprep.tutorial.section.name.science=Science
+new-atitesting.improvetab.select.content.area.dropdown=Mental Health
+new-atitesting.improvetab.disabled.assessment=RN Mental Health Online Practice 2013 B
+
+new-atitesting.Demo.product.name=Sigma Theta Tau Modules 2017
+new-atitesting.Demo.popup.header.name=Free 30-day demo
+new-atitesting.Demo.popup.verbiage1=Your institution currently has not purchased this product.
+new-atitesting.Demo.popup.verbiage2=Would you like to preview this product by setting up a free 30-day demo?
+
+new.atitesting.disabled.demo.product.cardfront.msg=Please contact Client Executive to extend Demo Access
+
+new-atitesting.ebook.module.name=PN eBook Library 
+new-atitesting.ebook.cdn=CDN005848025
+
+new-atitesting.Demo.popup2.verbiage1=This 30 day demo can only be activated once.
+new-atitesting.Demo.popup2.verbiage2=Are you sure you want to start your 30-day demo of "Sigma Theta Tau Modules 2017"?
+new-atitesting.Teas.smartprep.Access.key=TUT319719
+new-atitesting.Teas.smartprep.Access.pwd=test
+new-atitesting.ebook.edition.value=2016 eBook
+
+
+new-atitesting.learntab.quiz.bank.name.loc.pn.3.0=Learning System RN 3.0
+new-atitesting.testtab.practice.assement.result.loc=PN Mental Health Online Practice 2014 A
+new-atitesting.myresultstab.assessment.name.key=Pre-Assessment

@@ -1,0 +1,366 @@
+#URLs
+
+#Production
+
+#newati.login.url=https://student.atitesting.com
+
+#QA
+#newati.login.url=
+#newati.login.url=https://qa-student.atitesting.com
+#Stage Faculty URL
+#newati.faculty.stage.login.url=https://stage-www.atitesting.com/Home.aspx
+#Production Faculty URL
+#newati.faculty.stage.login.url=https://www.atitesting.com
+#Stage Faculty URL
+#newati.newfaculty.stage.login.url=https://stage-faculty.atitesting.com/Home.aspx
+
+#Stage User
+newati.login.43.user.name=stage57
+newati.login.43.user.name.152=stageapply
+newati.login.43.password=Test_001
+newati.login.519.user.name=stg_user09
+newati.login.519.password=Test123
+#Stage Related User
+#newati.login.user.name=Ascend_test37
+# Production User
+
+
+#newati.production.login.user.namewithrecentactivity=prodauto1
+
+
+newati.proctor.session.login.uname=stage488
+newati.proctor.session.login.pwd=Test_001
+# Stage User
+#newati.nclex.login.user.name1=TestUser_07042017_14
+#Production User
+
+
+# Stage Userpassword
+#newati.nclex.login.password3=Test_123
+#Production Userpassword
+
+newati.nclex.login.passwordbv.name=Test123
+#stage user
+#newati.login.smart.prep.user.name=stagenewbuild
+#production User
+
+
+#newati.login.learn.tab.user.name=stageatm1
+#newati.login.learn.tab.password=Test123
+#Stage Related User
+#newati.login.learn.tab.user.name=TestUser_30052017_1
+#Production User
+
+
+
+newati.proctor.login.user.name=Ascend_qa01
+newati.proctor.login.password=Ati@123
+new-atitesting.reviewed.usernameInput=stagetic
+new-atitesting.reviewed.passwordInput=Test123
+createnew-atitesting.usernameInput=stage95567
+#new-atitesting.emailInput=devifeb@gmail.com
+#Stage email
+#new-atitesting.emailInput=devifeb7@gmail.com
+#Production email
+
+#new-atitesting.emailInput1=devifeR@gmail.com
+#Stage Email
+#new-atitesting.emailInput1=devifeR7@gmail.com
+#Production EMail
+new-atitesting.emailInput1=pro73pri@gg.com
+#Forgot Password Funcationality. 
+#Lock User.
+#stage User
+#new-atitesting.forgot.pwd.user.name=Fp_pwd1
+#Production User
+
+new-atitesting.lock.user.name=Fp_pwd3
+new-atitesting.lock.password=Test92341
+
+new-atitesting.inactive.user.name=Inactive_test2
+new-atitesting.inactive.password=S12345
+
+#Inactive User. 
+new-atitesting.inactive2.user.name=stgreg1012
+new-atitesting.inactive2.password=Testing@123
+
+new-atitesting.inactive1.user.name=Ascend_test44
+new-atitesting.inactive1.password=Test1234
+
+new-atitesting.inactive.user1.name=stage262017
+new-atitesting.instructor.forgot.username=prodtest1
+new-atitesting.director.forgot.username=stagepay1
+new-atitesting.personnel.forgot.username=priyanka.personnel
+new-atitesting.proctor.forgot.username=sasheera.proctor
+
+new-atitesting.lock.user.name1=abc
+new-atitesting.locked.user.name1=stagebirth
+new-atitesting.calendar.week.names=Sun,Mon,Tue,Wed,Thu,Fri,Sat
+
+#UserAuthentication Test Cases. 
+new-atitesting.88.user.name=TestUser_07042017_2
+new-atitesting.61.valid.email.id=TestUser_07042017_2@gmail.com
+new-atitesting.66.user.name=TestUser_07042017_3
+new-atitesting.66.user.name.inactive=inactive_11
+new-atitesting.66.pwd=Test123
+#QA User
+
+new-atitesting.toplink.online.store.name=Online Store
+new-atitesting.toplink.contact.us.name=Contact Us
+new-atitesting.toplink.sign.out=Sign Out
+new-atitesting.bottom.link.privacy.policy=Privacy Policy
+new-atitesting.bottom.link.website=Web Site Terms of Use
+new-atitesting.bottom.link.terms.of.use=User Terms and Conditions
+new-atitesting.bottom.link.product.solutions.new=ATI Product Solutions
+new-atitesting.bottom.link.product.solutions=View All ATI Product Solutions
+new-atitesting.login.page.student.sign.on.value=Student Sign On
+new-atitesting.online.store.url=https://stage-www.atitesting.com/ati_store/
+new-atitesting.home.tab.link=Home
+new-atitesting.myati.tab.link=My ATI
+new-atitesting.myresults.tab.link=My Results
+new-atitesting.help.tab.link=Help
+new-atitesting.user.account.link.header=My Account
+new-atitesting.shipping.emailTnput=testUser@ascendlearning.com
+new-atitesting.shipping.phoneInput=98765432100
+#Stage Environment User
+#newati.login.payment.uname=TestUser_07042017_3
+#Production User
+
+#Stage Environment User
+#newati.login.payment.uname.selfpaynonteas=sauto7
+#Production User
+
+
+
+#newati.login.payment.ontime.sem.uname=TestUser_07042017_5
+#newati.login.payment.ontime.sem.pwd=Test_001
+#Production Password
+
+#newati.login.payment.uname.payment.code=0120921
+#newati.login.payment.class.code=1 022-1.
+#newati.login.payment.coupon.code.input=CARPJT4129468318
+
+#Stage Ontime Sem Data
+#newati.payment.ontime.sem.input2=0123406
+#newati.payment.ontime.class.input2=0517changeing
+#Production Ontime Sem Data
+
+
+newati.payment.late.sem.input2=0125540 
+newati.payment.late.class.input2=Smart
+newati.payment.late.class.input2.mixesCase=SMarT
+#newati.login.payment.individual.sem.uname=stage3201
+#Stage User
+#newati.login.payment.individual.sem.uname=sauto7
+#Production User
+
+
+newati.payment.individual.sem.input2=0124108
+newati.payment.individual.class.input2=1181
+newati.login.selfpay.sem.uname=sauto7
+#Stage Related User
+#newati.login.selfpay.sem.uname.orderhistory=stagec1
+#Production User
+
+
+newati.login.teas.self.assessment.uname=sauto7
+newati.login.teas.self.assessment.pwd=Test123
+newati.toast.message=Semester Payment Required
+#Add Product
+#stage ID
+new-atitesting.add.product.productid=SKM319684
+new-atitesting.add.product.productpassword=03G6N
+#Production ID
+
+
+new-atitesting.product.name=Skills Modules 2.0
+new-atitesting.self.pay.product.name=Pharmacology Made Easy 3.0
+new-atitesting.product.name.new=ATI Plan - Student Orientation *NEW*
+#Stage Using CDN
+new-atitesting.add.product.secondary.cdn.id=CDN004193421
+#Production CDN
+
+
+#stage product id
+#new-atitesting.cdn.learn.tab.product.id=CDN005205517-TUT298863
+#production productid
+
+new-atitesting.cdn.test.tab.product.name=PN Comprehensive Predictor 2014
+new-atitesting.cdn.test.tab.product.name.update=RN Fundamentals Online Practice 2013 B
+#stage Prdid
+new-atitesting.cdn.test.tab.product.id=CDN005130312-10187870 - BAT10187870
+#Production productid
+
+new-atitesting.cdn.apply.tab.product.name=The Communicator
+new-atitesting.cdn.apply.tab.product.name.update=Real Life RN Mental Health 2.0
+#stage Product ID
+new-atitesting.cdn.apply.tab.product.id=TUT224127
+new-atitesting.cdn.apply.tab.product.id.new=CDN005130312-TUT316621
+#Production ID
+
+new-atitesting.learntab.tutorial.name=Pharmacology Made Easy 2.0
+new-atitesting.nclextab.cdn.input=CDN005619627
+#createnew-atitesting.new.usernameInput=stageapril4
+#Stageuser
+#createnew-atitesting.new.usernameInput=stagea7
+#Production User
+
+#createnew-atitesting.new.usernameInput1=stageapril7
+#Stage User
+#createnew-atitesting.new.usernameInput1=stagea7.
+#Production User
+createnew-atitesting.new.usernameInput1=profd73ba
+new-atitesting.inactive.user.username=TestUser_07042017_1
+new-atitesting.inactive.user.password=Test123
+#Stage User
+#newati.nclex.login.user.name2=TestUser_07042017_13
+#newati.nclex.login.user.name577=stage13april2017
+#Production User
+
+newati.nclex.login.user.name3=TestUser_07042017_8
+# Stage User
+#newati.nclex.login.user.name=Ascend_stage16
+#Production User
+newati.nclex.login.user.name=prodauto1a
+newati.nclex.login.user.name577=Ascend_bv_pn
+newati.nclex.login.passwordbv.name577=Test123
+new-atitesting.nclextab.cardfront.header=#tabs-6 ul li span[data-bind='text: Title']
+new-atitesting.nclextab.cardfront.info.loc=#tabs-6 ul li header a
+new-atitesting.nclextab.cardfront.footer.loc=#tabs-6 .learn-card-front-wrapper.default-container>footer
+new-atitesting.nclextab.cardfront.name.loc=section[class='card front board-vital'] div[class='learn-card-front-wrapper default-container'] .description
+new-atitesting.nclextab.cardfront.button.name.loc=#tabs-6 ul li nav div div a[class='button cardflip focus-element-flag primary-button'] span
+newati.login.user.name6=TestUser_07042017_12
+newati.login.password6=Test123
+posttest=b,d,a,d,d,a,d,a,c,b,c,b,d,d,b,a,d,b,a,d,a,b,a,c,b,b,b,d,a,b,c,b,a,d,a,c,a,c,a,d,d,b,c,c,d,b,d
+newati.due.semester.payment.login.uname=Ascend_test37
+newati.due.semester.payment.login.pwd=Test123
+newati.due.semester.payment.product.productid=8819887
+newati.due.semester.payment.product.productpwd=76Z5554D57
+newati.teas.practice.modules.username=9994761
+newati.teas.practice.modules.password=test
+newati.retake.disabled.assessment.login.uname=stage23feb2017
+newati.retake.disabled.assessment.login.pwd=Test_001
+newati.online.practice.results.not.available.login.uname=TestUser_06042017_2
+newati.online.practice.results.not.available.login.pwd=Test123
+newati.freezed.assessment.login.uname=TestUser_07042017_15
+newati.freezed.assessment.login.pwd=Test123
+new-atitesting.add.product.quiz.id=TUT302353
+new-atitesting.add.product.tut.id=TUT316597
+new-atitesting.add.product.quiz.pwd=test
+new-atitesting.add.product.tut.pwd=29D5W
+new-atitesting.quizbanks.select.instance.quiz.name=Learning system RN 2.0
+new-atitesting.tutorial.143.select.instance.name=PN Adult Medical Surgical Online Practice 2014 A
+newati.login.payment.selfpay.tutorial.name=stage99
+newati.login.payment.selfpay.visa.card.tutorial.name=stage98
+newati.login.payment.selfpay.discover.card.tutorial.name=stage96
+newati.login.payment.selfpay.fraud.card.tutorial.name=stage93
+newati.login.payment.selfpay.american.card.tutorial.name=stage92
+newati.login.payment.selfpay.master.card.with.tax.uname=stage90
+newati.login.payment.selfpay.discover.card.with.tax.uname=stage89
+newati.login.payment.selfpay.american.card.with.tax.uname=stage88
+newati.login.payment.selfpay.visa.card.with.tax.uname=stage87
+newati.login.payment.selfpay.tutorial.american.card.with.tax.uname=stage85
+newati.login.payment.selfpay.tutorial.visa.card.with.tax.uname=stage84
+newati.login.payment.selfpay.tutorial.master.card.with.tax.uname=stage83
+newati.login.payment.selfpay.tutorial.discover.card.with.tax.uname=stage82
+newati.login.flag.assessment.uname=stage103
+newati.login.teas.selfpay.assessment.uname=stage104
+newati.login.teas.selfpay.visacard.assessment.uname=stage105
+newati.login.teas.selfpay.discover.assessment.uname=stage106
+newati.login.teas.share.results.uname=stagerega1
+newati.login.payment.selfpay.tutorial.pwd=Test123
+
+
+
+#newati.login.payment.individual.sem.pwd=Test123
+
+
+
+###Aditya Changes###
+#createnew-atitesting.new.usernameInput=test.account10
+#new-atitesting.emailInput=test.account1c0@mailinator.com
+newati.login.student.user.name=aditya.ranjan.singh
+newati.login.student.password=A123456
+#######Nipun changes #######
+newati.login.learn.tab.password521=Test_001
+newati.login.learn.tab.ebook521user.name=stage6oct
+
+#SD
+new-atitesting.Quiz.143.select.instance.name=Learning System RN 2.0
+new-atitesting.Tutorial.143.select.instance.name=Achieve
+newati.MU.home.Page.Title=ATITesting.com - Main Page
+new-atitesting.practice.assessment.completed.name=PN Pharmacology Online Practice 2014 A
+new-atitesting.onlinestore.test.TEAS.name=Test of Essential Academic Skills Online Practice V A
+#### Sasmita changes for new smoke
+new-atitesting.toplink.online.createaccount.name=Create Account
+new-atitesting.toplink.online.store.name=Online Store
+new-atitesting.toplink.contact.us=Contact Us
+
+new-atitesting.lock.user.name.new=Ascend_Test28
+new-atitesting.advertisement.name.new=.focus-element-flag img
+new-atitesting.edit.address.value=41 Madison Avenue
+
+new-atitesting.web.site.terms.use.page.header.value=WEBSITE USER TERMS AND CONDITIONS
+new-atitesting.blank.loc=
+new-atitesting.add.product.close.btn.loc=div[aria-describedby="OrderPaymentDialog"] div button
+
+## Vishal
+new-atitesting.users.account.link=Account
+new-atitesting.footer.privacy.policy.name=Privacy Policy
+new-atitesting.user.terms.and.conditions.header.content=User Terms and Conditions
+newati.login.practice.assessment.uname=AutoUser23022018224
+
+newati.login.practice.assessment.uname2=AutoUser03022018004
+newati.login.practice.assessment.uname2.update=User050418207
+newati.login.practice.assessment.uname2.new=User042318791
+newati.login.practice.assessment.uname2.new.update=sixquestion11thJuly
+newati.login.practice.assessment.uname.asmnt=User05041884
+newati.login.practice.assessment.uname2.costume=TestUserSixQsn
+##Vaishali
+new-atitesting.proctor.error.message.stop.text=The proctor has stopped you from continuing this test
+new-atitesting.proctor.error.message.deny.text=The proctor has denied you permission to take this test
+new-atitesting.proctor.error.message.outside.click.text=Moving outside the test area is strictly prohibited
+new-atitesting.proctor.complete.message.text=THIS IS THE LAST PAGE OF THE TEST
+new-atitesting.proctor.finish.message.test=Please press the \"Finish\" button to score your test.
+
+new-atitesting.content.area.value.all=All
+new-atitesting.content.area.value.fundamentals=Fundamentals
+new-atitesting.content.area.value.admissions=Admissions
+new-atitesting.content.area.value.professionalism=Professionalis
+new-atitesting.content.area.value.communication=Communication
+new-atitesting.content.area.value.nclex=NCLEX
+new-atitesting.content.area.value.all=All
+new-atitesting.content.area.value.study.and.teting.skills=Study and Testing Skills
+
+
+new-atitesting.home.page.news.heading=News
+new-atitesting.home.page.news1=3/14 release
+new-atitesting.home.page.news2=regression news
+new-atitesting.home.page.news3=news_regression
+
+##Vishal regression changes
+new-atitesting.home.page.news.header.value=News
+
+new-atitesting.oulse.banner.predict.message1=90% - 99% "On Track" 
+new-atitesting.oulse.banner.predict.message2=80% - 89% "Needs Improvement" 
+new-atitesting.oulse.banner.predict.message3=79% or below "At Risk" 
+new-atitesting.oulse.banner.message2=For PN Programs, first attempts of TEAS, Fundamentals, Adult Medical Surgical, Management, Maternal Newborn, Mental Health, and Nursing Care of Children proctored assessments are included. 
+new-atitesting.oulse.banner.message3=For RN Programs, first attempts of TEAS, Fundamentals, Adult Medical Surgical, Leadership, Maternal Newborn, Mental Health, Nursing Care of Children, Pharmacology, and Community Health proctored assessments are included.
+new-atitesting.oulse.banner.message4=Comprehensive Predictor proctored assessment results take precedence over ATI Pulse scores. Content Mastery Series proctored assessments taken after the Comprehensive Predictor is administered do not impact the student\u2019s Probability of Passing NCLEX.
+new-atitesting.oulse.banner.message5= ATI Pulse and Product Usage data updates approximately one hour after completion of applicable assessments, tutorials, simulations, or other product usage.
+
+new-atitesting.demo.button.css.color.value=#c66900
+new-atitesting.Speedometer.red.css.color.value=#BF1E2E
+new-atitesting.Speedometer.grey.css.color.value=#939598
+new-atitesting.Speedometer.yellow.css.color.value=#FFDE16
+new-atitesting.Speedometer.green.css.color.value=#63BC46
+
+new-atitesting.focused.review.1.0.assessment.report.value=Assessment Report
+new-atitesting.focused.review.1.0.choose.topics.value=Choose Topics
+new-atitesting.focused.review.1.0.export.to.pdf.value=Export to PDF
+new-atitesting.focused.review.1.0.export.to.pdf.downloaded.file.name.value=Focused_Review.pdf
+new-atitesting.ipp.page.user.name.value=stagerega1 stagerega1
+new-atitesting.ipp.page.stagerega1.student.number.value=3924393
+
+
+newati.atitesting.homepage.news.header.value=News

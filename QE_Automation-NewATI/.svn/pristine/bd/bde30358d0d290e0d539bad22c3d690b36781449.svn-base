@@ -1,0 +1,66 @@
+new-atitesting.myati.improve.tab.loc=#tabs nav ul li a
+new-atitesing.focusedReviewBeginOrContinueButtonLoc=.card.focused-review.front nav a
+new-atitesting.improve.tab.popup.close.loc=div[aria-describedby="slideShowDialog"] button
+##Vishal
+new-atitesting.improve.tab.features.popup.close.loc=span[class='ui-button-text']
+new-atitesting.improve.tab.assessment.name.loc=.remediation-type-cell.flex-item.wrapword>span
+new-atitesting.improve.tab.review.button.loc=.button.primary-button.study-materials-button
+new-atitesting.focused.review.time.spent.loc=span[data-bind*='Time']
+new-atitesting.focused.review.close.button.loc=.close-button.focus-element-flag
+new-atitesting.focused.review.close.button.new.loc=.mat-button
+new-atitesting.improve.tab.results.button.loc=span[class='remediation-button-span']
+new-atitesting.IPP.page.close.button.loc=.close-button.focus-element-flag
+new-atitesting.improve.tab.focused.review.1.0.assessment.name.loc=#ReviewName
+new-atitesting.improve.tab.focused.review.1.0.expand.all.link.loc=a[class='lesson-expand-all']
+new-atitesting.improve.tab.focused.review.1.0.toc.expanded.list.loc=#nestedLevel2
+new-atitesting.improve.tab.focused.review.1.0.tools.button.loc=.button.default-button.tool-dropdown.focus-element-flag.tools
+new-atitesting.improve.tab.focused.review.1.0.tools.list.loc=ul[class='remediation-options-collapsed tools'] a
+new-atitesting.focused.review.1.0.choose.from.missed.topics.radio.loc=.question-option.choose-option input[id='radio1']
+new-atitesting.focused.review.1.0.choose.from.percent.radio.loc=.question-option.choose-option input[id='radio1']
+new-atitesting.focused.review.1.0.percentage.input.loc=input[data-atiid='byPercent']
+new-atitesting.focused.review.1.0.choose.topics.modal.close.loc=button[title='close']
+new-atitesting.focused.review.1.0.choose.topics.modal.apply.btn.loc=.choose-percent-input .button.secondary-button.focus-element-flag
+new-atitesting.focused.review.1.0.choose.topics.select.all.check.box.loc=input[id='RemediationSelectAllCheckBox']
+new-atitesting.focused.review.1.0.choose.topics.filter.button.loc=div[class='choose-topics-filter'] .button.primary-button.focus-element-flag
+new-atitesting.focused.review.1.0.export.to.pdf.topic.names.loc=div[class='export-to-pdf-wrapper'] h3
+new-atitesting.focused.review.1.0.export.to.pdf.sub.topic.names.loc=div[data-bind='foreach: PDFFocusedReview'] label
+new-atitesting.focused.review.1.0.export.to.pdf.export.btn.loc=div[class='export-button'] a
+
+####Devika####
+new-atitesting.myati.improvetab.content.area.dd.loc=#ContentArea
+new-atitesting.myatitab.improvetab.all.assessment.name=.remediation-header
+new-atitesting.assess.name.loc=.lesson-header-details>ul>li>span
+new-atitesting.endassessment.yes.loc=.end-assessment-confirm-dialog .secondary-button
+
+new-atitesting.improve.tab.assessment.all.list.with.name.loc=section[id='tabs-3'] ul[id='applications'] li[class='remediation-list-item'] span[class='remediation-header-text']
+new-atitesting.improve.tab.assessment.all.list.loc=section[id='tabs-3'] ul[id='applications'] li[class='remediation-list-item']
+#new-atitesting.improve.tab.assessment.list.header.loc=span[class='remediation-header-text']
+#new-atitesting.improve.tab.assessment.sub.list.loc=ul[class='remediation-list'] li
+new-atitesting.improve.tab.assessment.sub.list.name.loc=ul[class='remediation-list'] li div[class='remediation-type-cell flex-item wrapword']
+new-atitesting.improve.tab.assessment.name.loc=span[data-bind='text:Name']
+new-atitesting.improve.tab.assessment.attempt.drop.down.loc=div[class='flex-item-two'] div[class='flex-item-1'] select
+new-atitesting.improve.tab.assessment.info.icon.loc=a[class='remediation-more-icon focus-element-flag']
+new-atitesting.improve.tab.assessment.info.close.button.loc=div[aria-describedby='productInfoDialog'] button
+new-atitesting.improve.tab.select.instance.loc=div[id='selectInstanceContainerImproveTab'] ul li
+new-atitesting.improve.tab.select.instance.buttons.loc=section div[class='duplicate-action']
+new-atitesting.improve.tab.select.instance.retake.button.loc=div a[class='button secondary-button button-focus focus-element-flag']
+new-atitesting.improve.tab.assessment.info.header.loc=div[class='product-info-cell']
+new-atitesting.improve.tab.assessment.study.material.button.loc=div[class='flex-item-two'] div[class='flex-item-2'] a[class='button primary-button study-materials-button']
+new-atitesting.improve.tab.assessment.study.material.test.type.and.sort.by.label.header.loc=div[class='content-area-select select-card-margin'] label
+new-atitesting.improve.tab.assessment.study.material.test.type.and.sort.by.select.loc=div[class='content-area-select select-card-margin'] select[class='focus-element-flag pad-0']
+new-atitesting.improve.tab.assessment.study.material.test.type.and.sort.by.label.loc=div[class='content-area-select select-card-margin']
+
+new-atitesting.improve.tab.my.results.practice.assessment.header.loc=section[class='multi-tables'] table[class='custom-table'] tbody 
+
+new-atitesting.Attempt.dropdownLoc=.focus-element-flag.focus-on
+new-atitesting.improve.tab.select.instance.Continue.button.loc=.button.primary-button.button-focus.focus-element-flag.focus-on
+new-atitesting.proctor.message.ipp.page.loc=.ipp-focused-review-area
+new-atitesting.myreslts.page.FRTime.header.loc=section:nth-child(6) > table > tbody > tr:nth-child(1) > th:nth-child(5)
+new-atitesting.myreslts.page.FRQuiz.result.header.loc=section:nth-child(6) > table > tbody > tr:nth-child(1) > th:nth-child(6)
+new-atitesting.improve.tab.studymaterials.dropdown.content.area.list.loc=.study-material-name
+new-atitesting.improvetab.studymaterials.count.loc=.subscale-correct-text
+new-atitesting.improvetab.test.type.DD.assessment=#testType
+newatitesting.improveta.proctor.assessment.selectatest.loc=.flex-item-2
+new-atitesting.improvetab.proctor.begin.button.loc=.button.primary-button.button-focus.focus-element-flag
+
+

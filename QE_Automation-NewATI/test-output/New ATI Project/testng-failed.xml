@@ -1,0 +1,3626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [New ATI Project]">
+  <listeners>
+    <listener class-name="com.jaca.ReportAdapterListener"/>
+    <listener class-name="com.automation.newati.listener.MyTestListenerAdapter"/>
+  </listeners>
+  <test name="Verification for  HomeTab(failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI53_verifyHomeTabElements"/>
+          <include name="NewATI135_verifyAddProductFunctionality"/>
+          <include name="NewATI89_verifyOnlineStoreLink"/>
+          <include name="NewATI56_verifyHomePageNews"/>
+          <include name="NewATI54_verifyHomePageAlert"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="NewATI82_HomePageCalendar"/>
+          <include name="NewATI95_HomePageRecentActivityDisplay"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="NewATI94_verifySignOutLink"/>
+          <include name="NewATI524_VerifyNewsdateInDescending"/>
+          <include name="NewATI92_verifyAdvertisementSection"/>
+          <include name="setup"/>
+          <include name="NewATI93_verifyUserAccountLink"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  HomeTab(failed) -->
+  <test name="Verification for  Help Tab(failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI25_verifySubmitButtonBecomeEnable"/>
+          <include name="NewATI30_VerifySubmitandCancelButton"/>
+          <include name="NewATI32_VerifyCommentsandSuggestionsFeedbackafterSelectingRatings"/>
+          <include name="NewATI24_verifyElementsOnFeedbackPage"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="NewATI505_verifyGettingStartedSection"/>
+          <include name="tearDown"/>
+          <include name="NewATI48_verifyFAQSection"/>
+          <include name="NewATI90_verifyHelpTabFAQ"/>
+          <include name="NewATI529_verifyGettingStartedSection"/>
+          <include name="NewATI87_verifyHowToHowToUseATISection"/>
+          <include name="NewATI12_verifyHelpFAQSection"/>
+          <include name="NewATI13_verifyHowToHowToUseATIverifications"/>
+          <include name="NewATI506_verifyHowToDocumentFAQ"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="NewATI52_verifyHelpTabFAQverifyFAQSectionInFAQ"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="NewATI46_verifyHelpPageTab"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="NewATI680_VerifyBrowserVersionInFAQSection"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  Help Tab(failed) -->
+  <test name="Verification for  Login (failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="NewATI78_ContactUsLinkloc"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI61_VerifyUserNameRetrival"/>
+          <include name="NewATI88_VerifyForgetPasswordFunctionality"/>
+          <include name="NewATI68_VerifyForgetuserNameRetrival"/>
+          <include name="NewATI91_VerifyLoginWithResetPassword"/>
+          <include name="NewATI72_VerifyResetPasswordErrorMsg"/>
+          <include name="NewATI3_VerifyForgetPasswordFunctionality2"/>
+          <include name="NewATI63_VerifyUserNameRetrivalErrorMsg"/>
+          <include name="setup"/>
+          <include name="NewATI85_VerifyForgetPasswordFunctionality2"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI566_verifyReactivationAccountViaMailLogin"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI1_CreateAccountPage"/>
+          <include name="NewATI115_VerifyCreateAccountFunctionality"/>
+          <include name="NewATI539_CreateAccount"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="NEWATI561_EmailLinkFunctionalityforLockedUser"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="NewATI536_VerifyUnLockAccUsingEmailId"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI532_checkForgetUserNameAndPassword4"/>
+          <include name="NewATI623_checkForgetUserNameAndPassword3"/>
+          <include name="NEWATI535_LockUser"/>
+          <include name="NewATI622_checkForgetUserNameAndPassword2"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI538_ValidateLoginWithExistingUser"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="NewATI628_VerifyStudentSignOn"/>
+          <include name="NewATI64_VerifyTechReqLink"/>
+          <include name="NewATI71_VerifyATIProdSolLink"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="NewATI2_verifyOnlineStoreLinkForTheUsers"/>
+          <include name="tearDown"/>
+          <include name="NewATI7_verifyHomeTabUIElements"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="NewATI107_verifyPrivacyPolicyLink"/>
+          <include name="NewATI494_VerifyPageFooter"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  Login (failed) -->
+  <test name="Verification for  Myresult (failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="NewATI47_VerifyMyresultDownload"/>
+          <include name="NewATI392_VerifyTEASIPPPage"/>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  Myresult (failed) -->
+  <test name="Verification New Reg(failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="NewATI710_VerifySpeedometerInfoTableTest"/>
+          <include name="NewATI709_VerifySpeedometerValueTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="NewATI726_VerifySpeedometerInfoTableTest"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI725_VerifySpeedometerValueTest"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI721_VerifyInfoTableForSM"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+          <include name="NewATI720_VerifySMForPracticeAssTest"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="NewATI713_VerifyModulesNeverAccessedZeroTest"/>
+          <include name="tearDown"/>
+          <include name="NewATI714_VerifyCardBackUsageTableTest"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="NewATI700_VerifyNCLEXPassingScoreTest"/>
+          <include name="NewATI703_VerifyViewDetailsLinkTest"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="NewATI702_VerifyPopupMessageTest"/>
+          <include name="NewATI807_VerifySpeedometerPopupMsgeTest"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification New Reg(failed) -->
+  <test name="Verification for  MYati(failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI98_VerifyApplyTabSortOption"/>
+          <include name="NewATI109_LearnTabSortFilters"/>
+          <include name="NewATI8_VerifyTestTabSorting"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  MYati(failed) -->
+  <test name="Verification for new TestCases(failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI728_VerifyRecentScoreTest"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="NewATI567_VerifyErorrMessageonTryingToReactivateInstructor"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="NewATI76_VerifyOnlineStoreLink"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="NewATI866_VerifyNurseDrugHandbookFunctionalityPN"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="NewATI412_VerifyFocusedReviewPDFCheck"/>
+          <include name="setup"/>
+          <include name="NewATI413_VerifyFocusedReviewPDFCheck"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="NewATI106_UserTermsAndConditionsLink"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI699_VerifyPulseBannerTest"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="NewATI150_VerifyResultsPageValidation"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI44_ForgotLinkVerification"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="NewATI564_VerifyErrorMessageForNonAccUser"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI784_VerifyLoginEmulator"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="NewATI905_VerifyEachModuleTitleForEBook"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for new TestCases(failed) -->
+  <test name="Verification for  SortFilte(failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI59_VerifyBatchtIDinProductID"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI130_VerifyTutorialSkillsModulePreTest"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI51_VerifyReportFeature"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="NewATI514_VerifyFlashcardDetails"/>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="NewATI513_VerifyFlashcardReport"/>
+          <include name="NewATI37_VerifyFlashCard"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewAT462_VerifyTEAS"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI488_verifySeparateFrameforPorctorAvaliableAssessments"/>
+          <include name="NewATI490_verifyTheFunctionalityofRefreshButtonUnderTestTab"/>
+          <include name="NewATI495_verifyVisibiityofPracticeAssessmentCardFront"/>
+          <include name="NewATI652_verifySemesterPaymentisDueupdateMessaging"/>
+          <include name="NewATI489_verifyRefreshButtonUnderTestTab"/>
+          <include name="NewATI493_verifyTImeBetweenAttemptsForPracticeAssessment"/>
+          <include name="NewATI606_verifyTEASPracticewithDifferentSectionsEnabled"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="NewATI149_VerifyQuizSelectInstance"/>
+          <include name="tearDown"/>
+          <include name="NewATI97_VerifyQuizBankFunctionality"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+          <include name="NewATI31_VerifyQuiz"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI36_VerifyEBookTest"/>
+          <include name="NewATI528_VerifyEBookDuplicateModuleName"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="NewATI151_VerifyLearnTabHideDisabledCheckbox"/>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+          <include name="NewATI519_VerifyFlashCardSemesterPayment"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="NewATI543_ValidateSmartPrepReadingModuleTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="NewATI49_verifyDownloadedReportAfterPracticeAssessment"/>
+          <include name="tearDown"/>
+          <include name="NewATI380_verifyDownloadedReportRNFundamentalsPracticeAssessment"/>
+          <include name="NewATI39_VerifyPracticeRationaleAndAnswers"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI43_VerifyOnlineStoreSource"/>
+          <include name="NewATI497_VerifyTimeBetweenAttempts"/>
+          <include name="NewATI496_VerifyTimeBetweenAttempts"/>
+          <include name="NewATI57_VerifyInstitutionSelfPaySource"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+          <include name="NewATI154_VerifyContentAreaFunctionality"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="NewATI502_VerifyUpdatedEditionForRNReviewModuleTest"/>
+          <include name="NewATI520_VerifyEbookAddedUsingAddProductTest"/>
+          <include name="NewATI503_verifyUpdatedRNReviewModulesPackageTest"/>
+          <include name="setup"/>
+          <include name="NewATI521_verifyEbookAddedUsingCDN"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="NewATI98_VerifyApplyTabSortOption"/>
+          <include name="NewATI109_LearnTabSortFilters"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="NewATI143_VerifyTutorialSelectInstance"/>
+          <include name="NewATI55_VerifyTutorialInfoCard"/>
+          <include name="tearDown"/>
+          <include name="NewATI128_VerifyNurseLogicLesson"/>
+          <include name="NewATI139_VerifyNurseLogicBeginTest"/>
+          <include name="NewATI96_VerifySkillsModulePostTestcase"/>
+          <include name="NewATI133_VerifyNurseLogicLesson"/>
+          <include name="NewATI134_VerifyTutorialRationale"/>
+          <include name="NewATI152_VerifyHideDisabledCheckbox"/>
+          <include name="NewATI511_VerifySkillsModuleModuleName"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="NewATI129_VerifyTutorialAssessmentTest"/>
+          <include name="tearDown"/>
+          <include name="NewATI600_VerifyProductsAddedUsingCDN"/>
+          <include name="NewATI510_VerifySkillsModules"/>
+          <include name="NewATI142_ValidateUserIsAbletoTakeupDosageCalculationTutorialTest"/>
+          <include name="NewATI40_VerifySkillsModulesLessonAndTest"/>
+          <include name="NewATI153_VerifySTTTest"/>
+          <include name="NewATI137_ValidateUserIsAbletoTakeupPharmacologyMadeEasyTest"/>
+          <include name="NewATI140_VerifyDosageCalculationLesson"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  SortFilte(failed) -->
+  <test name="Verification for  FR2.0 (failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="NewATI857_VerifyCustomAssessmentUnderImproveTab"/>
+          <include name="tearDown"/>
+          <include name="NewATI618_VerifyAssessmentNameInImproveTab"/>
+          <include name="setUp"/>
+          <include name="NewATI585_VerifyInfoIconInImproveTab"/>
+          <include name="NewATI616_VerifyRetakeButtonInSelectInstanceInImproveTab"/>
+          <include name="NewATI576_VerifyCustomAssessmentInContentTag"/>
+          <include name="NewATI573_VerifyAttemptDDInImproveTab"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="NewATI927_VerifySelectTestInImproveTab"/>
+          <include name="tearDown"/>
+          <include name="NewATI630_VerifySubCategorySortDDDefaultValueInImproveTab"/>
+          <include name="NewATI765_VerifyNonAccessedAssessmentInImproveTab"/>
+          <include name="NewATI753_VerifyCustomAssessmentUnderImproveTab"/>
+          <include name="NewATI798_VerifyTimeSpentInMyResultsTab"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+          <include name="NewATI629_VerifySubCategorySortDDInImproveTab"/>
+          <include name="NewATI791_VerifyQuizFunctionalityForFR20InImproveTab"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="NewATI769_VerifyProctorNotAvailableToastMessage"/>
+          <include name="NewATI631_VerifyStudyMaterialDDFunctionality"/>
+          <include name="NewATI864_VerifyFR20inMyResultsPage"/>
+          <include name="NewATI686_VerifyNewAttemptwithMultipleInstances"/>
+          <include name="setup"/>
+          <include name="NewATI803_VerifyStudyMaterialDDFunctionality"/>
+          <include name="NewATI853_VerifyFRProctorMessageinIPPPage"/>
+          <include name="NewATI766_VerifyAssessmentStatusinImproveTab"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  FR2.0 (failed) -->
+  <test name="Verification for  Ehr tutor (failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="NewATI1092_VerifyNCLEXEnableDisableProduct"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="NewATI1109_VerifyEMRCardFront"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  Ehr tutor (failed) -->
+  <test name="Verification for  HA (failed)">
+    <classes>
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest -->
+      <class name="com.automation.newati.login.LoginPageValidationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginPageValidationTest -->
+      <class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test -->
+      <class name="com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyBatchtIDinProductIDTest -->
+      <class name="com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test2 -->
+      <class name="com.automation.newati.tutorial.TutorialTestNew">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTestNew -->
+      <class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest -->
+      <class name="com.automation.newati.regression.learntab.EBook_ProdTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBook_ProdTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest2 -->
+      <class name="com.automation.newati.learntab.FlashCardTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.FlashCardTest -->
+      <class name="com.automation.newati.student.engagement.New.TestTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.TestTabTest -->
+      <class name="com.automation.newati.login.UserAuthenticationTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.UserAuthenticationTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest -->
+      <class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest -->
+      <class name="com.automation.newati.login.LoginTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest2 -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageTest -->
+      <class name="com.automation.newati.helptab.VerifyHelpPageRegressionTest2">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.helptab.VerifyHelpPageRegressionTest2 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest -->
+      <class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest -->
+      <class name="com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.testtab.VerifyProctoredAssessmentTest -->
+      <class name="com.automation.newati.quiz.QuizTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.quiz.QuizTest -->
+      <class name="com.automation.newati.logincreateaccount.CreateAccountTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="verifyHomePage"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.logincreateaccount.CreateAccountTest -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest1 -->
+      <class name="com.automation.newati.student.engagement.New.HomeTabTest">
+        <methods>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.student.engagement.New.HomeTabTest -->
+      <class name="com.automation.newati.learntab.VerifyEBookScenariousTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyEBookScenariousTest -->
+      <class name="com.automation.newati.regression.learntab.LearnTabOthers">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.LearnTabOthers -->
+      <class name="com.automation.newati.learntab.VerifySmartPrepModuleTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifySmartPrepModuleTest -->
+      <class name="com.automation.newati.results.verifyResultTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.verifyResultTest -->
+      <class name="com.automation.newati.myati.test.TestTabOthersTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.TestTabOthersTest -->
+      <class name="com.automation.newati.fr20.FocusedReview20Test3">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.fr20.FocusedReview20Test3 -->
+      <class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.test.PracticeAssessmentTest2 -->
+      <class name="com.automation.newati.myati.others.VerifyContentAreafunctionality">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.VerifyContentAreafunctionality -->
+      <class name="com.automation.newati.login.ForgetPasswordTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest1 -->
+      <class name="com.automation.newati.hometab.VerifyHomeTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.hometab.VerifyHomeTabTest -->
+      <class name="com.automation.newati.login.LoginTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.LoginTest -->
+      <class name="com.automation.newati.login.ForgetPasswordTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.login.ForgetPasswordTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest">
+        <methods>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest -->
+      <class name="com.automation.newati.myati.others.SortFilters">
+        <methods>
+          <include name="tearDown"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+          <include name="setup"/>
+          <include name="verifyHomePage"/>
+          <include name="verifyHomePage"/>
+        </methods>
+      </class> <!-- com.automation.newati.myati.others.SortFilters -->
+      <class name="com.automation.newati.tutorial.TutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.tutorial.TutorialTest -->
+      <class name="com.automation.newati.ehr.EHRTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.ehr.EHRTest -->
+      <class name="com.automation.newati.regression.learntab.EBookTest1">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginToApplication"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.regression.learntab.EBookTest1 -->
+      <class name="com.automation.newati.results.MyResultsTabTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="VerifyLearnTabScenariosReview"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.automation.newati.results.MyResultsTabTest -->
+      <class name="com.automation.newati.applytab.HealthAssessment">
+        <methods>
+          <include name="NewATI1207_VerifyTheHAFlowFromApplyTabForVPEs"/>
+          <include name="loginToApplication"/>
+          <include name="tearDown"/>
+          <include name="NewATI1197_VerifyWHenUserClicksOnEHRChartLinkFromMyResults"/>
+          <include name="NewATI1268_VerifyCardbackAndCardfrontFunctionalityForHA"/>
+          <include name="NewATI1269_VerifyResultsOfHAProductMyResultstabNonVPModule"/>
+          <include name="setup"/>
+          <include name="NewATI1206_VerifyHAFlowFromApplyTabForNonVPEs"/>
+          <include name="NewATI1174_VerifyChartButtonWithinTheHeaderSection"/>
+        </methods>
+      </class> <!-- com.automation.newati.applytab.HealthAssessment -->
+      <class name="com.automation.newati.learntab.VerifyTutorialTest">
+        <methods>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.automation.newati.learntab.VerifyTutorialTest -->
+    </classes>
+  </test> <!-- Verification for  HA (failed) -->
+</suite> <!-- Failed suite [New ATI Project] -->

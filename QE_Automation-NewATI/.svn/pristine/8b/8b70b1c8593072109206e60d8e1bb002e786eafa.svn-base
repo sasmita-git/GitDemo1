@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="New ATI Project">
+	<listeners>
+		<!-- <listener class-name="com.ascendlearning.automation.ui.listeners.AnnotationTransformer" 
+			/> -->
+		<listener class-name="com.jaca.ReportAdapterListener"></listener>
+		<listener class-name="com.automation.newati.listener.MyTestListenerAdapter"></listener>
+	</listeners>
+
+	<!-- Regression  Test cases start -->
+	<!-- Total 7 -->
+	<test name="Verification for  HomeTab">
+		<classes>
+		<!-- Total 2 -->
+		<class name="com.automation.newati.hometab.VerifyHomeTabTest1">
+				<methods>
+					
+					<include name="NewATI82_HomePageCalendar"></include>
+					
+				</methods>
+			</class>
+		 <class name="com.automation.newati.login.LoginTest">
+			<methods>
+				<include name="NewATI538_ValidateLoginWithExistingUser"></include>
+				<include name="NewATI775_VerifyFacultyCredentialLoginErrorMessage"></include>
+				<include name="NewATI784_VerifyLoginEmulator"></include>
+			</methods>
+			</class> 
+			
+			<class name="com.automation.newati.hometab.VerifyHomeTabTest">
+				<methods>
+					
+					<include name="NewATI58_verifyRecentActivitySection"></include>
+					<include name="NewATI11_verifyNavigatinOfAllTabs"></include>
+						
+				</methods>
+			</class>
+			<class name="com.automation.newati.login.ForgetPasswordTest">
+				<methods>
+					<include name="NEWATI535_LockUser"></include>
+					<include name="NewATI562_InvalidMessageForInactiveUsers"></include>		
+					<include name="NewATI565_ReactivationStudAccViaSecurityQues"></include>
+				</methods>
+			</class>
+			<class name="com.automation.newati.login.UserAuthenticationTest">
+				<methods>
+					<include name="NewATI3_VerifyForgetPasswordFunctionality2"></include>
+				</methods>
+			</class>
+			<class name="com.automation.newati.board.vitals.VerifyBoardVitalsFunctionalityTest2">
+				<methods>
+					
+					<include name="NewATI594_VerifyBoardVitalAfterExpiry"></include>
+					<include name="NewATI578_VerifyAccessNeverInCardFrontPage"></include>
+					<include name="NewATI589_VerifyCDNLessThan30Days"></include>
+					<include name="NewATI591_VerifyInstitutionLessThan30Days"></include>
+						<include name="NewATI586_VerifyCardBeforeAccessing"></include>
+					
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.board.vitals.VerifyBoardVitalsFunctionalityTest1">
+				<methods>
+					<include name="NewATI571_VerifyTheHeaderInCardBackPage"></include>
+					<include name="NewATI579_VerifyTheUIInCardFrontPage"></include>
+					<include name="NewATI608_VerifyFiltersOnNclexPrepPage"></include>
+					<include name="NewATI581_VerifyModuleCountinTheCardBackPage"></include>
+					<include name="NewATI599_VerifyModuleCountinTheCardBackPage"></include>
+					<include name="NewATI588_VerifyTheMoreInfoButton"></include>
+					<include name="NewATI671_VerifyTheBoardVitalProductLaunch"></include>
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.board.vitals.VerifyBoardVitalsFunctionalityTest">
+				<methods>
+					
+					<include name="NewATI577_VerifyUIInCardFrontPage"></include>
+					<include name="NewATI602_VerifyTheCardBackPage"></include>
+					
+				</methods>
+			</class>
+
+			<class name="com.automation.newati.board.vitals.VerifyNoDataBoardVitalsFunctionalityTest">
+				<methods>
+					<include name="NewATI609_VerifyNCLEXPrepTab"></include>
+				
+				</methods>
+			</class>
+			<class name="com.automation.newati.board.vitals.VerifyBoardVitalsFunctionalityTest3">
+				<methods>
+					<include name="NewATI593_VerifyDiabledCardFront"></include>
+					
+				</methods>
+			</class>
+			
+			<class name="com.automation.newati.results.MyResultsTabTest">
+				<methods>
+					<include name="NewATI392_VerifyTEASIPPPage"></include>
+					<include name="NewATI47_VerifyMyresultDownload"></include>
+				</methods>
+			</class>
+			
+			<class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardFrontTest">
+				<methods>
+					<include name="NewATI707_VerifyTutorialsMatchInFvAndSvTest"></include>
+					<include name="NewATI708_VerifySpeedometerValueMatchInFvAndSvTest"></include>
+				
+				</methods>
+			</class>
+			<class name="com.automation.newati.student.engagement.New.LearnTabTutorialCardBackTest">
+				<methods>
+					
+					<include name="NewATI713_VerifyModulesNeverAccessedZeroTest"></include>
+					<include name="NewATI712_VerifySpeedometerDisplayingAllModulesTest"></include>
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.student.engagement.New.TestTabTest">
+				<methods>
+					
+					<include name="NewATI721_VerifyInfoTableForSM"></include>
+					
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardBackTest">
+				<methods>
+					<include name="NewATI729_VerifySpeedometerDisplayingAllModulesTest"></include>
+					<include name="NewATI730_VerifyModulesNeverAccessedZeroTest"></include>
+					
+				</methods>
+			</class>
+			
+			<class name="com.automation.newati.student.engagement.New.MyAtiTabTest">
+				<methods>
+					<include name="NewATI704_VerifyOverallSMPercentTest"></include>
+					<include name="NewATI705_VerifyOverallUagePulseBannerTest"></include>
+			</methods>
+			</class>
+			<class name="com.automation.newati.student.engagement.New.HomeTabTest">
+				<methods>
+					
+					
+					<include name="NewATI702_VerifyPopupMessageTest"></include>
+					<include name="NewATI703_VerifyViewDetailsLinkTest"></include>
+					<include name="NewATI807_VerifySpeedometerPopupMsgeTest"></include>
+					<include name="NewATI699_VerifyPulseBannerTest"></include>
+					
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.student.engagement.New.ApplyTabSimulationCardFrontTest">
+				<methods>
+					<include name="NewATI723_VerifySimulationsMatchInFvAndSvTest"></include>
+					<include name="NewATI724_VerifySpeedometerValueMatchInFvAndSvTest"></include>
+					
+					
+				</methods>
+			</class>
+			
+			<class name="com.automation.newati.regression.learntab.EBook_2_Test">
+			<methods>
+				<include name="NewATI790_VerifyNurseDrugHandbook"></include>
+				
+			</methods>
+			</class>
+			
+		
+			<class name="com.automation.newati.myati.improvetab.VerifyFocusedReviewPDFCheckTest">
+			<methods>
+				
+				<include name="NewATI412_VerifyFocusedReviewPDFCheck"></include>
+				<include name="NewATI523_VerifyFRaspercontentarea"></include>
+			</methods>
+			
+			</class>
+			<class name="com.automation.newati.learntab.VerifyTutorialTest">
+				<methods>
+				<include name="NewATI137_ValidateUserIsAbletoTakeupPharmacologyMadeEasyTest"></include>
+				<include name="NewATI140_VerifyDosageCalculationLesson"></include>
+				<include name="NewATI142_ValidateUserIsAbletoTakeupDosageCalculationTutorialTest"></include>
+				<include name="NewATI510_VerifySkillsModules"></include>
+				</methods>
+			</class>
+			<class name="com.automation.newati.myati.test.ProctoredAssessmentTest3">
+				<methods>
+					<include name="NewATI101A_ProctorDenyNoActionFeaturesOfProctorMonitorPage"></include>
+					<include name="NewATI111_ProctorMonitorPageAbandonButton"></include>
+					<include name="NewATI114_ProctorMonitorPageCloseButton"></include>
+			</methods>
+			</class>
+			<class name="com.automation.newati.myati.test.PracticeAssessmentTest2">
+				<methods>
+					<include name="NewATI39_VerifyPracticeRationaleAndAnswers"></include>
+					<include name="NewATI49_verifyDownloadedReportAfterPracticeAssessment"></include>
+					<include name="NewATI522_VerifyContentAreaWithNoFocusReviews"></include>
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.myati.others.SortFilters">
+				<methods>
+					<include name="NewATI109_LearnTabSortFilters"></include>
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.myati.test.PracticeAssessmentTest3">
+				<methods>
+					<include name="NewATI42_VerifyAccessibilityWithEnableDisable"></include>
+					
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.regression.testtab.VerifyPracticeAssessmentTest">
+				<methods>
+				
+				<include name="NewATI558_verifyFooterLinksWhenThePageisFreezed"></include>
+				
+			</methods>
+			</class>
+			<class name="com.automation.newati.tutorial.TutorialTestNew">
+				<methods>
+					<include name="NewATI130_VerifyTutorialSkillsModulePreTest"></include>
+					
+					</methods>
+			</class>
+			<class name="com.automation.newati.learntab.FlashCardTest">
+				<methods>
+					<include name="NewATI513_VerifyFlashcardReport"></include>
+					<include name="NewATI514_VerifyFlashcardDetails"></include>
+					<include name="NewATI37_VerifyFlashCard"></include>
+					
+				</methods>
+			</class>
+			<class name="com.automation.newati.quiz.QuizTest">
+				<methods>
+					
+					<include name="NewATI97_VerifyQuizBankFunctionality"></include>
+					
+				</methods>
+			</class>
+		</classes>
+	</test>
+	
+		<!-- Regression Test Cases Ends -->
+</suite>   
+
+	
+
+

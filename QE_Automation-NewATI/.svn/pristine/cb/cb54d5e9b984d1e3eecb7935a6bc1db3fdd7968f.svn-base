@@ -1,0 +1,38 @@
+new-atitesting.applytab.simulation.name=Real Life RN Medical Surgical 2.0
+new-atitesting.maintenance.applytab.simulation.name=Real Life RN Maternal Newborn 2.0
+new-atitesting.maintenance.applytab.card.back.simulation.name=Real Life RN Maternal Newborn 2.0 (5)
+new.atitesting.learntab.selfpay.tutorial.name=Pharmacology Made Easy 3.0
+#new-atitesting.myati.apply.tab.videocasestudy.link.index.new=0
+new.atitesting.applytab.tutorial.name=Video Case Studies RN
+new-atitesting.vcslite.pn=Video Case Studies PN - Lite
+new.atitesting.vcslite.btnname= BEGIN
+new.atitesting.vcslite.accessed.btnname=ACCESS
+new.atitesting.vcslite.test.accessed.btnname=CONTINUE
+new-atitesting.applytab.communicator2.0.name=The Communicator 2.0
+new-atitesting.applytab.kognito.module.name=Virtual Interaction: Adolescent clients and performance enhancement substances
+new.atitesting.kognito.module.name=Virtual Interaction: Adolescent clients and performance enhancement substances
+new-atitesting.vcs.module=Acid-Base Imbalances
+new.atitesting.CM=Civility Mentor
+new.atitesting.CM.module1=Foundations of professionalism and civility
+new.atitesting.CM.module2=Professionalism and civility in the academic
+
+new.atitesting.kognito.module.name=Virtual Interaction: Adolescent clients and performance enhancement substances
+new-atitesting.vcs.module=Acid-Base Imbalances
+new-atitesting.apply.tab.simulation.card.back.name.value=Real Life PN Medical Surgical 2.0 (5)
+new-atitesting.apply.tab.simulation.card.back.module.name.value=Gestational Diabetes
+newati.card.back.kognito.module.name1=Technique Identifer: Client discharge planning,Technique Identifer: Client undergoing knee surgery,Technique Identifier: Client experiencing a stroke,Technique Identifier: Client experiencing a stroke
+new-atitesting.apply.tab.simulation.ehr.tutor.name=EHR Tutor
+new-atitesting.apply.tab.simulation.ehr.tutor.module.count=1
+new-atitesting.apply.tab.card.back.ehr.tutor.header.name=HealthAssess (17)
+new-atitesting.apply.tab.card.back.view.label.value=View
+new-atitesting.apply.tab.card.back.sort.label.value=Sort
+new-atitesting.apply.tab.card.back.module.name.course.activities.value=Course Activities
+new-atitesting.apply.tab.assessment.simulation.name.value=EHR Tutor
+new-atitesting.apply.tab.assessment.module.name.value=Course Activities
+new-atitesting.apply.tab.assessment.header.name=stagegcreg - Activities
+new-atitesting.apply.tab.simulation.ha.tutor.name=HealthAssess
+new-atitesting.apply.tab.card.back.ha.header.name=EHR Tutor (1)
+
+
+
+

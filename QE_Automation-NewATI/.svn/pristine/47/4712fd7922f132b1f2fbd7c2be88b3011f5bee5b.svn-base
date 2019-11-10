@@ -1,0 +1,250 @@
+package com.automation.newati.hometab;
+
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.ascendlearning.automation.ui.assertions.VerificationHandler;
+import com.ascendlearning.automation.ui.config.PropertiesRepository;
+import com.ascendlearning.automation.ui.handlers.TextHandler;
+import com.ascendlearning.automation.ui.test.BaseTest;
+import com.automation.newati.pages.CreateAccountPageNewSmoke;
+import com.automation.newati.pages.HomePage;
+import com.automation.newati.pages.LearnTabPage;
+import com.automation.newati.pages.LoginPage;
+import com.automation.newati.pages.PractiseAssessmentPage;
+import com.automation.newati.util.UserCreationUtils;
+import com.jaca.TestAnnotations;
+
+public class VerifyHomeTabTest2 extends BaseTest {
+
+	 private Logger logger = LogManager.getLogger(this.getClass());
+	 private LoginPage loginPage;
+	 private HomePage homePage;
+	 private LearnTabPage learnTabPage;
+	 private CreateAccountPageNewSmoke createAccountPage;
+	 private TextHandler textHandler;
+	 private static String userId = null;
+	 private UserCreationUtils userCreationUtils = new UserCreationUtils();
+	private PractiseAssessmentPage practiseAssessmentPage;
+	
+	@BeforeMethod(alwaysRun = true) 
+	 public void setUp() throws Exception {
+	  loginPage = new LoginPage(driver);
+	  homePage = new HomePage(driver);
+	  learnTabPage = new LearnTabPage(driver);
+	  createAccountPage=new CreateAccountPageNewSmoke(driver);
+	  textHandler = new TextHandler(driver);
+	  practiseAssessmentPage = new PractiseAssessmentPage(driver);
+	 }
+
+	@Test(priority = 1, alwaysRun = true, enabled = true, groups = {"Smoke", "Regression"}, description = "NewATI-53:Verify elements in Home Tab")
+	public void NewATI53_verifyHomeTabElements() throws Exception {
+		log(logger, "NewATI53_verifyHomeTabElements Start");
+		
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.student.user.name"), 
+			    PropertiesRepository.getString("newati.login.student.password"));
+	
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		homePage.VerifyHomePageElements();
+		
+		log(logger, "NewATI53_verifyHomeTabElements End");
+	}
+	
+	@Test(priority = 2, alwaysRun = true, enabled = true, groups = {"Smoke", "Regression"}, description = "NewATI-54:Home Page : Alerts verification.")
+	public void NewATI54_verifyHomePageAlert() throws Exception {
+		log(logger, "NewATI54_verifyHomePageAlert Start");
+		logger.info("NewATI54_verifyHomePageAlert Start");
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.student.user.name"), 
+			    PropertiesRepository.getString("newati.login.student.password"));
+	
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		/*VerificationHandler.verifyTrue(homePage.VerifyAlertDiaplayed(), "Verifying Alert present");
+		
+		buttonHandler.clickButton(PropertiesRepository
+				.getString("id.home.page.alert.close"));*/
+		
+		log(logger, "Verifying News Section");
+		VerificationHandler.verifyTrue(homePage.verifyMessage(PropertiesRepository.getString("newati.atitesting.homepage.news.header.loc"), 0,
+				PropertiesRepository.getString("newati.atitesting.homepage.news.header.value")), "Unable to Verifying News Section");
+		
+		log(logger, "Clicking on first News link and clicking on ok button");
+		VerificationHandler.verifyTrue(homePage.verifyNewsMessage(), "Unable to Clicking on first News link and clicking on ok button");
+		
+		log(logger, "Verifying footer message");
+		VerificationHandler.verifyTrue(homePage.verifyFooter(), "unable to Verifying footer message");
+		
+		log(logger, "Clicking on Signout link");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.signout.loc"));
+		
+		VerificationHandler.verifyTrue(homePage.isElementDisplayed("new-atitesting.forgot.password.link"));
+		logger.info("NewATI54_verifyHomePageAlert End");
+		log(logger, "NewATI54_verifyHomePageAlert End");
+	}
+	
+	@Test(priority = 3, alwaysRun = true, enabled = true, groups = {"Smoke", "Regression"}, description = "NewATI-56:Home Page: News Verification")
+	public void NewATI56_verifyHomePageNews() throws Exception {
+		log(logger, "NewATI56_verifyHomePageNews Start");
+		logger.info("NewATI56_verifyHomePageNews Start");
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.student.user.name"), 
+			    PropertiesRepository.getString("newati.login.student.password"));
+	
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		log(logger, "Verifying News Section");
+		VerificationHandler.verifyTrue(homePage.verifyMessage(PropertiesRepository.getString("newati.atitesting.homepage.news.header.loc"), 0,
+				PropertiesRepository.getString("newati.atitesting.homepage.news.header.value")), "Unable to Verifying News Section");
+		
+		log(logger, "Clicking on first News link and clicking on ok button");
+		VerificationHandler.verifyTrue(homePage.verifyNewsMessage(), "Unable to Clicking on first News link and clicking on ok button");
+		
+		log(logger, "Clicking on Signout link");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.signout.loc"));
+		
+		VerificationHandler.verifyTrue(homePage.isElementDisplayed("new-atitesting.forgot.password.link"));
+		logger.info("NewATI56_verifyHomePageNews End");
+		log(logger, "NewATI56_verifyHomePageNews End");
+	}
+	
+	@Test(priority = 4, alwaysRun = true, enabled = true, groups = {"Smoke", "Regression"}, description = "NewATI-89:Verify the functionality of 'Online Store' link.")
+	public void NewATI89_verifyOnlineStoreLink() throws Exception {
+		log(logger, "NewATI89_verifyOnlineStoreLink Start");
+		
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.student.user.name"), 
+			    PropertiesRepository.getString("newati.login.student.password"));
+	
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		homePage.VerifyOnlineStoreLink();
+		
+		log(logger, "NewATI89_verifyOnlineStoreLink End");
+	}
+	
+	@Test(priority = 5, alwaysRun = true, enabled = true, groups = {"Smoke", "Regression"}, description = "NewATI-135:Add Product: Verifying add product functionality")
+	public void NewATI135_verifyAddProductFunctionality() throws Exception {
+		log(logger, "NewATI135_verifyAddProductFunctionality Start");
+		
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.student.user.name"), 
+			    PropertiesRepository.getString("newati.login.student.password"));
+	
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");	
+//		homePage.verifyAddProductPopup();
+		
+		log(logger, "Enter Id in  Add product ");
+		createAccountPage.clickOnAddProductButton();
+		createAccountPage.enterIdToAddProduct();
+		createAccountPage.clickOnButton("new-atitesting.createaccount.addProductContinueBtnLoc");
+		
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Clicking MyATI Tab");
+		homePage.clickTab(1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		log(logger, "Clicking on Info Icon for Specific Module and Verify the product");
+		learnTabPage.clickInfoIconByName(PropertiesRepository.getString("new-atitesting.cdn.learn.tab.product.name.new"));
+		VerificationHandler.verifyTrue(learnTabPage.verifyIfProductAdded(PropertiesRepository.getString("new-atitesting.cdn.learn.tab.product.id.new")),"add product not able to verify");
+		
+		log(logger, "NewATI135_verifyAddProductFunctionality End");
+		
+	}
+	
+
+	/**
+	 * 
+	 * @author syed.pasha
+	 * @throws Exception
+	 */
+	@TestAnnotations(testID = "NewATI-771")
+	@Test(priority = 6, alwaysRun = true, enabled = true, groups = {
+			"Regression" }, description = " NewATI-771:Verify that scheduled video case study will display in calendar.")
+	public void NewATI771_VerifyVCSInCalendarTest() throws Exception {
+
+		logger.info("Method : NewATI771_VerifyVCSInCalendarTest Start");
+		
+		userId = userCreationUtils.getUserDetails();
+		if (userId == null) {
+			logger.info("Recreation of user started ");
+			userId = userCreationUtils.getUserDetails();
+		}		
+		// Step 1
+		loginPage.loginToApplication(userId, PropertiesRepository.getString("newati.login.payment.pwd"));	
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+	
+		// Step 2
+		//Adding CDN
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Clicking on Add Product button");
+		homePage.click(PropertiesRepository.getString("new-atitesting.add.product.loc"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		VerificationHandler.verifyTrue(homePage.verifyAddProductPopup());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		textHandler.writeText(PropertiesRepository.getString("new-atitesting.add.product.id.loc"),
+				PropertiesRepository.getString("newati.cdn.771"));
+		log(logger, "Clicking on Continue button");
+		homePage.click(PropertiesRepository.getString("new-atitesting.add.product.continue.button.loc"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");		
+		
+		//Adding Product ID
+		
+		log(logger, "Clicking on Home Tab");
+		homePage.clickTab(0);
+		
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Clicking on Add Product button");
+		homePage.click(PropertiesRepository.getString("new-atitesting.add.product.loc"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		VerificationHandler.verifyTrue(homePage.verifyAddProductPopup());
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		textHandler.writeText(PropertiesRepository.getString("new-atitesting.add.product.id.loc"),
+				PropertiesRepository.getString("newati.product.id.771"));
+		log(logger, "Clicking on Continue button");
+		homePage.click(PropertiesRepository.getString("new-atitesting.add.product.continue.button.loc"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		
+		//Step 3
+		log(logger, "Clicking on Home Tab to load the calendar");
+		homePage.clickTab(0);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		log(logger, "Clicking on Calendar Date-2 D/M/YYYY");
+		homePage.selectDateOnHomeCalendar(PropertiesRepository.getString("newati.VCSSchedule.date.771"));
+		VerificationHandler.verifyTrue(
+				homePage.verifyCalendarScheduleDetails(PropertiesRepository.getString("newati.VCSSchedule.course.771"),
+						PropertiesRepository.getString("newati.VCSSchedule.assigenedProduct.771"),
+						PropertiesRepository.getString("newati.VCSSchedule.productType.771")));
+		
+		logger.info("Method : NewATI771_VerifyVCSInCalendarTest End");
+	}
+
+	@TestAnnotations(testID="NewATI-58")
+	@Test(priority = 6, alwaysRun = true, enabled = true, groups = {"Smoke"}, description = "Home Page: Recent Activity::Home Tab")
+	public void NewATI58_verifyRecentActivitySection() throws Exception {
+		
+		log(logger, "NewATI58_verifyRecentActivitySection Start");
+
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.learning.system.3.0.login.username"),
+				PropertiesRepository.getString("newati.learning.system.3.0.login.password"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		log(logger, "Verifying NCLEX Recent Activity Section 1");
+		VerificationHandler.verifyTrue(
+				practiseAssessmentPage.verifyLSRecentActivity(
+						PropertiesRepository.getString("newati.myati.assessment.quiz.learning.system.pn.3.0.value"),
+						PropertiesRepository.getString("newati.myati.test.tab.ls.dynamic.quizzes.button.adaptive.quizzes.value")),
+				"Unable to Verify NCLEX Recent Activity Section 1");
+		
+		log(logger, "Clicking on Signout link");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.signout.loc"));
+		
+		VerificationHandler.verifyTrue(homePage.isElementDisplayed("new-atitesting.forgot.password.link"));
+		log(logger, "NewATI58_verifyRecentActivitySection End");
+	}
+}

@@ -1,0 +1,189 @@
+package com.automation.newati.maintainanace;
+							  
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Test;
+
+import com.ascendlearning.automation.ui.assertions.VerificationHandler;
+import com.ascendlearning.automation.ui.config.PropertiesRepository;
+import com.ascendlearning.automation.ui.handlers.BaseHandler;
+import com.ascendlearning.automation.ui.test.BaseTest;
+import com.automation.newati.pages.ApplyTabPage;
+import com.automation.newati.pages.HomePage;
+import com.automation.newati.pages.LoginPage;
+import com.automation.newati.pages.MyATITabMainPage;
+import com.automation.newati.pages.NclexPrepTabPage;
+import com.automation.newati.pages.PractiseAssessmentPage;
+import com.automation.newati.pages.TestTabPage;
+import com.automation.newati.pages.TutorialPage;
+import com.jaca.TestAnnotations;
+
+public class VerifyAllProductAccessFromMYATI extends BaseTest {
+
+	private Logger logger = LogManager.getLogger(this.getClass());
+	private LoginPage loginPage;
+	private MyATITabMainPage myATITabMainPage;
+	private HomePage homePage;
+	private TutorialPage tutorialPage;
+	private PractiseAssessmentPage practiceAssessmentPage;
+	private TestTabPage testTabPage;
+	private NclexPrepTabPage nclexPrepTabPage;
+	private ApplyTabPage applyTabPage;
+	private  BaseHandler baseHadler;
+	
+	@BeforeMethod(alwaysRun = true) 	
+	public void setUp() throws Exception {
+		loginPage = new LoginPage(driver);
+		myATITabMainPage = new MyATITabMainPage(driver);
+		homePage = new HomePage(driver);
+		tutorialPage = new TutorialPage(driver);
+		practiceAssessmentPage = new PractiseAssessmentPage(driver);
+		testTabPage=new TestTabPage(driver);
+		nclexPrepTabPage = new NclexPrepTabPage(driver);
+		applyTabPage = new ApplyTabPage(driver);
+		baseHadler=new BaseHandler(driver);
+		
+		loginPage.loginToApplication(PropertiesRepository.getString("newati.login.user.name.maint"), PropertiesRepository.getString("newati.login.user.pwd.maint"));
+		myATITabMainPage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+	}
+	
+	
+	@TestAnnotations(testID="Maintenance_1")
+	@Test(priority = 1, alwaysRun = true, enabled = true, groups = {"Smoke", "Regression"}, description = "Maintenance Flow")
+	public void maintenanceFlow() throws Exception {
+		log(logger, "maintenanceFlow Start");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		log(logger, "Clicking MyATI Tab");
+		homePage.clickTab(1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+	
+		log(logger, "Selecting Tutorial from Learn Tab");
+		tutorialPage.selectTutorialFromDropDown(PropertiesRepository.getString("new-atitesting.tutorialDropdown.value"));		
+		
+		log(logger, "Click on Modules Button of NurseLogic 2.0 Tutorial");
+		tutorialPage.clickModuleButtonByName(PropertiesRepository.getString("new-atitesting.learntab.tutorial.nurse.logic.name"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		log(logger, "Verifying NurseLogic 2.0 on the Card back");
+		VerificationHandler.verifyTrue(nclexPrepTabPage.verifyCardBackHeaderSection(PropertiesRepository.getString("new-atitesting.learntab.tutorial.nurse.logic.card.back.name.value")), "Unable to verify Nurse Logic Card back details");
+		
+		log(logger,"Open 'Knowledge and Clinical Judgment' by click on begin/continue button");
+		tutorialPage.clickBeginLessonButtonInNurseLogicCardBackNew(PropertiesRepository.getString("new-atitesting.learntab.tutorial.128.nurse.logic.card.front.module.name"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		log(logger, "Verifying Tutorial Name in the Assessment page");
+		VerificationHandler.verifyTrue(tutorialPage.verifyTextFromList("new-atitesting.nclex.modules.name",
+						PropertiesRepository.getString("new-atitesting.learntab.tutorial.nurse.logic.name"), 0),"Unable to verify tutorial name");
+		
+		log(logger, "Click on Close button in Assessment page");
+		tutorialPage.clickTutorialCloseButton();
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		log(logger, "Click on Close button on Card back");
+		homePage.waitUntillElementIsVisible(PropertiesRepository.getString("new-atitesting.learntab.tutorial.stt.card.back.header.loc"));		
+		loginPage.clickButton(PropertiesRepository.getString("new-atitesting.cardback.close.loc"));		
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		
+		log(logger, "Verifying Practice Assessment from Test Tab");
+		log(logger, "Clicking on Test Tab");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 1);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Select Practice Assessment from Type");
+		testTabPage.selectFiltersDropDown(1, "Practice");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+	
+		log(logger, "Select Practice Module name");
+		practiceAssessmentPage.clickTestTabAssessmentButton("Practice Assessment","Item Type Regression Test (OP)");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		VerificationHandler.verifyTrue(tutorialPage.clickAssessmentCloseButton(), "Unable to click Assessment close button");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		
+		
+
+		log(logger, "Clicking NCLEXPREP Tab");
+		homePage.clickSubTab(4);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");		
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Clicking Module by Name");
+		tutorialPage.clickOnNCLEXModuleButtonForTEmp(PropertiesRepository.getString("new-atitesting.nclexprep.tab.product.name"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		VerificationHandler.verifyTrue(driver.findElement(By.cssSelector(PropertiesRepository.getString("new.atitesting.nclex.cardback.heading.loc"))).getText().contains(PropertiesRepository.getString("new-atitesting.nclexprep.tab.product.name")));
+		
+		log(logger, "click on close button");
+		nclexPrepTabPage.clickButton(PropertiesRepository.getString("new-atitesting.cardback.close.loc"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");	
+				
+		
+		log(logger, "Clicking Apply Tab ");
+		homePage.clickButton(PropertiesRepository.getString("new-atitesting.all.tab"), 3);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Clicking on 'Civility Mentor' ");
+		tutorialPage.clickOnVCSModuleByName(PropertiesRepository.getString("new.atitesting.CM"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+
+		log(logger, "Clicking on first module on card back");
+		tutorialPage.clickButton(PropertiesRepository.getString("new.atitesting.cardback.firstModule.loc"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Step 5		
+		log(logger, "Verify if URL contains LTI");
+		VerificationHandler.verifyTrue(driver.getCurrentUrl().contains("LTI"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if Close button is displayed");
+		VerificationHandler.verifyTrue(tutorialPage.isElementDisplayed("newati.close.button.LTI"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Simulation Name");
+		VerificationHandler.verifyTrue(baseHadler.findElement(PropertiesRepository.getString("newati.simulation.name.LTI")).getText().equals(PropertiesRepository.getString("new.atitesting.CM")));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");	
+		log(logger, "Verify if Module Name ");
+		VerificationHandler.verifyTrue(baseHadler.findElement(PropertiesRepository.getString("newati.product.module.name.LTI")).getText().equals(PropertiesRepository.getString("new.atitesting.CM.module1")));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if Civility Module iframe is displayed");
+		VerificationHandler.verifyTrue(tutorialPage.isElementDisplayed("newati.iframe.LTI"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		// Step 6		
+		log(logger, "Click on Close button");
+		tutorialPage.clickButton(PropertiesRepository.getString("newati.close.button.LTI"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify if Close Dialog is displayed");
+		VerificationHandler.verifyTrue(tutorialPage.isElementDisplayed("newati.close.dialog.LTI"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Click on Yes button");
+		driver.findElement(By.cssSelector((PropertiesRepository.getString("newati.close.dialog.yes.LTI")))).sendKeys(Keys.ENTER);
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");	
+				
+		log(logger, "Verify if view drop down in card back is displayed");
+		homePage.waitUntillElementIsVisible(PropertiesRepository.getString("new.atitesting.cardback.dd.loc"));
+		VerificationHandler.verifyTrue(tutorialPage.isElementDisplayed("new.atitesting.cardback.dd.loc"));
+		
+		log(logger, "Click on close button");
+		nclexPrepTabPage.clickButton(PropertiesRepository.getString("new-atitesting.cardback.close.loc"));
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");	
+			
+		homePage.SignOut();
+		homePage.waitUntillLoadingImageIsDisappeared("new-atitesting.peasewait.bufferLoc");
+		log(logger, "Verify Login page ");
+		VerificationHandler.verifyTrue(homePage.verifyLogo("new-atitesting.learntab.tutorial.logo"),"Login is not Successful");		
+
+		log(logger, "maintenanceFlow End");
+		
+	}
+
+}
