@@ -54,8 +54,6 @@ public class VerifyHomeTabTest extends BaseTest {
 		log(logger, "verify logo image");
 		log(logger, "verify logo image");
 		log(logger, "verify home tab upper links");
-		log(logger, "verify home tab upper links");
-		log(logger, "verify home tab upper links");
 		boolean status=homePage.verifyHomeTabTopLinks();
 		VerificationHandler.verifyTrue(status, "home tab upper links are not displayed");
 		
