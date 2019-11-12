@@ -51,8 +51,7 @@ public class VerifyHomeTabTest extends BaseTest {
 		log(logger, "verify logo image");
 		boolean isLogoDisplayed=homePage.verifyLogo("new-atitesting.logo.loc");
 		VerificationHandler.verifyTrue(isLogoDisplayed, "Logo is not displayed");
-		log(logger, "verify logo image");
-		log(logger, "verify logo image");
+		
 		log(logger, "verify home tab upper links");
 		boolean status=homePage.verifyHomeTabTopLinks();
 		VerificationHandler.verifyTrue(status, "home tab upper links are not displayed");
